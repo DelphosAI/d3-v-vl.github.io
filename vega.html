@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vega Heatmap</title>
+    <meta charset="utf-8">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: auto;
+        }
+
+        .axis text {
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+
+    </style>
+    <style media="screen">
+        /* Add space between vega-embed links  */
+        .vega-actions a {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>Heatmap - Vega Version</h1>
+<div id="view"></div>
+
+<script>
+    var view;
+    var itemSize = 13,
+        cellSize = itemSize - 1,
+        margin = {top: 120, right: 20, bottom: 20, left: 110};
+
+    var width = itemSize * 300 - margin.right - margin.left,
+        height = itemSize * 300 - margin.top - margin.bottom;
+    var spec = {
+        "$schema": "https://vega.github.io/schema/vega/v5.json",
+        "width": width + margin.left + margin.right,
+        "height": height + margin.top + margin.bottom,
+        "description": "A heatmap of the z-scores of the data.",
+        "background": "white",
+        "data": [
+            {
+                "name": "table",
+                "url": "allzs.json",
+                "format": {"type": "json"},
+                "transform": [
+                    {
+                        "type": "formula",
+                        "as": "country",
+                        "expr": "datum.Var1"
+                    },
+                    {
+                        "type": "formula",
+                        "as": "product",
+                        "expr": "datum.Var2"
+                    }
+                    // {
+                    //     "type": "collect",
+                    //     "sort": {
+                    //         "field": ["country", "product"]
+                    //     }
+                    // }
+                ]
+            },
+            {
+                "name": "xscale",
+                "source": "table",
+                "transform": [
+                    {
+                        "type": "aggregate",
+                        "groupby": ["product"]
+                    }
+                ]
+            },
+            {
+                "name": "yscale",
+                "source": "table",
+                "transform": [
+                    {
+                        "type": "aggregate",
+                        "groupby": ["country"]
+                    }
+                ]
+            }
+        ],
+        "scales": [
+            {
+                "name": "x",
+                "type": "band",
+                "domain": {"data": "xscale", "field": "product"},
+                "range": {"step": itemSize},
+                // "range":"width",
+                "padding": 0.05,
+                "align":1
+            },
+            {
+                "name": "y",
+                "type": "band",
+                "domain": {"data": "yscale", "field": "country"},
+                // "range":  "height",
+                "range": {"step": itemSize},
+                "padding": 0.1,
+            },
+            {
+                "name": "color",
+                "type": "threshold",
+                "domain": [-4, -2.5, 0, 2.5, 4],
+                "range": ["#0A36FC", "#849AFD", "#FFFFFF", "#FA8983", "#F51408"],
+                "interpolate": "hcl"
+            }
+        ],
+        "axes": [
+            {
+                "orient": "top",
+                "scale": "x",
+                "title": "Product",
+                "labelAngle": -65,
+                "domainWidth": 1.2,
+                "labelAlign": "top",
+                "domainColor": "black",
+                "labelBaseline": "middle",
+                "titleColor": "blue",
+                "labelPadding": 5,
+            },
+            {
+                "orient": "left",
+                "scale": "y",
+                "title": "Country",
+                "domainWidth": 1.2,
+                "domainColor": "black",
+                "titleColor": "blue",
+                "labelPadding": 3,
+            }
+        ],
+        "marks": [
+            {
+                "type": "rect",
+                "from": {"data": "table"},
+                "encode": {
+                    "enter": {
+                        "x": {"scale": "x", "field": "product"},
+                        "width": {"scale": "x", "band": 1},
+                        "y": {"scale": "y", "field": "country"},
+                        "height": {"scale": "y", "band": 1},
+                        "fill": {"scale": "color", "field": "value"},
+                        "cornerRadius": { "value": 4},
+                    },
+                    "hover": {
+                        "fill": {"value": "lime"},
+                    },
+                    "update": {
+                        "fill": {"scale": "color", "field": "value"}
+                    }
+                }
+            }
+        ]
+    };
+
+   render(spec).then(console.log);
+  // console.log(vak.then);
+
+    function render(spec) {
+        view = new vega.View(vega.parse(spec), {
+            renderer:  'svg',  // renderer (canvas or svg)
+            container: '#view',   // parent DOM container
+            hover:     true       // enable hover processing
+        });
+        return view.runAsync();
+    }
+</script>
+</body>
+</html>

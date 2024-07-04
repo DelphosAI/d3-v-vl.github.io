@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vega-Lite Heatmap</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.18.2"></script>
+</head>
+<body>
+<h1>Heatmap - Vega-Lite Version</h1>
+<div id="vis"></div>
+<script type="text/javascript">
+    var itemSize = 13;
+    var margin = {top: 120, right: 20, bottom: 20, left: 110};
+
+    var spec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": itemSize * 300 - margin.right - margin.left,
+        "height": itemSize * 300 - margin.top - margin.bottom,
+        "description": "A heatmap of the z-scores of the data.",
+        "data": {
+            "url": "allzs.json",
+            "format": {"type": "json"}
+        },
+        "transform": [
+            {"calculate": "datum.Var1", "as": "country"},
+            {"calculate": "datum.Var2", "as": "product"}
+        ],
+        "params": [
+            {
+                "name": "highlight",
+                "select": {"type": "point", "fields": ["product", "country"], "on": "mouseover"},
+                "bind": "scales"
+            }
+        ],
+        "mark": {
+            "type": "rect",
+            "tooltip": false,
+            "cornerRadius": 4,
+            "width": itemSize,
+            "height": itemSize
+        },
+        "encoding": {
+            "x": {
+                "field": "product",
+                "type": "nominal",
+                "title": "Product",
+                "sort": null,
+                "axis": {
+                    "orient": "top",
+                    "labelAngle": -65,
+                    "labelAlign": "top",
+                    "labelBaseline": "middle",
+                    "labelPadding": 5,
+                    "titleColor": "blue",
+                    "domainWidth": 1.2,
+                    "domainColor": "black"
+                }
+            },
+            "y": {
+                "field": "country",
+                "type": "nominal",
+                "title": "Country",
+                "sort": null,
+                "axis": {
+                    "labelPadding": 3,
+                    "titleColor": "blue",
+                    "domainWidth": 1.2,
+                    "domainColor": "black"
+                }
+            },
+            "color": {
+                "field": "value",
+                "type": "quantitative",
+                "scale": {
+                    "type": "threshold",
+                    "domain": [-4, -2.5, 0, 2.5, 4],
+                    "range": ["#0A36FC", "#849AFD", "#FFFFFF", "#FA8983", "#F51408"]
+                },
+                "legend": {"title": "Value"},
+                "condition": {
+                    "param": "highlight",
+                    "empty": false,
+                    "value": "lime"
+                }
+            },
+        },
+        "config": {
+            "view": {"stroke": "transparent"}
+        }
+    };
+
+    vegaEmbed('#vis', spec).then(function(result) {
+        // Access the Vega view instance as result.view
+    }).catch(console.error);
+</script>
+</body>
+</html>
