@@ -6,8 +6,31 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.18.2"></script>
+    <style>
+        .navbar {
+            overflow: hidden;
+            background-color: #218bbf;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: #218bbf;
+        }
+    </style>
 </head>
 <body>
+<div class="navbar">
+    <a href="index.html">D3</a>
+    <a href="vega.html">Vega</a>
+    <a href="vega-lite.html">Vega-Lite</a>
+</div>
 <h1>Heatmap - Vega-Lite Version</h1>
 <div id="vis"></div>
 <script type="text/javascript">
