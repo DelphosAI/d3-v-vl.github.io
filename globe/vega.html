@@ -2064,7 +2064,7 @@
             // }
         ]
     };
-    const spec = {
+    const spec1 = {
         "$schema": "https://vega.github.io/schema/vega/v5.json",
         "description": "Rotating globe animation depicting country locations on hover.",
         "width": 600,
@@ -2508,6 +2508,95 @@
             }
         ]
     };
+    let spec =    {
+            "$schema": "https://vega.github.io/schema/vega/v5.json",
+            "width": 960,
+            "height": 500,
+            "projections": [
+                {
+                    "name": "orthographic",
+                    "type": "orthographic",
+                    "scale": 250,
+                    "rotate": {"signal": "[rotate[0], rotate[1], 0]"},
+                    "center": [0, 0],
+                    "translate": [480, 250]
+                }
+            ],
+            "signals": [
+                {
+                    "name": "rotate",
+                    "value": [0, -30],
+                    "on": [
+                        {
+                            "events": {"type": "timer", "throttle": 50},
+                            "update": "[rotate[0] + 0.005, rotate[1]]"
+                        }
+                    ]
+                }
+            ],
+            "data": [
+                {
+                    "name": "world",
+                    "url": "https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json",
+                    "format": {"type": "topojson", "feature": "countries"}
+                },
+                {
+                    "name": "locations",
+                    "url": "countries.json",
+                    "format": {"type": "json"}
+                }
+            ],
+            "marks": [
+                {
+                    "type": "shape",
+                    "from": {"data": "world"},
+                    "encode": {
+                        "enter": {
+                            "stroke": {"value": "#888"},
+                            "strokeWidth": {"value": 1},
+                            "fill": {"value": "#e5e5e5"},
+                            "fillOpacity": {"value": 0.6}
+                        },
+                        "update": {
+                            "path": {
+                                "field": "shape",
+                                "projection": "orthographic"
+                            }
+                        }
+                    },
+                    "transform": [
+                        {
+                            "type": "geoshape",
+                            "projection": "orthographic"
+                        }
+                    ]
+                },
+
+                {
+                    "type": "symbol",
+                    "from": {"data": "locations"},
+                    "encode": {
+                        "enter": {
+                            "size": {"value": 50},
+                            "stroke": {"value": "steelblue"},
+                            "fill": {"value": "steelblue"}
+                        },
+                        "update": {
+                            "x": {"signal": "datum.longitude"},
+                            "y": {"signal": "datum.latitude"}
+                        }
+                    },
+                    "transform": [
+                        {
+                            "type": "geopoint",
+                            "projection": "orthographic",
+                            "fields": ["longitude", "latitude"]
+                        },
+
+                    ]
+                }
+            ]
+        };
 
 
     render(spec).then(console.log);
