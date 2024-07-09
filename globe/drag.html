@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Drag Tracker</title>
+    <style>
+        #dragArea {
+            width: 600px;
+            height: 600px;
+            background-color: lightgrey;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        #tracker {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #log {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<div id="dragArea">
+    <div id="tracker"></div>
+</div>
+<div id="log">Position: (0, 0)</div>
+
+<script>
+    const dragArea = document.getElementById('dragArea');
+    const tracker = document.getElementById('tracker');
+    const log = document.getElementById('log');
+
+    let isDragging = false;
+    let startX, startY, initialX, initialY;
+
+    tracker.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        initialX = tracker.offsetLeft;
+        initialY = tracker.offsetTop;
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (isDragging) {
+            const dx = e.clientX - startX;
+            const dy = e.clientY - startY;
+
+            let newLeft = initialX + dx;
+            let newTop = initialY + dy;
+
+            // Ensure the tracker stays within the dragArea
+            newLeft = Math.max(0, Math.min(dragArea.clientWidth - tracker.clientWidth, newLeft));
+            newTop = Math.max(0, Math.min(dragArea.clientHeight - tracker.clientHeight, newTop));
+
+            tracker.style.left = `${newLeft}px`;
+            tracker.style.top = `${newTop}px`;
+
+            // Log the values
+            log.innerText = `Position: (${newLeft}, ${newTop})`;
+        }
+    });
+
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+    });
+
+    dragArea.addEventListener('mouseleave', () => {
+        isDragging = false;
+    });
+</script>
+</body>
+</html>
