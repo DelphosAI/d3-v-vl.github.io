@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>D3 Interactive Globe</title>
+
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: auto;
+        }
+
+        .axis text {
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #218bbf;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: #218bbf;
+        }
+        .centVis {
+            display: flex;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+        }
+
+    </style>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+</head>
+<body>
+<div class="navbar">
+    <a href="index.html">D3</a>
+    <a href="vega.html">Vega</a>
+    <a href="vega-lite.html">Vega-Lite</a>
+</div>
+
+<h1>Interactive Globe - D3 Version</h1>
+<div class="centVis">
+<svg></svg>
+</div>
+<script>
+    const width = 900;
+    const height = 800;
+
+    const sensitivity = 75
+
+    let countries = [];
+
+    const svg = d3.select('svg').attr('width', width).attr('height', height);
+
+    const markerGroup = svg.append('g');
+
+    const projection = d3.geoOrthographic()
+        .scale(300)
+        .center([0, 0])
+        .rotate([0,-30])
+        .translate([width / 2, height / 2])
+
+    const initialScale = projection.scale();
+
+    let path = d3.geoPath().projection(projection);
+
+    const center = [width/2, height/2];
+
+    const globe = svg.append("circle")
+        .attr("fill", "aliceblue")
+        .attr("stroke", "#000")
+        .attr("stroke-width", "0")
+        .attr("cx", width/2)
+        .attr("cy", height/2)
+        .attr("r", initialScale)
+
+
+    const tooltip = d3.select('body').append('div')
+        .attr('class', 'tooltip')
+        .style('position', 'absolute')
+        .style('padding', '10px')
+        .style('background', 'rgba(0,0,0,0.7)')
+        .style('color', '#fff')
+        .style('border-radius', '4px')
+        .style('pointer-events', 'none')
+        .style('opacity', 0);
+
+
+    enableDragging();
+    drawGlobe();
+
+    // enableRotation();
+
+    function drawGlobe() {
+        d3.queue()
+            .defer(d3.json, 'https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json')
+            .defer(d3.json, 'countries.json')
+            .await((error, worldData, locationData) => {
+                svg.selectAll(".segment")
+                    .data(topojson.feature(worldData, worldData.objects.countries).features)
+                    .enter().append("path")
+                    .attr("class", "segment")
+                    .attr("d", path)
+                    .style("stroke", "#888")
+                    .style("stroke-width", "1px")
+                    .style("fill", (d, i) => 'mintcream')
+                    .style("opacity", ".6");
+                countries = locationData;
+                drawCountries();
+            });
+    }
+
+    function enableDragging() {
+        svg.call(d3.drag().on('drag', () => {
+            const rotate = projection.rotate()
+            const k = sensitivity / projection.scale()
+            projection.rotate([
+                rotate[0] + d3.event.dx * k,
+                rotate[1] - d3.event.dy * k
+            ])
+            path = d3.geoPath().projection(projection)
+            svg.selectAll("path").attr("d", path)
+            drawCountries();
+        }))
+            .call(d3.zoom().on('zoom', () => {
+                if(d3.event.transform.k > 0.3) {
+                    projection.scale(initialScale * d3.event.transform.k)
+                    path = d3.geoPath().projection(projection)
+                    svg.selectAll("path").attr("d", path)
+                    globe.attr("r", projection.scale())
+                }
+                else {
+                    d3.event.transform.k = 0.3
+                }
+                drawCountries();
+            }))
+    }
+    //Optional rotate function
+    function enableRotation() {
+
+        d3.timer(function(elapsed) {
+            const rotate = projection.rotate()
+            const k = sensitivity / projection.scale()
+            projection.rotate([
+                rotate[0] - k,
+                rotate[1]
+            ])
+            path = d3.geoPath().projection(projection)
+            svg.selectAll("path").attr("d", path)
+            drawCountries()
+        },200)
+
+    }
+
+    function drawCountries() {
+
+        const markers = markerGroup.selectAll('circle')
+            .data(countries);
+        markers
+            .enter()
+            .append('circle')
+            .merge(markers)
+            .attr('cx', d => projection([d.longitude, d.latitude])[0])
+            .attr('cy', d => projection([d.longitude, d.latitude])[1])
+            .attr('fill', d => {
+                const coordinate = [d.longitude, d.latitude];
+                const gdistance = d3.geoDistance(coordinate, projection.invert(center));
+                return gdistance > 1.57 ? 'none' : 'red';
+            })
+            .attr('r', 4)
+            .on('mouseover', function(data) {
+                tooltip.transition()
+                    .duration(200)
+                    .style('opacity', .9);
+                tooltip.html(`${data.name}`)
+                    .style('left', (d3.event.pageX + 5) + 'px')
+                    .style('top', (d3.event.pageY - 28) + 'px');
+            })
+            .on('mouseout', function () {
+                tooltip.style('opacity', 0);
+                tooltip.html('');
+            })
+
+        markerGroup.each(function () {
+            this.parentNode.appendChild(this);
+        });
+    }
+
+
+</script>
+</body>
+</html>

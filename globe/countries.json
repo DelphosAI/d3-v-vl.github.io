@@ -1188,6 +1188,12 @@
     "name": "Sudan"
   },
   {
+    "key": "SUD",
+    "latitude": 6.876991,
+    "longitude": 31.306978,
+    "name": "South Sudan"
+  },
+  {
     "key": "SE",
     "latitude": 60.128161,
     "longitude": 18.643501,

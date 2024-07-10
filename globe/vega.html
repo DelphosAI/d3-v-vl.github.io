@@ -2,215 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Interactive Globe</title>
+    <title>Vega Interactive Globe</title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: auto;
+        }
+
+        .axis text {
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #218bbf;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: #218bbf;
+        }
+        .centVis {
+            display: flex;
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-<div id="vis"></div>
-<script type="text/javascript">
-    // const spec = {
-    //         "$schema": "https://vega.github.io/schema/vega/v5.json",
-    //         "description": "Rotating globe animation depicting earthquake locations. Background - pseudorandomly distributed 'stars'.",
-    //         "width": 600,
-    //         "height": 600,
-    //         "padding": 5,
-    //         "autosize": "pad",
-    //         "signals": [
-    //             {"name": "scale", "description": "globe scale", "value": 225},
-    //             {
-    //                 "name": "pauseClicked",
-    //                 "description": "rotation pause",
-    //                 "value": false,
-    //                 "on": [{"events": "view:click", "update": "!pauseClicked", "force": true}]
-    //             },
-    //             {
-    //                 "name": "globeRotationAngle",
-    //                 "description": "globe position: changes from 0 to -180 and then from 180 to 0",
-    //                 "init": "0",
-    //                 "on": [
-    //                     {
-    //                         "events": "timer{100}",
-    //                         "update": "pauseClicked ? globeRotationAngle : (globeRotationAngle<=-180?180:globeRotationAngle-1)"
-    //                     }
-    //                 ]
-    //             },
-    //             {
-    //                 "name": "rotateVertical",
-    //                 "description": "vertical rotation on drag",
-    //                 "value": 0,
-    //                 "on": [
-    //                     {
-    //                         "events": "view:mousedown",
-    //                         "update": "([x(), y()] === [0, 0]) ? 0 : rotateVertical + 1"
-    //                     },
-    //                     {
-    //                         "events": "view:pointerup",
-    //                         "update": "0"
-    //                     },
-    //                     {
-    //                         "events": "view:pointermove",
-    //                         "update": "rotateVertical + (rotateVertical + event.offsetY) > 90 ? 90 : (rotateVertical + event.offsetY) < -1 ? -1 : rotateVertical + event.offsetY"
-    //                     }
-    //                 ]
-    //             },
-    //             {
-    //                 "name": "rotateHorizontal",
-    //                 "description": "horizontal rotation on drag",
-    //                 "value": 0,
-    //                 "on": [
-    //                     {
-    //                         "events": "view:pointerdown",
-    //                         "update": "([x(), y()] === [0, 0]) ? 0 : rotateHorizontal"
-    //                     },
-    //                     {
-    //                         "events": "view:pointerup",
-    //                         "update": "0"
-    //                     },
-    //                     {
-    //                         "events": "view:pointermove",
-    //                         "update": "rotateHorizontal + (rotateHorizontal + event.offsetX) > 90 ? 90 : (rotateHorizontal + event.offsetX) < -90 ? -90 : rotateHorizontal + event.offsetX"
-    //                     }
-    //                 ]
-    //             }
-    //         ],
-    //         "data": [
-    //             {"name": "data-sphere", "values": [{"type": "Sphere"}]},
-    //             {
-    //                 "name": "data-json-world-map",
-    //                 "url": "https://unpkg.com/world-atlas@1/world/110m.json",
-    //                 "format": {"type": "topojson", "feature": "countries"}
-    //             },
-    //             {
-    //                 "name": "data-earthquakes",
-    //                 "url": "earthquakes.json",
-    //                 "format": {"type": "json", "property": "features"}
-    //             }
-    //         ],
-    //         "projections": [
-    //             {
-    //                 "name": "projection",
-    //                 "scale": {"signal": "scale"},
-    //                 "type": "orthographic",
-    //                 "translate": {"signal": "[width/2, height/2]"},
-    //                 "rotate":  [{"signal": "rotateHorizontal"}, {"signal": "rotateVertical"}, 0]
-    //             }
-    //         ],
-    //         "marks": [
-    //             {
-    //                 "name": "globe-with-blue-sky",
-    //                 "type": "shape",
-    //                 "from": {"data": "data-sphere"},
-    //                 "index": 5,
-    //                 "encode": {
-    //                     "enter": {
-    //                         "fill": {"value": "aliceblue"},
-    //                     }
-    //                 },
-    //                 "transform": [{"type": "geoshape", "projection": "projection"}]
-    //             },
-    //             {
-    //                 "name": "shape-continets-and-countries",
-    //                 "type": "shape",
-    //                 "from": {"data": "data-json-world-map"},
-    //                 "index": 2,
-    //                 "encode": {
-    //                     "update": {
-    //                         "stroke": {"value": "black"},
-    //                         "fill": {"value": "mintcream"}
-    //                     }
-    //                 },
-    //                 "transform": [{"type": "geoshape", "projection": "projection"}]
-    //             }
-    //         ]
-    //     }
+<div class="navbar">
+    <a href="index.html">D3</a>
+    <a href="vega.html">Vega</a>
+    <a href="vega-lite.html">Vega-Lite</a>
+</div>
 
-    // const spec = {
-    //     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    //     "description": "Rotating globe animation depicting earthquake locations. Background - pseudorandomly distributed 'stars'.",
-    //     "width": 600,
-    //     "height": 600,
-    //     "padding": 5,
-    //     "autosize": "pad",
-    //     "signals": [
-    //         {"name": "scale", "description": "globe scale", "value": 225},
-    //         {
-    //             "name": "pauseClicked",
-    //             "description": "rotation pause",
-    //             "value": false,
-    //             "on": [{"events": "view:click", "update": "!pauseClicked", "force": true}]
-    //         },
-    //         {
-    //             "name": "rotate",
-    //             "description": "globe rotation",
-    //             "value": [0, 0],
-    //             "on": [
-    //                 {
-    //                     "events": {"type": "view:pointerdown", "markname": "globe-with-blue-sky"},
-    //                     "update": "[rotate[0], rotate[1], x(), y()]"
-    //                 },
-    //                 {
-    //                     "events": {"type": "view:pointermove", "markname": "globe-with-blue-sky", "consume": true},
-    //                     "update": "[rotate[0] + (x() - rotate[2]) / 3, rotate[1] - (y() - rotate[3]) / 3, x(), y()]"
-    //                 }
-    //             ]
-    //         },
-    //         {
-    //             "name": "rotateX",
-    //             "update": "rotate[0]"
-    //         },
-    //         {
-    //             "name": "rotateY",
-    //             "update": "rotate[1]"
-    //         }
-    //     ],
-    //     "data": [
-    //         {"name": "data-sphere", "values": [{"type": "Sphere"}]},
-    //         {
-    //             "name": "data-json-world-map",
-    //             "url": "https://unpkg.com/world-atlas@1/world/110m.json",
-    //             "format": {"type": "topojson", "feature": "countries"}
-    //         },
-    //         {
-    //             "name": "data-earthquakes",
-    //             "url": "earthquakes.json",
-    //             "format": {"type": "json", "property": "features"}
-    //         }
-    //     ],
-    //     "projections": [
-    //         {
-    //             "name": "projection",
-    //             "scale": {"signal": "scale"},
-    //             "type": "orthographic",
-    //             "translate": {"signal": "[width / 2, height / 2]"},
-    //             "rotate": [{"signal": "rotateX"}, 0, 0]
-    //         }
-    //     ],
-    //     "marks": [
-    //         {
-    //             "name": "globe-with-blue-sky",
-    //             "type": "shape",
-    //             "from": {"data": "data-sphere"},
-    //             "encode": {
-    //                 "enter": {
-    //                     "fill": {"value": "aliceblue"}
-    //                 }
-    //             },
-    //             "transform": [{"type": "geoshape", "projection": "projection"}]
-    //         },
-    //         {
-    //             "name": "shape-continents-and-countries",
-    //             "type": "shape",
-    //             "from": {"data": "data-json-world-map"},
-    //             "encode": {
-    //                 "update": {
-    //                     "stroke": {"value": "black"},
-    //                     "fill": {"value": "mintcream"}
-    //                 }
-    //             },
-    //             "transform": [{"type": "geoshape", "projection": "projection"}]
-    //         }
-    //     ]
-    // };
+<h1>Interactive Globe - Vega Version</h1>
+<div id="vis" class="centVis"></div>
+<script type="text/javascript">
 
     let countries = [
         {
@@ -1402,6 +1245,12 @@
             "name": "Sudan"
         },
         {
+            "key": "SUD",
+            "latitude": 6.876991,
+            "longitude": 31.306978,
+            "name": "South Sudan"
+        },
+        {
             "key": "SE",
             "latitude": 60.128161,
             "longitude": 18.643501,
@@ -1721,13 +1570,6 @@
         }
     ];
 
-    const cities = [
-        {"name": "New York", "coordinates": [-74.006, 40.7128]},
-        {"name": "London", "coordinates": [-0.1276, 51.5074]},
-        {"name": "Tokyo", "coordinates": [139.6917, 35.6895]},
-        {"name": "Sydney", "coordinates": [151.2093, -33.8688]},
-        {"name": "Cairo", "coordinates": [31.2357, 30.0444]}
-    ];
     const processCountries = [];
     for (let country of countries) {
         const countryData = {
@@ -1738,7 +1580,7 @@
     }
     console.log(processCountries);
 
-    const specGeo = {
+    const spec = {
         "$schema": "https://vega.github.io/schema/vega/v5.json",
         "description": "Rotating globe animation depicting country locations on hover.",
         "width": 600,
@@ -1749,27 +1591,14 @@
         "signals": [
             {"name": "scale",
                 "description": "globe scale",
-                "value": 400,
+                "value": 300,
                 "on": [{
                     "events": {"type": "wheel", "consume": true},
                     "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
                 }]
             },
-            {"name": "rotate0", "value": 0, "bind": {"input": "range", "min": -180, "max": 180, "step": 1}},
-            {"name": "rotate1", "value": 0, "bind": {"input": "range", "min": -90, "max": 90, "step": 1}},
-            {
-                "name": "rotate0_deg",
-                "update": "asin(rotate[0]) * (180 / PI)"
-            },
-            {
-                "name": "rotate1_deg",
-                "update": "asin(rotate[1]) * (180 / PI)"
-            },
-            {
-                "name": "circleSize",
-                "description": "Symbol circle size",
-                "value": 1.8
-            },
+            // {"name": "rotate0", "value": 0, "bind": {"input": "range", "min": -180, "max": 180, "step": 1}},
+            // {"name": "rotate1", "value": 0, "bind": {"input": "range", "min": -90, "max": 90, "step": 1}},
             {
                 "name": "dragging",
                 "value": false,
@@ -1787,334 +1616,9 @@
                         "events": "shape:mousemove[event.buttons]",
                         // "update":"dragging ? [rotateX + (currentPos[0] - x()) / 2, rotateY + (currentPos[1] - y()) / 2]: currentPos"
                         // "update":"[rotateX + (currentPos[0] - x()) / 2, rotateY + (currentPos[1] - y()) / 2]"
-                        "update":"[(currentPos[0] - x()) / 2, (currentPos[1] - y()) / 2]"
-                        // "update":"[((x() - currentPos[0]) / 3), (currentPos[1] - y())/10]"
-                    }
-                ]
-            },
-            {
-                "name": "rotate",
-                "update": "[currentPos[0], currentPos[1], 0]"
-                // "update": "[currentPos[0] % 360, currentPos[1], 0]"
-                // "update": "[min(max(currentPos[0], 180), -180),  max(min(currentPos[1], 90), -90), 0]"
-
-            },
-            {
-                "name": "rotateBind",
-                "update": "[rotate0, rotate1, 0]"
-            },
-            {
-                "name": "showCountryOnHover",
-                "value": null,
-                "on": [
-                    {
-                        "events": "shape:mouseover",
-                        "update": "datum.id"
-                    },
-                    {
-                        "events": "shape:mouseout",
-                        "update": "null"
-                    }
-                ]
-            },
-            {
-                "name": "onCountryShapeHover",
-                "value": null,
-                "on": [
-                    {
-                        "events": "symbol:mouseover",
-                        "update": "datum.name"
-                    },
-                    {
-                        "events": "symbol:mouseout",
-                        "update": "null"
-                    }
-                ]
-            }
-        ],
-
-        "data": [
-            {"name": "data-sphere", "values": [{"type": "Sphere"}]},
-            {
-                "name": "data-json-world-map",
-                "url": "https://unpkg.com/world-atlas@1/world/110m.json",
-                "format": {"type": "topojson", "feature": "countries"}
-            },
-            {
-                "name": "countries",
-                "url": "earthquakes.json",
-                "format": {"type": "json", "property": "features"}
-                // "transform": [
-                //     {
-                //         "type": "formula",
-                //         "as": "visible",
-                //         "expr": "(datum.longitude + rotate[0] + 180) % 360 - 180 < 90 && (datum.longitude +  rotate[0] + 180) % 360 - 180 > -90 && datum.latitude < 90 && datum.latitude > -90"
-                //         // "expr": "(datum.longitude + rotate0 + 180) % 360 - 180 < 90 && (datum.longitude +  rotate0 + 180) % 360 - 180 > -90 && datum.latitude < 90 && datum.latitude > -90"
-                //     },
-                // ]
-            },
-            // {
-            //                 "name": "data_0",
-            //                 "source": "countries",
-            //                 "transform": [
-            //                     {
-            //                         "type": "formula",
-            //                         "expr": "datum[\"coordinates\"] && datum[\"coordinates\"][\"0\"]",
-            //                         "as": "coordinates.0"
-            //                     },
-            //                     {
-            //                         "type": "formula",
-            //                         "expr": "datum[\"coordinates\"] && datum[\"coordinates\"][\"1\"]",
-            //                         "as": "coordinates.1"
-            //                     }
-            //                 ]
-            //             },
-            //             {
-            //                 "name": "geo_points",
-            //                 "source": "countries",
-            //                 "transform": [
-            //                     // {
-            //                     //     "type": "formula",
-            //                     //     "as": "visible",
-            //                     //     "expr": "(datum.longitude + rotate[0] + 180) % 360 - 180 < 90 && (datum.longitude +  rotate[0] + 180) % 360 - 180 > -90 && datum.latitude < 90 && datum.latitude > -90"
-            //                     // },
-            //                     // {
-            //                     //     "type": "geojson",
-            //                     //     "fields": ["coordinates[0]", "coordinates[1]"],
-            //                     //     "signal": "layer_1_geojson_0"
-            //                     // },
-            //                     {
-            //                         "type": "geopoint",
-            //                         "projection": "projection",
-            //                         "fields": ["longitude", "latitude"],
-            //                         "as": ["lon", "lat"]
-            //                     },
-            //                     // {
-            //                     //     "type": "formula",
-            //                     //     // "expr": "(cos(datum.latitude * PI / 180) * cos((datum.longitude - rotate[0]) * PI / 180)) > 0",
-            //                     //     // "expr": "(cos(datum.latitude * PI / 180) * cos((datum.longitude - rotate[0]) * PI / 180)) > 0",
-            //                     //     "expr": "(datum.longitude + rotate0 + 180) % 360 - 180 < 90 && (datum.longitude + rotate0 + 180) % 360 - 180 > -90 && datum.latitude < 90 && datum.latitude > -90",
-            //                     //     // "expr": "cos_rotate1 * cos(datum.latitude * (PI / 180)) * cos(datum.longitude * (PI / 180) - rotate0_rad) + sin_rotate1 * sin(datum.latitude * (PI / 180)) > 0",
-            //                     //
-            //                     //     "as": "visible"
-            //                     // },
-            //                 ]
-            //             },
-            //             {
-            //                 "name": "geo_names",
-            //                 "source": "countries",
-            //                 "transform": [
-            //                     // {
-            //                     //     "type": "geojson",
-            //                     //     "fields": ["coordinates[0]", "coordinates[1]"],
-            //                     //     "signal": "layer_2_geojson_0"
-            //                     // },
-            //                     {
-            //                         "type": "geopoint",
-            //                         "projection": "projection",
-            //                         "fields": ["longitude", "latitude"],
-            //                         "as": ["longitude", "latitude"]
-            //                     },
-            //                     // {
-            //                     //     "type": "filter",
-            //                     //     "expr": "visible <= 0"
-            //                     // }
-            //                 ]
-            //             }
-        ],
-        "projections": [
-            {
-                "name": "projection",
-                "type": "orthographic",
-                "scale": {"signal": "scale"},
-                "translate": {"signal": "[width / 2, height / 2]"},
-                // "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}],
-                // "rotate": {"signal": "rotate"}
-                "rotate": {"signal": "rotate"}
-                // "rotate": [{"signal": "rotate0"}, {"signal": "rotate1"}, 0]
-            }
-        ],
-            "scales": [
-                {
-                    "name": "shape",
-                    "type": "ordinal",
-                    "domain": {"data": "data-json-world-map", "field": "geometry", "sort": true},
-                    "range": "symbol"
-                },
-                {
-                    "name": "shape2",
-                    "type": "ordinal",
-                    "domain": {"data": "countries", "field": "geometry", "sort": true},
-                    "range": "symbol"
-                },
-            ],
-        "marks": [
-            {
-                "name": "globe-with-blue-sky",
-                "type": "shape",
-                "from": {"data": "data-sphere"},
-                "encode": {
-                    "enter": {
-                        "fill": {"value": "aliceblue"}
-                    }
-                },
-                "transform": [{"type": "geoshape", "projection": "projection"}]
-            },
-            {
-                "name": "shape-continents-and-countries",
-                "type": "shape",
-                "from": {"data": "data-json-world-map"},
-                "index": 2,
-                "encode": {
-                    "update": {
-                        "stroke": {"value": "black"},
-                        "fill": [
-                            {
-                                "test": "datum.id === showCountryOnHover",
-                                "value": "lightblue"
-                            },
-                            {"value": "mintcream"}
-                        ]
-                    },
-                },
-                "transform": [{"type": "geoshape", "projection": "projection"}]
-            },
-            {
-                "name": "shape-circle",
-                "type": "shape",
-                "from": {"data": "countries"},
-                "index": 3,
-                "encode": {
-                    "update": {
-                        "strokeOpacity": {"value": 1},
-                        "fillOpacity": {"value": 1},
-                    }
-                },
-                "transform": [
-                    {
-                        "type": "geoshape",
-                        "projection": "projection",
-                    }
-                ]
-            }
-            // {
-            //     "name": "Countries Data Points",
-            //     "type": "symbol",
-            //     "style": ["circle"],
-            //     "from": {"data": "geo_points"},
-            //     "encode": {
-            //         "update": {
-            //             "opacity": [
-            //                 {
-            //                     // "test": "onCountryShapeHover === datum.name",
-            //                     "test": "datum.visible",
-            //                     // "test": "showCountryOnHover !== null && datum.name === showCountryOnHover",
-            //                     "value": 1
-            //                 },
-            //                 {"value": 0}
-            //             ],
-            //             "size": {"value": 40},
-            //             "fill": {"value": "red"},
-            //             "x": {"field": "lon"},
-            //             "y": {"field": "lat"},
-            //             "shape": {"value": "circle"},
-            //         },
-            //     }
-            // },
-            // {
-            //     "name": "output_rotate_values",
-            //     "type": "text",
-            //     "from": {"data": "countries"},
-            //     "encode": {
-            //         "update": {
-            //             "text": {"signal": "rotate0 + ' ' + rotate1"},
-            //             "align": {"value": "right"},
-            //             "baseline": {"value": "left"},
-            //             "fill": {"value": "black"},
-            //             "fontSize": {"value": 20},
-            //             "x": {"value": 500},
-            //             "y": {"value": 20},
-            //         }
-            //     },
-            // },
-
-            // {
-            //     "name": "Countries Names",
-            //     "type": "text",
-            //     "from": {"data": "geo_points"},
-            //     "encode": {
-            //         "update": {
-            //             "text": {"field": "name"},
-            //             "align": {"value": "center"},
-            //             "baseline": {"value": "bottom"},
-            //             "fill": {"value": "black"},
-            //             "fontSize": {"value": 10},
-            //             "x": {"field": "lon"},
-            //             "y": {"field": "lat"},
-            //             "opacity": [
-            //                 {
-            //                     "test": "onCountryShapeHover === datum.name",
-            //                     // "test": "showCountryOnHover !== null && datum.name === showCountryOnHover",
-            //                     "value": 1
-            //                 },
-            //                 {"value": 0}
-            //             ],
-            //         }
-            //     },
-            // }
-        ]
-    };
-    const spec1 = {
-        "$schema": "https://vega.github.io/schema/vega/v5.json",
-        "description": "Rotating globe animation depicting country locations on hover.",
-        "width": 600,
-        "height": 600,
-        "padding": 5,
-        "autosize": "pad",
-        "background": "#f9f9f9",
-        "signals": [
-            {"name": "scale",
-                "description": "globe scale",
-                "value": 400,
-                "on": [{
-                    "events": {"type": "wheel", "consume": true},
-                    "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
-                }]
-            },
-            {"name": "rotate0", "value": 0, "bind": {"input": "range", "min": -180, "max": 180, "step": 1}},
-            {"name": "rotate1", "value": 0, "bind": {"input": "range", "min": -90, "max": 90, "step": 1}},
-            {
-                "name": "rotate0_deg",
-                "update": "asin(rotate[0]) * (180 / PI)"
-            },
-            {
-                "name": "rotate1_deg",
-                "update": "asin(rotate[1]) * (180 / PI)"
-            },
-            {
-                "name": "circleSize",
-                "description": "Symbol circle size",
-                "value": 1.8
-            },
-            {
-                "name": "dragging",
-                "value": false,
-                "on": [
-                    {"events": "view:mousedown", "update": "true"},
-                    {"events": "view:mouseup", "update": "false"}
-                ]
-            },
-            {
-                "name": "currentPos",
-                "value": [0, 0],
-                "on": [
-                    // {"events": "view:mousedown", "update": "[x(), y()]"},
-                    {
-                        "events": "shape:mousemove[event.buttons]",
-                        // "update":"dragging ? [rotateX + (currentPos[0] - x()) / 2, rotateY + (currentPos[1] - y()) / 2]: currentPos"
-                        // "update":"[rotateX + (currentPos[0] - x()) / 2, rotateY + (currentPos[1] - y()) / 2]"
-                        "update":"[(currentPos[0] - x()) / 2, (currentPos[1] - y()) / 2]"
-                        // "update":"[((x() - currentPos[0]) / 3), (currentPos[1] - y())/10]"
+                        // "update":"[(currentPos[0] - x()) / 2, (currentPos[1] - y()) / 2]"
+                        // "update":"[currentPos[0]<=-180?180:currentPos[0]-5, (currentPos[1] - y()) / 2]"
+                        "update":"[(x()<=-180?180:x()), (currentPos[1] - y())/2]"
                     }
                 ]
             },
@@ -2125,10 +1629,10 @@
                 // "update": "[min(max(currentPos[0], 180), -180),  max(min(currentPos[1], 90), -90), 0]"
 
             },
-            {
-                "name": "rotateBind",
-                "update": "[rotate0, rotate1, 0]"
-            },
+            // {
+            //     "name": "rotateBind",
+            //     "update": "[rotate0, rotate1, 0]"
+            // },
             {
                 "name": "showCountryOnHover",
                 "value": null,
@@ -2178,36 +1682,10 @@
                     },
                 ]
             },
-            // {
-            //                 "name": "data_0",
-            //                 "source": "countries",
-            //                 "transform": [
-            //                     {
-            //                         "type": "formula",
-            //                         "expr": "datum[\"coordinates\"] && datum[\"coordinates\"][\"0\"]",
-            //                         "as": "coordinates.0"
-            //                     },
-            //                     {
-            //                         "type": "formula",
-            //                         "expr": "datum[\"coordinates\"] && datum[\"coordinates\"][\"1\"]",
-            //                         "as": "coordinates.1"
-            //                     }
-            //                 ]
-            //             },
                         {
                             "name": "geo_points",
                             "source": "countries",
                             "transform": [
-                                // {
-                                //     "type": "formula",
-                                //     "as": "visible",
-                                //     "expr": "(datum.longitude + rotate[0] + 180) % 360 - 180 < 90 && (datum.longitude +  rotate[0] + 180) % 360 - 180 > -90 && datum.latitude < 90 && datum.latitude > -90"
-                                // },
-                                // {
-                                //     "type": "geojson",
-                                //     "fields": ["coordinates[0]", "coordinates[1]"],
-                                //     "signal": "layer_1_geojson_0"
-                                // },
                                 {
                                     "type": "geopoint",
                                     "projection": "projection",
@@ -2240,10 +1718,6 @@
                                     "fields": ["longitude", "latitude"],
                                     "as": ["longitude", "latitude"]
                                 },
-                                // {
-                                //     "type": "filter",
-                                //     "expr": "visible <= 0"
-                                // }
                             ]
                         }
         ],
@@ -2253,8 +1727,6 @@
                 "type": "orthographic",
                 "scale": {"signal": "scale"},
                 "translate": {"signal": "[width / 2, height / 2]"},
-                // "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}],
-                // "rotate": {"signal": "rotate"}
                 "rotate": {"signal": "rotate"}
                 // "rotate": [{"signal": "rotate0"}, {"signal": "rotate1"}, 0]
             }
@@ -2286,14 +1758,16 @@
                 "index": 2,
                 "encode": {
                     "update": {
-                        "stroke": {"value": "black"},
-                        "fill": [
-                            {
-                                "test": "datum.id === showCountryOnHover",
-                                "value": "lightblue"
-                            },
-                            {"value": "mintcream"}
-                        ]
+                        "stroke": {"value": "#888"},
+                        // "fill": [
+                        //     {
+                        //         "test": "datum.id === showCountryOnHover",
+                        //         "value": "lightblue"
+                        //     },
+                        //     {"value": "mintcream"}
+                        // ]
+                        "fill": { "value": "mintcream"},
+                        "fillOpacity": { "value": 0.6}
                     },
                 },
                 "transform": [{"type": "geoshape", "projection": "projection"}]
@@ -2307,15 +1781,16 @@
                     "update": {
                         "opacity": [
                             {
-                                // "test": "onCountryShapeHover === datum.name",
                                 "test": "datum.visible",
-                                // "test": "showCountryOnHover !== null && datum.name === showCountryOnHover",
                                 "value": 1
                             },
                             {"value": 0}
                         ],
-                        "size": {"value": 40},
+                        "size": {"value": 80},
                         "fill": {"value": "red"},
+                        "tooltip": {
+                            "signal": "{\"name\": isValid(datum[\"name\"]) ? datum[\"name\"] : \"\"+datum[\"name\"]}"
+                        },
                         "x": {"field": "lon"},
                         "y": {"field": "lat"},
                         "shape": {"value": "circle"},
@@ -2355,7 +1830,6 @@
                         "opacity": [
                             {
                                 "test": "onCountryShapeHover === datum.name",
-                                // "test": "showCountryOnHover !== null && datum.name === showCountryOnHover",
                                 "value": 1
                             },
                             {"value": 0}
@@ -2365,238 +1839,6 @@
             }
         ]
     };
-    const specs = {
-        "$schema": "https://vega.github.io/schema/vega/v5.json",
-        "description": "Rotating globe animation depicting country locations on hover.",
-        "width": 600,
-        "height": 600,
-        "padding": 5,
-        "autosize": "pad",
-        "signals": [
-            {
-                "name": "scale",
-                "description": "globe scale",
-                "value": 225,
-                "on": [
-                    {
-                        "events": {"type": "wheel", "consume": true},
-                        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
-                    }
-                ]
-            },
-            {"name": "rotateLambda", "value": 0},
-            {"name": "rotatePhi", "value": 0},
-            {"name": "rotateGamma", "value": 0},
-            {"name": "rotateX", "value": 0},
-            {"name": "rotateY", "value": 0},
-            {
-                "name": "dragging", "value": false,
-                "on": [
-                    {"events": "view:mousedown", "update": "true"},
-                    {"events": "view:mouseup", "update": "false"}
-                ]
-            },
-            {
-                "name": "rotateNew",
-                "value": [0, 0],
-                "on": [
-                    {"events": "view:mousemove[event.buttons]", "update": "[rotateLambda + (rotateX + event.dx) / 2, rotatePhi + (rotateY + event.dy) / 2, 0]"}
-                ]
-            },
-            {
-                "name": "rotate",
-                "update": "[rotateNew[0] % 360, max(min(rotateNew[1], 90), -90), 0]"
-            },
-            {
-                "name": "showCountryOnHover",
-                "value": null,
-                "on": [
-                    {"events": "shape:mouseover", "update": "datum.id"},
-                    {"events": "shape:mouseout", "update": "null"}
-                ]
-            },
-            {
-                "name": "onCountryShapeHover",
-                "value": null,
-                "on": [
-                    {"events": "symbol:mouseover", "update": "datum.name"},
-                    {"events": "symbol:mouseout", "update": "null"}
-                ]
-            }
-        ],
-        "data": [
-            {"name": "data-sphere", "values": [{"type": "Sphere"}]},
-            {
-                "name": "data-json-world-map",
-                "url": "https://unpkg.com/world-atlas@1/world/110m.json",
-                "format": {"type": "topojson", "feature": "countries"}
-            },
-            {"name": "countries", "values": processCountries},
-            {
-                "name": "data_0",
-                "source": "countries",
-                "transform": [
-                    {"type": "formula", "expr": "datum[\"coordinates\"] && datum[\"coordinates\"][\"0\"]", "as": "longitude"},
-                    {"type": "formula", "expr": "datum[\"coordinates\"] && datum[\"coordinates\"][\"1\"]", "as": "latitude"}
-                ]
-            },
-            {
-                "name": "geo_points",
-                "source": "countries",
-                "transform": [
-                    {
-                        "type": "geopoint",
-                        "projection": "projection",
-                        "fields": ["longitude", "latitude"],
-                        "as": ["px", "py"]
-                    },
-                    {"type": "formula", "expr": "datum.px >= 0 && datum.py >= 0 && datum.px <= width && datum.py <= height", "as": "visible"}
-                ]
-            }
-        ],
-        "projections": [
-            {
-                "name": "projection",
-                "type": "orthographic",
-                "scale": {"signal": "scale"},
-                "translate": {"signal": "[width / 2, height / 2]"},
-                "rotate": {"signal": "rotate"}
-            }
-        ],
-        "marks": [
-            {
-                "name": "globe-with-blue-sky",
-                "type": "shape",
-                "from": {"data": "data-sphere"},
-                "encode": {
-                    "enter": {"fill": {"value": "aliceblue"}}
-                },
-                "transform": [{"type": "geoshape", "projection": "projection"}]
-            },
-            {
-                "name": "shape-continents-and-countries",
-                "type": "shape",
-                "from": {"data": "data-json-world-map"},
-                "encode": {
-                    "update": {
-                        "stroke": {"value": "black"},
-                        "fill": [
-                            {"test": "datum.id === showCountryOnHover", "value": "lightblue"},
-                            {"value": "mintcream"}
-                        ]
-                    }
-                },
-                "transform": [{"type": "geoshape", "projection": "projection"}]
-            },
-            {
-                "name": "Countries Data Points",
-                "type": "symbol",
-                "from": {"data": "geo_points"},
-                "encode": {
-                    "update": {
-                        "opacity": [
-                            {"test": "datum.visible", "value": 1},
-                            {"value": 0}
-                        ],
-                        "size": {"value": 100},
-                        "fill": {"value": "red"},
-                        "x": {"field": "px"},
-                        "y": {"field": "py"},
-                        "shape": {"value": "circle"}
-                    }
-                }
-            }
-        ]
-    };
-    let spec =    {
-            "$schema": "https://vega.github.io/schema/vega/v5.json",
-            "width": 960,
-            "height": 500,
-            "projections": [
-                {
-                    "name": "orthographic",
-                    "type": "orthographic",
-                    "scale": 250,
-                    "rotate": {"signal": "[rotate[0], rotate[1], 0]"},
-                    "center": [0, 0],
-                    "translate": [480, 250]
-                }
-            ],
-            "signals": [
-                {
-                    "name": "rotate",
-                    "value": [0, -30],
-                    "on": [
-                        {
-                            "events": {"type": "timer", "throttle": 50},
-                            "update": "[rotate[0] + 0.005, rotate[1]]"
-                        }
-                    ]
-                }
-            ],
-            "data": [
-                {
-                    "name": "world",
-                    "url": "https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json",
-                    "format": {"type": "topojson", "feature": "countries"}
-                },
-                {
-                    "name": "locations",
-                    "url": "countries.json",
-                    "format": {"type": "json"}
-                }
-            ],
-            "marks": [
-                {
-                    "type": "shape",
-                    "from": {"data": "world"},
-                    "encode": {
-                        "enter": {
-                            "stroke": {"value": "#888"},
-                            "strokeWidth": {"value": 1},
-                            "fill": {"value": "#e5e5e5"},
-                            "fillOpacity": {"value": 0.6}
-                        },
-                        "update": {
-                            "path": {
-                                "field": "shape",
-                                "projection": "orthographic"
-                            }
-                        }
-                    },
-                    "transform": [
-                        {
-                            "type": "geoshape",
-                            "projection": "orthographic"
-                        }
-                    ]
-                },
-
-                {
-                    "type": "symbol",
-                    "from": {"data": "locations"},
-                    "encode": {
-                        "enter": {
-                            "size": {"value": 50},
-                            "stroke": {"value": "steelblue"},
-                            "fill": {"value": "steelblue"}
-                        },
-                        "update": {
-                            "x": {"signal": "datum.longitude"},
-                            "y": {"signal": "datum.latitude"}
-                        }
-                    },
-                    "transform": [
-                        {
-                            "type": "geopoint",
-                            "projection": "orthographic",
-                            "fields": ["longitude", "latitude"]
-                        },
-
-                    ]
-                }
-            ]
-        };
 
 
     render(spec).then(console.log);
