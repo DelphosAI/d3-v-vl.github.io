@@ -1618,7 +1618,8 @@
                         // "update":"[rotateX + (currentPos[0] - x()) / 2, rotateY + (currentPos[1] - y()) / 2]"
                         // "update":"[(currentPos[0] - x()) / 2, (currentPos[1] - y()) / 2]"
                         // "update":"[currentPos[0]<=-180?180:currentPos[0]-5, (currentPos[1] - y()) / 2]"
-                        "update":"[(x()<=-180?180:x()), (currentPos[1] - y())/2]"
+                        // "update":"[(x()<=-180?180:x()), (currentPos[1] - y())/2]"
+                        "update":"[currentPos[0] + event.movementX * 0.25, currentPos[1] - event.movementY * 0.25]"
                     }
                 ]
             },
