@@ -1608,6 +1608,23 @@
                 ]
             },
             {
+                "name": "pauseClicked",
+                "description": "rotation pause",
+                "value": false,
+                "on": [{"events": "view:click", "update": "!pauseClicked", "force": true}]
+            },
+            {
+                "name": "globeRotationAngle",
+                "description": "globe position: changes from 0 to -180 and then from 180 to 0",
+                "init": "0",
+                "on": [
+                    {
+                        "events": "timer{100}",
+                        "update": "pauseClicked ? globeRotationAngle : (globeRotationAngle<=-180?180:globeRotationAngle-1)"
+                    }
+                ]
+            },
+            {
                 "name": "currentPos",
                 "value": [0, 0],
                 "on": [
@@ -1728,8 +1745,8 @@
                 "type": "orthographic",
                 "scale": {"signal": "scale"},
                 "translate": {"signal": "[width / 2, height / 2]"},
-                "rotate": {"signal": "rotate"}
-                // "rotate": [{"signal": "rotate0"}, {"signal": "rotate1"}, 0]
+                // "rotate": {"signal": "rotate"}
+                "rotate": [{"signal": "-globeRotationAngle"}, 0, 0]
             }
         ],
             "scales": [
