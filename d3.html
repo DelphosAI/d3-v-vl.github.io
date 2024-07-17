@@ -30,6 +30,7 @@
 
     const svg = d3.select("svg");
 
+
     d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson").then(function(world) {
         svg.append("g")
             .selectAll("path")
