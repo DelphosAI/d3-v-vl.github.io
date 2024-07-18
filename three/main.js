@@ -69,9 +69,11 @@ sunLight.position.set(-2, 0.5, 1.5);
 scene.add(sunLight);
 
 
+// mouse
+const mouse = new THREE.Vector2(-1, -1);
+const 	raycaster = new THREE.Raycaster();
+
 // Plot geojson countries
-
-
 const radius = 1; // Radius of the globe
 const elevation = 0.001; // Elevation above the globe surface
 
@@ -160,9 +162,37 @@ function animate() {
 
 animate();
 
+function onMouseMove(event) {
+    // calculate mouse position in normalized device coordinates
+    // (-1 to +1) for both components
+
+    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+    mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+
+    // update the picking ray with the camera and mouse position
+    raycaster.setFromCamera(mouse, camera);
+
+    // calculate objects intersecting the picking ray
+    const intersects = raycaster.intersectObjects(scene.children);
+    console.log(intersects[0]);
+
+    if (intersects.length > 0) {
+
+          intersects[0].object.material.color.set(0xff0000);
+
+    } else {
+
+          material.color.set(0xbbbbbb);
+
+    }
+
+}
+
 function handleWindowResize () {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
 window.addEventListener('resize', handleWindowResize, false);
+document.addEventListener('mousemove', onMouseMove, false);
