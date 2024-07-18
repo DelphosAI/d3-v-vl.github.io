@@ -195,4 +195,4 @@ function handleWindowResize () {
     renderer.setSize(window.innerWidth, window.innerHeight);
 }
 window.addEventListener('resize', handleWindowResize, false);
-document.addEventListener('mousemove', onMouseMove, false);
+// document.addEventListener('mousemove', onMouseMove, false);
