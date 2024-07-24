@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Chart with Three.js</title>
+    <style>
+        :root {
+            --background-gradient: linear-gradient(178deg, #ffff33 10%, #3333ff);
+            --timber: #CDD5D1;
+            --rose: #B4A6AB;
+            --wenge: #615055;
+        }
+        body { margin: 0; }
+        canvas { display: block; }
+        select {
+            /* Reset Select */
+            appearance: none;
+            outline: 10px red;
+            border: 0;
+            box-shadow: none;
+            /* Personalize */
+            flex: 1;
+            padding: 0 1em;
+            color: #fff;
+            background-color: var(--wenge);
+            background-image: none;
+            cursor: pointer;
+        }
+        /* Remove IE arrow */
+        select::-ms-expand {
+            display: none;
+        }
+        /* Custom Select wrapper */
+        .select {
+            position: relative;
+            display: flex;
+            width: 20em;
+            height: 3em;
+            border-radius: .25em;
+            overflow: hidden;
+        }
+        /* Arrow */
+        .select::after {
+            content: '\25BC';
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 1em;
+            color: var(--timber);
+            background-color: var(--rose);
+            transition: .25s all ease;
+            pointer-events: none;
+        }
+        /* Transition */
+        .select:hover::after {
+            color: var(--wenge);
+        }
+        .container {
+            position : absolute;
+            top: 5%;
+            left : 2%;
+        }
+        label {
+            color: #DDF8E8;
+            font-size: 1em;
+            font-weight: bold;
+            display: block;
+        }
+        .select-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: self-start;
+            row-gap: 0.6em;
+        }
+        .my {
+            margin-top: 1em;
+        }
+        .mb {
+            margin-bottom: 1em;
+        }
+        .mt {
+            margin-top: 1em;
+        }
+        .disabled {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+<div id="textHolder" style="position:absolute;"></div>
+<div class= "container">
+    <div class="select-container">
+        <label for="region">Region:</label>
+        <div class="select region">
+            <select id="region">
+                <option value="">Select a region</option>
+            </select>
+        </div>
+    </div>
+    <div class="select-container my">
+        <label for="lender">Lender:</label>
+        <div class="select disabled lender">
+            <select id="lender">
+                <option value="">Select a lender</option>
+            </select>
+        </div>
+    </div>
+    <div class="select-container mt">
+        <label for="sector">Sector:</label>
+        <div class="select disabled sector">
+            <select id="sector">
+                <option value="">Select a sector</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<script src="assets/papaparse.min.js"></script>
+<script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.166.1/examples/jsm/"
+      }
+    }
+</script>
+<script type="module" src="ha.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,2861 @@
+"region","lender","sector","year","total_amount_usd","number_transactions"
+"Eastern Africa","AFDB","Communication Services",2014,150000,1
+"Eastern Africa","AFDB","Communication Services",2018,0,1
+"Eastern Africa","AFDB","Consumer Discretionary",2010,13061282.6153846,1
+"Eastern Africa","AFDB","Consumer Discretionary",2011,42135988.5873016,2
+"Eastern Africa","AFDB","Consumer Discretionary",2012,185084659.488636,3
+"Eastern Africa","AFDB","Consumer Discretionary",2014,10076039.4153846,1
+"Eastern Africa","AFDB","Consumer Discretionary",2015,0,2
+"Eastern Africa","AFDB","Consumer Discretionary",2016,1634811.01351351,1
+"Eastern Africa","AFDB","Consumer Discretionary",2017,995947.486486487,1
+"Eastern Africa","AFDB","Consumer Discretionary",2018,0,1
+"Eastern Africa","AFDB","Consumer Discretionary",2019,0,2
+"Eastern Africa","AFDB","Consumer Discretionary",2022,67962441.314554,2
+"Eastern Africa","AFDB","Consumer Discretionary",2023,40893786.5263158,3
+"Eastern Africa","AFDB","Consumer Staples",2010,1825334.82963801,3
+"Eastern Africa","AFDB","Consumer Staples",2011,170189907.510633,7
+"Eastern Africa","AFDB","Consumer Staples",2012,26019742.7076923,2
+"Eastern Africa","AFDB","Consumer Staples",2013,98983465.4870786,7
+"Eastern Africa","AFDB","Consumer Staples",2014,112629620.761748,5
+"Eastern Africa","AFDB","Consumer Staples",2015,74192968.978198,7
+"Eastern Africa","AFDB","Consumer Staples",2016,115124349.543185,11
+"Eastern Africa","AFDB","Consumer Staples",2017,46952155.3661972,6
+"Eastern Africa","AFDB","Consumer Staples",2018,14003968.2539683,9
+"Eastern Africa","AFDB","Consumer Staples",2019,110807940.583333,4
+"Eastern Africa","AFDB","Consumer Staples",2020,64780374.4696002,4
+"Eastern Africa","AFDB","Consumer Staples",2021,149303371.645272,7
+"Eastern Africa","AFDB","Consumer Staples",2022,306769593.45853,21
+"Eastern Africa","AFDB","Consumer Staples",2023,56668020.8046847,4
+"Eastern Africa","AFDB","Energy",2019,411728837.041096,2
+"Eastern Africa","AFDB","Energy",2020,417688960.402778,1
+"Eastern Africa","AFDB","Financials",2010,13200971.59375,1
+"Eastern Africa","AFDB","Financials",2011,15015392.5279051,4
+"Eastern Africa","AFDB","Financials",2012,77977836.8282051,5
+"Eastern Africa","AFDB","Financials",2013,164638141.082142,4
+"Eastern Africa","AFDB","Financials",2014,173018425.075368,2
+"Eastern Africa","AFDB","Financials",2015,7724404.96713615,4
+"Eastern Africa","AFDB","Financials",2016,289513567.357687,6
+"Eastern Africa","AFDB","Financials",2017,233407218.482531,7
+"Eastern Africa","AFDB","Financials",2018,233129470.364734,4
+"Eastern Africa","AFDB","Financials",2019,112598149.482686,8
+"Eastern Africa","AFDB","Financials",2020,1002318817.98995,18
+"Eastern Africa","AFDB","Financials",2021,137958026.124748,3
+"Eastern Africa","AFDB","Financials",2023,438305857.128649,10
+"Eastern Africa","AFDB","Financials",2024,142166425.491579,4
+"Eastern Africa","AFDB","Health Care",2010,1002856.13846154,1
+"Eastern Africa","AFDB","Health Care",2011,90322580.6451613,1
+"Eastern Africa","AFDB","Health Care",2012,1002856.13846154,1
+"Eastern Africa","AFDB","Health Care",2014,1050587.79710145,1
+"Eastern Africa","AFDB","Health Care",2016,0,1
+"Eastern Africa","AFDB","Health Care",2020,38992057.3670333,3
+"Eastern Africa","AFDB","Health Care",2022,999028.44,1
+"Eastern Africa","AFDB","Industrials",2010,219542628.5418,4
+"Eastern Africa","AFDB","Industrials",2011,338217316.846435,12
+"Eastern Africa","AFDB","Industrials",2012,373302536.627273,6
+"Eastern Africa","AFDB","Industrials",2013,652410917.117451,15
+"Eastern Africa","AFDB","Industrials",2014,218733612.054467,4
+"Eastern Africa","AFDB","Industrials",2015,4271411.38654147,8
+"Eastern Africa","AFDB","Industrials",2016,312331475.058559,8
+"Eastern Africa","AFDB","Industrials",2017,190358481.07967,8
+"Eastern Africa","AFDB","Industrials",2018,2427204.49801587,6
+"Eastern Africa","AFDB","Industrials",2019,262581170.570015,14
+"Eastern Africa","AFDB","Industrials",2020,88135697.1032711,7
+"Eastern Africa","AFDB","Industrials",2021,610234219.634205,7
+"Eastern Africa","AFDB","Industrials",2022,738675975.623709,13
+"Eastern Africa","AFDB","Industrials",2023,283760999.306629,6
+"Eastern Africa","AFDB","Industrials",2024,80635813.3866667,2
+"Eastern Africa","AFDB","Materials",2010,345681.46969697,1
+"Eastern Africa","AFDB","Public",2010,129423423.618304,11
+"Eastern Africa","AFDB","Public",2011,324729251.7028,11
+"Eastern Africa","AFDB","Public",2012,102071925.281181,15
+"Eastern Africa","AFDB","Public",2013,206039871.26739,22
+"Eastern Africa","AFDB","Public",2014,155899470.035347,10
+"Eastern Africa","AFDB","Public",2015,281596140.569249,5
+"Eastern Africa","AFDB","Public",2016,8837899.543379,3
+"Eastern Africa","AFDB","Public",2017,86142395.130614,6
+"Eastern Africa","AFDB","Public",2018,1007489.88732394,1
+"Eastern Africa","AFDB","Public",2019,0,3
+"Eastern Africa","AFDB","Public",2021,112206425.006532,4
+"Eastern Africa","AFDB","Public",2022,19927442.8274428,5
+"Eastern Africa","AFDB","Public",2023,110397969.062703,3
+"Eastern Africa","AFDB","Utilities",2010,729050666.968055,9
+"Eastern Africa","AFDB","Utilities",2011,332784459.193246,9
+"Eastern Africa","AFDB","Utilities",2012,374153654.117716,7
+"Eastern Africa","AFDB","Utilities",2013,476504815.650297,17
+"Eastern Africa","AFDB","Utilities",2014,513120738.495902,16
+"Eastern Africa","AFDB","Utilities",2015,123635656.816901,17
+"Eastern Africa","AFDB","Utilities",2016,374174632.337859,16
+"Eastern Africa","AFDB","Utilities",2017,143452819.251978,11
+"Eastern Africa","AFDB","Utilities",2018,118058581.548223,15
+"Eastern Africa","AFDB","Utilities",2019,143748491.277778,10
+"Eastern Africa","AFDB","Utilities",2020,317356239.468558,8
+"Eastern Africa","AFDB","Utilities",2021,377491717.432292,12
+"Eastern Africa","AFDB","Utilities",2022,563618600.071146,10
+"Eastern Africa","AFDB","Utilities",2023,1172946343.24485,10
+"Eastern Africa","AFDB","Utilities",2024,21874806.1052632,1
+"Eastern Africa","DFC","Communication Services",2016,4100000,1
+"Eastern Africa","DFC","Consumer Discretionary",2020,5e+07,1
+"Eastern Africa","DFC","Consumer Discretionary",2021,15300000,2
+"Eastern Africa","DFC","Consumer Discretionary",2022,975000,1
+"Eastern Africa","DFC","Consumer Discretionary",2023,2e+07,2
+"Eastern Africa","DFC","Consumer Discretionary",2024,1640000,1
+"Eastern Africa","DFC","Consumer Staples",2012,2700000,3
+"Eastern Africa","DFC","Consumer Staples",2013,5e+06,1
+"Eastern Africa","DFC","Consumer Staples",2018,5e+06,1
+"Eastern Africa","DFC","Consumer Staples",2020,8146864,2
+"Eastern Africa","DFC","Consumer Staples",2021,60500000,3
+"Eastern Africa","DFC","Consumer Staples",2022,31418657,5
+"Eastern Africa","DFC","Consumer Staples",2023,3500000,2
+"Eastern Africa","DFC","Consumer Staples",2024,10500000,2
+"Eastern Africa","DFC","Energy",2022,1.5e+09,1
+"Eastern Africa","DFC","Financials",2012,16326,1
+"Eastern Africa","DFC","Financials",2015,3659502,3
+"Eastern Africa","DFC","Financials",2016,12652312,7
+"Eastern Africa","DFC","Financials",2017,5379183,4
+"Eastern Africa","DFC","Financials",2018,25862230,5
+"Eastern Africa","DFC","Financials",2019,21687576,5
+"Eastern Africa","DFC","Financials",2021,77616899,6
+"Eastern Africa","DFC","Financials",2022,174738447,6
+"Eastern Africa","DFC","Financials",2023,16800000,3
+"Eastern Africa","DFC","Financials",2024,5500000,2
+"Eastern Africa","DFC","Health Care",2012,3723708,1
+"Eastern Africa","DFC","Health Care",2019,3665443,1
+"Eastern Africa","DFC","Health Care",2023,2.8e+07,3
+"Eastern Africa","DFC","Industrials",2011,3.1e+08,1
+"Eastern Africa","DFC","Industrials",2017,41325000,3
+"Eastern Africa","DFC","Industrials",2021,2282104,2
+"Eastern Africa","DFC","Industrials",2022,2.62e+08,7
+"Eastern Africa","DFC","Industrials",2023,6300000,1
+"Eastern Africa","DFC","Information Technology",2022,5e+06,1
+"Eastern Africa","DFC","Materials",2020,33146864,2
+"Eastern Africa","DFC","Materials",2023,1.8e+08,5
+"Eastern Africa","DFC","Real Estate",2024,17100000,1
+"Eastern Africa","DFC","Utilities",2015,235028171,2
+"Eastern Africa","DFC","Utilities",2016,13650000,1
+"Eastern Africa","DFC","Utilities",2017,32290000,2
+"Eastern Africa","DFC","Utilities",2018,6e+07,2
+"Eastern Africa","DFC","Utilities",2019,54500000,3
+"Eastern Africa","DFC","Utilities",2020,232912231,4
+"Eastern Africa","DFC","Utilities",2022,4.5e+07,2
+"Eastern Africa","EIB","Communication Services",2011,28863744.9275362,3
+"Eastern Africa","EIB","Communication Services",2018,42682926.8292683,1
+"Eastern Africa","EIB","Consumer Discretionary",2012,9756097.56097561,1
+"Eastern Africa","EIB","Consumer Staples",2013,5921052.63157895,1
+"Eastern Africa","EIB","Consumer Staples",2015,9411764.70588235,1
+"Eastern Africa","EIB","Consumer Staples",2020,30487804.8780488,1
+"Eastern Africa","EIB","Financials",2010,133712660.02845,3
+"Eastern Africa","EIB","Financials",2011,91719361.2698413,9
+"Eastern Africa","EIB","Financials",2012,12658227.8481013,2
+"Eastern Africa","EIB","Financials",2013,81981981.981982,5
+"Eastern Africa","EIB","Financials",2014,93493150.6849315,2
+"Eastern Africa","EIB","Financials",2015,262770491.157588,6
+"Eastern Africa","EIB","Financials",2016,202328014.209397,7
+"Eastern Africa","EIB","Financials",2017,57357445.9482623,4
+"Eastern Africa","EIB","Financials",2018,46511627.9069767,2
+"Eastern Africa","EIB","Financials",2021,5952380.95238095,1
+"Eastern Africa","EIB","Financials",2022,3.5e+08,1
+"Eastern Africa","EIB","Financials",2023,273551656.681281,10
+"Eastern Africa","EIB","Industrials",2010,202531645.56962,2
+"Eastern Africa","EIB","Industrials",2011,147817460.31746,2
+"Eastern Africa","EIB","Industrials",2014,53979538.7549853,2
+"Eastern Africa","EIB","Industrials",2015,86892280.8099496,3
+"Eastern Africa","EIB","Industrials",2016,44444444.4444444,1
+"Eastern Africa","EIB","Industrials",2017,739391113.892365,9
+"Eastern Africa","EIB","Industrials",2018,153983908.045977,2
+"Eastern Africa","EIB","Industrials",2020,176470588.235294,1
+"Eastern Africa","EIB","Industrials",2022,228409090.909091,1
+"Eastern Africa","EIB","Industrials",2023,11195652.173913,2
+"Eastern Africa","EIB","Information Technology",2017,8988764.04494382,2
+"Eastern Africa","EIB","Information Technology",2021,16470588.2352941,1
+"Eastern Africa","EIB","Materials",2015,23673890,1
+"Eastern Africa","EIB","Real Estate",2013,2e+07,1
+"Eastern Africa","EIB","Utilities",2010,764544414.333746,8
+"Eastern Africa","EIB","Utilities",2011,139851541.130843,4
+"Eastern Africa","EIB","Utilities",2013,269788967.049241,3
+"Eastern Africa","EIB","Utilities",2014,435375449.288951,7
+"Eastern Africa","EIB","Utilities",2015,247291081.012011,3
+"Eastern Africa","EIB","Utilities",2016,291305264.417474,7
+"Eastern Africa","EIB","Utilities",2017,101170396.282881,3
+"Eastern Africa","EIB","Utilities",2018,73686506.0240964,2
+"Eastern Africa","EIB","Utilities",2019,61571234.6953808,2
+"Eastern Africa","EIB","Utilities",2020,318342245.989305,4
+"Eastern Africa","EIB","Utilities",2021,96385542.1686747,1
+"Eastern Africa","EIB","Utilities",2022,81649484.5360825,1
+"Eastern Africa","EIB","Utilities",2024,152173913.043478,1
+"Eastern Africa","FMO","Communication Services",2014,4e+07,2
+"Eastern Africa","FMO","Communication Services",2020,1500000,1
+"Eastern Africa","FMO","Communication Services",2021,6e+05,1
+"Eastern Africa","FMO","Communication Services",2022,2.5e+07,1
+"Eastern Africa","FMO","Consumer Discretionary",2012,2405063.29113924,1
+"Eastern Africa","FMO","Consumer Discretionary",2014,9430000,1
+"Eastern Africa","FMO","Consumer Discretionary",2015,2e+06,1
+"Eastern Africa","FMO","Consumer Discretionary",2017,4e+06,1
+"Eastern Africa","FMO","Consumer Staples",2013,9e+06,3
+"Eastern Africa","FMO","Consumer Staples",2014,3.5e+07,4
+"Eastern Africa","FMO","Consumer Staples",2015,49600000,11
+"Eastern Africa","FMO","Consumer Staples",2016,7827186.76122931,3
+"Eastern Africa","FMO","Consumer Staples",2017,20164705.8823529,3
+"Eastern Africa","FMO","Consumer Staples",2018,28802581.8245561,4
+"Eastern Africa","FMO","Consumer Staples",2020,87439656.311963,6
+"Eastern Africa","FMO","Consumer Staples",2022,30000,1
+"Eastern Africa","FMO","Consumer Staples",2023,92500000,3
+"Eastern Africa","FMO","Consumer Staples",2024,1e+07,1
+"Eastern Africa","FMO","Financials",2012,10500000,2
+"Eastern Africa","FMO","Financials",2013,90155135.1351351,7
+"Eastern Africa","FMO","Financials",2014,52190890.4109589,7
+"Eastern Africa","FMO","Financials",2015,60107526.8817204,6
+"Eastern Africa","FMO","Financials",2016,67011111.1111111,6
+"Eastern Africa","FMO","Financials",2017,221540274.130603,12
+"Eastern Africa","FMO","Financials",2018,187811363.636364,24
+"Eastern Africa","FMO","Financials",2019,41971183.9027268,8
+"Eastern Africa","FMO","Financials",2020,126198475.231065,11
+"Eastern Africa","FMO","Financials",2021,64264339.7503173,7
+"Eastern Africa","FMO","Financials",2022,139729197.369943,10
+"Eastern Africa","FMO","Financials",2023,89699835.8746402,9
+"Eastern Africa","FMO","Financials",2024,95200000,4
+"Eastern Africa","FMO","Health Care",2015,5434782.60869565,1
+"Eastern Africa","FMO","Industrials",2015,70000,1
+"Eastern Africa","FMO","Industrials",2017,1e+07,2
+"Eastern Africa","FMO","Industrials",2019,54945.0549450549,1
+"Eastern Africa","FMO","Industrials",2022,247524.752475248,1
+"Eastern Africa","FMO","Industrials",2023,1e+07,1
+"Eastern Africa","FMO","Information Technology",2015,2e+07,2
+"Eastern Africa","FMO","Information Technology",2016,22300000,1
+"Eastern Africa","FMO","Materials",2015,28500000,3
+"Eastern Africa","FMO","Materials",2016,6e+06,1
+"Eastern Africa","FMO","Materials",2017,517647.058823529,1
+"Eastern Africa","FMO","Materials",2019,50000,1
+"Eastern Africa","FMO","Materials",2020,7500000,1
+"Eastern Africa","FMO","Materials",2024,5e+05,2
+"Eastern Africa","FMO","Public",2013,11250000,1
+"Eastern Africa","FMO","Public",2016,1500000,1
+"Eastern Africa","FMO","Utilities",2014,142723028.91933,8
+"Eastern Africa","FMO","Utilities",2015,68950000,7
+"Eastern Africa","FMO","Utilities",2016,50680000,6
+"Eastern Africa","FMO","Utilities",2017,122740000,10
+"Eastern Africa","FMO","Utilities",2018,69235294.117647,3
+"Eastern Africa","FMO","Utilities",2019,95289034.9513701,15
+"Eastern Africa","FMO","Utilities",2020,6021988.79551821,6
+"Eastern Africa","FMO","Utilities",2021,40330000,3
+"Eastern Africa","FMO","Utilities",2022,57571914.893617,11
+"Eastern Africa","FMO","Utilities",2023,39697719.336319,8
+"Eastern Africa","IBRD","Consumer Discretionary",2023,1.5e+08,1
+"Eastern Africa","IBRD","Consumer Staples",2023,5e+08,1
+"Eastern Africa","IBRD","Energy",2010,2903979.75,4
+"Eastern Africa","IBRD","Energy",2011,2788725.77,4
+"Eastern Africa","IBRD","Energy",2012,2465373.44,4
+"Eastern Africa","IBRD","Energy",2013,2076443.46,4
+"Eastern Africa","IBRD","Energy",2014,1877924.17,4
+"Eastern Africa","IBRD","Energy",2015,864541.06,2
+"Eastern Africa","IBRD","Financials",2019,2.5e+08,1
+"Eastern Africa","IBRD","Financials",2021,3.5e+07,1
+"Eastern Africa","IBRD","Health Care",2020,1.5e+07,1
+"Eastern Africa","IBRD","Industrials",2010,2e+07,1
+"Eastern Africa","IBRD","Industrials",2012,19706155.42,2
+"Eastern Africa","IBRD","Industrials",2022,2.3e+08,1
+"Eastern Africa","IBRD","Industrials",2023,1e+08,1
+"Eastern Africa","IBRD","Public",2010,9e+06,1
+"Eastern Africa","IBRD","Public",2012,23437304.47,2
+"Eastern Africa","IBRD","Public",2013,4.2e+07,3
+"Eastern Africa","IBRD","Public",2014,1.4e+07,2
+"Eastern Africa","IBRD","Public",2021,3e+07,1
+"Eastern Africa","IBRD","Public",2024,4.5e+07,2
+"Eastern Africa","IBRD","Utilities",2024,1.5e+07,1
+"Eastern Africa","IDA","Communication Services",2012,70651576,2
+"Eastern Africa","IDA","Communication Services",2013,2.2e+07,1
+"Eastern Africa","IDA","Communication Services",2015,47983.79,1
+"Eastern Africa","IDA","Communication Services",2016,381355.17,1
+"Eastern Africa","IDA","Communication Services",2017,7031976.36,3
+"Eastern Africa","IDA","Communication Services",2018,1e+07,1
+"Eastern Africa","IDA","Communication Services",2023,89950.95,1
+"Eastern Africa","IDA","Consumer Discretionary",2010,245348267.77,7
+"Eastern Africa","IDA","Consumer Discretionary",2011,136539551.76,5
+"Eastern Africa","IDA","Consumer Discretionary",2012,49477167.79,5
+"Eastern Africa","IDA","Consumer Discretionary",2013,146360439.49,5
+"Eastern Africa","IDA","Consumer Discretionary",2014,188453499.08,6
+"Eastern Africa","IDA","Consumer Discretionary",2015,313163618.15,5
+"Eastern Africa","IDA","Consumer Discretionary",2016,293594499.18,9
+"Eastern Africa","IDA","Consumer Discretionary",2017,830298552.7,7
+"Eastern Africa","IDA","Consumer Discretionary",2018,96497043.28,4
+"Eastern Africa","IDA","Consumer Discretionary",2019,395152757.92,7
+"Eastern Africa","IDA","Consumer Discretionary",2020,540270243.87,9
+"Eastern Africa","IDA","Consumer Discretionary",2021,933500000,7
+"Eastern Africa","IDA","Consumer Discretionary",2022,397127186.33,7
+"Eastern Africa","IDA","Consumer Discretionary",2023,55261641.3,3
+"Eastern Africa","IDA","Consumer Staples",2010,467506463,10
+"Eastern Africa","IDA","Consumer Staples",2011,11461289.43,4
+"Eastern Africa","IDA","Consumer Staples",2012,188435436.41,11
+"Eastern Africa","IDA","Consumer Staples",2013,145827430.88,9
+"Eastern Africa","IDA","Consumer Staples",2014,807376363.55,15
+"Eastern Africa","IDA","Consumer Staples",2015,665407985.39,6
+"Eastern Africa","IDA","Consumer Staples",2016,283609674.65,10
+"Eastern Africa","IDA","Consumer Staples",2017,1567382538.34,17
+"Eastern Africa","IDA","Consumer Staples",2018,261379810.51,6
+"Eastern Africa","IDA","Consumer Staples",2019,1193881031.24,11
+"Eastern Africa","IDA","Consumer Staples",2020,478255671.47,8
+"Eastern Africa","IDA","Consumer Staples",2021,328143141.85,6
+"Eastern Africa","IDA","Consumer Staples",2022,901999041.55,6
+"Eastern Africa","IDA","Consumer Staples",2023,685000051.82,5
+"Eastern Africa","IDA","Consumer Staples",2024,3e+08,1
+"Eastern Africa","IDA","Energy",2010,26470745.65,1
+"Eastern Africa","IDA","Energy",2011,1989987.57,1
+"Eastern Africa","IDA","Energy",2013,21460000,1
+"Eastern Africa","IDA","Energy",2014,1.5e+08,2
+"Eastern Africa","IDA","Energy",2021,10723099.26,1
+"Eastern Africa","IDA","Energy",2023,4795822.02,1
+"Eastern Africa","IDA","Financials",2010,1.4e+07,1
+"Eastern Africa","IDA","Financials",2011,74462546.75,4
+"Eastern Africa","IDA","Financials",2012,163729120.83,7
+"Eastern Africa","IDA","Financials",2013,74951.03,2
+"Eastern Africa","IDA","Financials",2014,2.7e+07,2
+"Eastern Africa","IDA","Financials",2015,1.82e+08,4
+"Eastern Africa","IDA","Financials",2016,205100000,2
+"Eastern Africa","IDA","Financials",2017,5e+07,1
+"Eastern Africa","IDA","Financials",2018,1.45e+09,5
+"Eastern Africa","IDA","Financials",2019,2.23e+08,5
+"Eastern Africa","IDA","Financials",2020,2811798904.62,12
+"Eastern Africa","IDA","Financials",2021,1265006973.51,11
+"Eastern Africa","IDA","Financials",2022,940824933.37,11
+"Eastern Africa","IDA","Financials",2023,2473788318.74,13
+"Eastern Africa","IDA","Financials",2024,5e+07,1
+"Eastern Africa","IDA","Health Care",2010,354196325.91,8
+"Eastern Africa","IDA","Health Care",2011,157349543.11,6
+"Eastern Africa","IDA","Health Care",2012,116115584.3,6
+"Eastern Africa","IDA","Health Care",2013,149048762.71,8
+"Eastern Africa","IDA","Health Care",2014,141457457.38,7
+"Eastern Africa","IDA","Health Care",2015,204068988.92,4
+"Eastern Africa","IDA","Health Care",2016,322600000,4
+"Eastern Africa","IDA","Health Care",2017,380022309.09,5
+"Eastern Africa","IDA","Health Care",2018,99845738.24,11
+"Eastern Africa","IDA","Health Care",2019,171420439.91,5
+"Eastern Africa","IDA","Health Care",2020,914450922.81,13
+"Eastern Africa","IDA","Health Care",2021,1865296900.8,23
+"Eastern Africa","IDA","Health Care",2022,1379751670.42,19
+"Eastern Africa","IDA","Health Care",2023,236640208.58,7
+"Eastern Africa","IDA","Health Care",2024,4.2e+08,4
+"Eastern Africa","IDA","Industrials",2010,387505843.11,12
+"Eastern Africa","IDA","Industrials",2011,476430800.07,7
+"Eastern Africa","IDA","Industrials",2012,1252967316.96,15
+"Eastern Africa","IDA","Industrials",2013,927343962.6,20
+"Eastern Africa","IDA","Industrials",2014,1816694604.53,15
+"Eastern Africa","IDA","Industrials",2015,2189532014.81,19
+"Eastern Africa","IDA","Industrials",2016,1004463665.09,15
+"Eastern Africa","IDA","Industrials",2017,2235204757.7,18
+"Eastern Africa","IDA","Industrials",2018,1204302576.85,14
+"Eastern Africa","IDA","Industrials",2019,1589090921.95,24
+"Eastern Africa","IDA","Industrials",2020,2618414005.23,26
+"Eastern Africa","IDA","Industrials",2021,2842637635.28,26
+"Eastern Africa","IDA","Industrials",2022,5265584828.33,28
+"Eastern Africa","IDA","Industrials",2023,1351936175.97,25
+"Eastern Africa","IDA","Industrials",2024,698360000,8
+"Eastern Africa","IDA","Information Technology",2014,3e+07,1
+"Eastern Africa","IDA","Information Technology",2015,7.5e+07,1
+"Eastern Africa","IDA","Information Technology",2017,72400000,1
+"Eastern Africa","IDA","Information Technology",2021,6.6e+08,5
+"Eastern Africa","IDA","Information Technology",2022,5e+07,1
+"Eastern Africa","IDA","Information Technology",2023,7.4e+08,2
+"Eastern Africa","IDA","Materials",2011,2.5e+07,1
+"Eastern Africa","IDA","Materials",2013,58996883.28,5
+"Eastern Africa","IDA","Materials",2014,14762.99,1
+"Eastern Africa","IDA","Materials",2015,4.5e+07,1
+"Eastern Africa","IDA","Materials",2016,866428.78,1
+"Eastern Africa","IDA","Materials",2017,2.8e+07,1
+"Eastern Africa","IDA","Materials",2018,20984080.46,1
+"Eastern Africa","IDA","Materials",2020,849542.83,1
+"Eastern Africa","IDA","Materials",2021,24128.62,1
+"Eastern Africa","IDA","Materials",2023,1868603.2,1
+"Eastern Africa","IDA","Public",2010,843393729.54,25
+"Eastern Africa","IDA","Public",2011,1055117856.11,19
+"Eastern Africa","IDA","Public",2012,2129108267.52,33
+"Eastern Africa","IDA","Public",2013,873357203.4,42
+"Eastern Africa","IDA","Public",2014,1001759778.8,31
+"Eastern Africa","IDA","Public",2015,320700641.07,15
+"Eastern Africa","IDA","Public",2016,520631048.97,13
+"Eastern Africa","IDA","Public",2017,103317378.1,13
+"Eastern Africa","IDA","Public",2018,867145576.8,13
+"Eastern Africa","IDA","Public",2019,153756363.99,5
+"Eastern Africa","IDA","Public",2020,286779162.07,11
+"Eastern Africa","IDA","Public",2021,234160945.72,10
+"Eastern Africa","IDA","Public",2022,1217461865.97,10
+"Eastern Africa","IDA","Public",2023,532468700.85,6
+"Eastern Africa","IDA","Public",2024,2.2e+08,4
+"Eastern Africa","IDA","Utilities",2010,1010751904.14,17
+"Eastern Africa","IDA","Utilities",2011,749507812.38,14
+"Eastern Africa","IDA","Utilities",2012,1225273905.04,9
+"Eastern Africa","IDA","Utilities",2013,747003118.42,14
+"Eastern Africa","IDA","Utilities",2014,1003332684.02,22
+"Eastern Africa","IDA","Utilities",2015,826678916.63,13
+"Eastern Africa","IDA","Utilities",2016,798479147.08,15
+"Eastern Africa","IDA","Utilities",2017,1692155928.55,24
+"Eastern Africa","IDA","Utilities",2018,2016072038.24,21
+"Eastern Africa","IDA","Utilities",2019,1207037250.87,44
+"Eastern Africa","IDA","Utilities",2020,649190908.28,18
+"Eastern Africa","IDA","Utilities",2021,1522809430.25,17
+"Eastern Africa","IDA","Utilities",2022,1791881363.56,13
+"Eastern Africa","IDA","Utilities",2023,2979608427.74,26
+"Eastern Africa","IDA","Utilities",2024,966864080,5
+"Eastern Africa","IFC","Communication Services",2015,2e+07,1
+"Eastern Africa","IFC","Communication Services",2017,6e+06,1
+"Eastern Africa","IFC","Communication Services",2018,15880000,1
+"Eastern Africa","IFC","Communication Services",2020,14975000,3
+"Eastern Africa","IFC","Communication Services",2021,23640000,2
+"Eastern Africa","IFC","Communication Services",2022,3.35e+08,3
+"Eastern Africa","IFC","Communication Services",2024,3.5e+08,1
+"Eastern Africa","IFC","Consumer Discretionary",2016,3500000,1
+"Eastern Africa","IFC","Consumer Discretionary",2019,1.4e+07,4
+"Eastern Africa","IFC","Consumer Discretionary",2020,1258139,2
+"Eastern Africa","IFC","Consumer Discretionary",2021,1440000,1
+"Eastern Africa","IFC","Consumer Discretionary",2022,3750000,1
+"Eastern Africa","IFC","Consumer Discretionary",2023,6e+07,3
+"Eastern Africa","IFC","Consumer Discretionary",2024,1940000,2
+"Eastern Africa","IFC","Consumer Staples",2014,3.2e+07,1
+"Eastern Africa","IFC","Consumer Staples",2015,4.5e+07,2
+"Eastern Africa","IFC","Consumer Staples",2016,4862760,2
+"Eastern Africa","IFC","Consumer Staples",2017,23060270,8
+"Eastern Africa","IFC","Consumer Staples",2018,11105000,6
+"Eastern Africa","IFC","Consumer Staples",2019,62859998,9
+"Eastern Africa","IFC","Consumer Staples",2020,40636661,8
+"Eastern Africa","IFC","Consumer Staples",2021,15950000,3
+"Eastern Africa","IFC","Consumer Staples",2022,37088000,4
+"Eastern Africa","IFC","Consumer Staples",2023,229475088,10
+"Eastern Africa","IFC","Consumer Staples",2024,11030001,3
+"Eastern Africa","IFC","Energy",2015,2.35e+08,3
+"Eastern Africa","IFC","Energy",2017,1e+08,1
+"Eastern Africa","IFC","Energy",2021,7800000,1
+"Eastern Africa","IFC","Financials",2013,2104000,2
+"Eastern Africa","IFC","Financials",2014,6975270,4
+"Eastern Africa","IFC","Financials",2015,146572000,8
+"Eastern Africa","IFC","Financials",2016,189108000,8
+"Eastern Africa","IFC","Financials",2017,111052444,7
+"Eastern Africa","IFC","Financials",2018,712206921,12
+"Eastern Africa","IFC","Financials",2019,149836184,12
+"Eastern Africa","IFC","Financials",2020,317432967,13
+"Eastern Africa","IFC","Financials",2021,2543650000,18
+"Eastern Africa","IFC","Financials",2022,686628659,18
+"Eastern Africa","IFC","Financials",2023,831837013,27
+"Eastern Africa","IFC","Financials",2024,75864500,9
+"Eastern Africa","IFC","Health Care",2015,8910000,2
+"Eastern Africa","IFC","Health Care",2016,2100000,1
+"Eastern Africa","IFC","Health Care",2017,3e+06,1
+"Eastern Africa","IFC","Health Care",2018,5931547,2
+"Eastern Africa","IFC","Health Care",2020,4e+06,1
+"Eastern Africa","IFC","Health Care",2021,5920000,4
+"Eastern Africa","IFC","Health Care",2022,12700000,1
+"Eastern Africa","IFC","Health Care",2023,7e+07,1
+"Eastern Africa","IFC","Industrials",2015,1500000,1
+"Eastern Africa","IFC","Industrials",2016,10650000,1
+"Eastern Africa","IFC","Industrials",2017,35016359,2
+"Eastern Africa","IFC","Industrials",2018,30801286,5
+"Eastern Africa","IFC","Industrials",2019,7517022,5
+"Eastern Africa","IFC","Industrials",2020,883057,3
+"Eastern Africa","IFC","Industrials",2021,985000,1
+"Eastern Africa","IFC","Industrials",2022,180000,2
+"Eastern Africa","IFC","Industrials",2023,170189000,3
+"Eastern Africa","IFC","Industrials",2024,385000,1
+"Eastern Africa","IFC","Information Technology",2020,1850000,1
+"Eastern Africa","IFC","Information Technology",2022,1e+07,1
+"Eastern Africa","IFC","Materials",2015,74850000,3
+"Eastern Africa","IFC","Materials",2017,2.1e+07,1
+"Eastern Africa","IFC","Materials",2018,1e+06,1
+"Eastern Africa","IFC","Materials",2020,1.8e+07,2
+"Eastern Africa","IFC","Materials",2022,6e+06,1
+"Eastern Africa","IFC","Materials",2023,4.5e+07,1
+"Eastern Africa","IFC","Public",2015,8e+05,1
+"Eastern Africa","IFC","Public",2018,1184710,2
+"Eastern Africa","IFC","Public",2020,2500000,1
+"Eastern Africa","IFC","Public",2021,1590000,1
+"Eastern Africa","IFC","Public",2023,767000,1
+"Eastern Africa","IFC","Real Estate",2015,1.5e+07,1
+"Eastern Africa","IFC","Real Estate",2016,1e+07,1
+"Eastern Africa","IFC","Real Estate",2017,12800000,1
+"Eastern Africa","IFC","Real Estate",2019,350000,1
+"Eastern Africa","IFC","Real Estate",2021,2.5e+07,1
+"Eastern Africa","IFC","Real Estate",2022,0,2
+"Eastern Africa","IFC","Real Estate",2023,11235955.0561798,1
+"Eastern Africa","IFC","Utilities",2013,1906943,1
+"Eastern Africa","IFC","Utilities",2014,4265000,2
+"Eastern Africa","IFC","Utilities",2015,12500000,1
+"Eastern Africa","IFC","Utilities",2016,40497500,6
+"Eastern Africa","IFC","Utilities",2017,18187646,8
+"Eastern Africa","IFC","Utilities",2018,2911425,2
+"Eastern Africa","IFC","Utilities",2019,8870000,2
+"Eastern Africa","IFC","Utilities",2020,7874807,3
+"Eastern Africa","IFC","Utilities",2021,350000,2
+"Eastern Africa","IFC","Utilities",2023,4e+05,3
+"Eastern Africa","IFC","Utilities",2024,534230000,3
+"Eastern Africa","KFW","Consumer Discretionary",2023,456506651.243493,30
+"Eastern Africa","KFW","Consumer Staples",2023,603541006.362059,37
+"Eastern Africa","KFW","Energy",2023,10989010.989011,1
+"Eastern Africa","KFW","Financials",2023,199413244.650087,14
+"Eastern Africa","KFW","Financials",2024,16965217.3913043,1
+"Eastern Africa","KFW","Health Care",2023,204780219.78022,14
+"Eastern Africa","KFW","Health Care",2024,17391304.3478261,1
+"Eastern Africa","KFW","Industrials",2023,1079002454.29628,62
+"Eastern Africa","KFW","Industrials",2024,32608695.6521739,2
+"Eastern Africa","KFW","Information Technology",2023,24736263.7362637,2
+"Eastern Africa","KFW","Public",2023,308912792.013479,20
+"Eastern Africa","KFW","Public",2024,40053763.4408602,2
+"Eastern Africa","KFW","Utilities",2023,1120069230.76923,57
+"Eastern Africa","KFW","Utilities",2024,41086956.5217391,3
+"Eastern Africa","MIGA","Communication Services",2011,9100000,1
+"Eastern Africa","MIGA","Communication Services",2012,12400000,1
+"Eastern Africa","MIGA","Communication Services",2023,1e+09,1
+"Eastern Africa","MIGA","Consumer Discretionary",2021,20600000,1
+"Eastern Africa","MIGA","Consumer Discretionary",2022,74500000,2
+"Eastern Africa","MIGA","Consumer Staples",2010,13200000,3
+"Eastern Africa","MIGA","Consumer Staples",2011,2e+07,2
+"Eastern Africa","MIGA","Consumer Staples",2012,12400000,2
+"Eastern Africa","MIGA","Consumer Staples",2013,57600000,3
+"Eastern Africa","MIGA","Consumer Staples",2014,52700000,2
+"Eastern Africa","MIGA","Consumer Staples",2015,16200000,1
+"Eastern Africa","MIGA","Consumer Staples",2016,11300000,4
+"Eastern Africa","MIGA","Consumer Staples",2017,5475000,1
+"Eastern Africa","MIGA","Consumer Staples",2021,34100000,1
+"Eastern Africa","MIGA","Financials",2011,2e+06,1
+"Eastern Africa","MIGA","Financials",2014,1800000,1
+"Eastern Africa","MIGA","Financials",2015,3.6e+07,1
+"Eastern Africa","MIGA","Financials",2019,412330000,6
+"Eastern Africa","MIGA","Financials",2024,414070000,6
+"Eastern Africa","MIGA","Health Care",2011,7e+05,1
+"Eastern Africa","MIGA","Industrials",2011,13500000,1
+"Eastern Africa","MIGA","Industrials",2012,5900000,1
+"Eastern Africa","MIGA","Industrials",2014,8500000,1
+"Eastern Africa","MIGA","Industrials",2016,8.5e+07,1
+"Eastern Africa","MIGA","Industrials",2017,24300000,1
+"Eastern Africa","MIGA","Industrials",2018,1.5e+08,1
+"Eastern Africa","MIGA","Industrials",2020,211630000,1
+"Eastern Africa","MIGA","Industrials",2021,145800000,1
+"Eastern Africa","MIGA","Industrials",2022,63680000,2
+"Eastern Africa","MIGA","Information Technology",2013,2900000,1
+"Eastern Africa","MIGA","Materials",2011,4e+06,1
+"Eastern Africa","MIGA","Utilities",2011,200800000,2
+"Eastern Africa","MIGA","Utilities",2012,175100000,2
+"Eastern Africa","MIGA","Utilities",2014,143300000,2
+"Eastern Africa","MIGA","Utilities",2015,9970000,1
+"Eastern Africa","MIGA","Utilities",2016,171100000,2
+"Eastern Africa","MIGA","Utilities",2018,276734545.454545,2
+"Eastern Africa","MIGA","Utilities",2019,91880000,2
+"Eastern Africa","MIGA","Utilities",2021,437600000,2
+"Eastern Africa","MIGA","Utilities",2022,29670000,2
+"Eastern Africa","MIGA","Utilities",2023,30800000,2
+"Eastern Africa","OFID","Communication Services",2010,2e+07,1
+"Eastern Africa","OFID","Consumer Discretionary",2011,110000,2
+"Eastern Africa","OFID","Consumer Discretionary",2012,13510000,3
+"Eastern Africa","OFID","Consumer Discretionary",2013,17250000,4
+"Eastern Africa","OFID","Consumer Discretionary",2014,50000,1
+"Eastern Africa","OFID","Consumer Discretionary",2015,34600000,3
+"Eastern Africa","OFID","Consumer Discretionary",2016,110000,2
+"Eastern Africa","OFID","Consumer Discretionary",2017,4770000,6
+"Eastern Africa","OFID","Consumer Discretionary",2018,220000,4
+"Eastern Africa","OFID","Consumer Discretionary",2019,110000,2
+"Eastern Africa","OFID","Consumer Staples",2010,30000,1
+"Eastern Africa","OFID","Consumer Staples",2011,25550000,3
+"Eastern Africa","OFID","Consumer Staples",2012,1e+07,1
+"Eastern Africa","OFID","Consumer Staples",2013,5850000,4
+"Eastern Africa","OFID","Consumer Staples",2014,7500000,2
+"Eastern Africa","OFID","Consumer Staples",2015,0,1
+"Eastern Africa","OFID","Consumer Staples",2016,6e+06,2
+"Eastern Africa","OFID","Consumer Staples",2017,47300000,5
+"Eastern Africa","OFID","Consumer Staples",2018,2.7e+07,2
+"Eastern Africa","OFID","Consumer Staples",2019,5e+07,2
+"Eastern Africa","OFID","Consumer Staples",2020,2e+07,1
+"Eastern Africa","OFID","Consumer Staples",2022,1.5e+07,1
+"Eastern Africa","OFID","Consumer Staples",2023,3.5e+07,2
+"Eastern Africa","OFID","Consumer Staples",2024,73030000,3
+"Eastern Africa","OFID","Energy",2022,3e+07,1
+"Eastern Africa","OFID","Financials",2013,2e+07,2
+"Eastern Africa","OFID","Financials",2014,1e+07,1
+"Eastern Africa","OFID","Financials",2016,2.3e+07,2
+"Eastern Africa","OFID","Financials",2018,2e+07,1
+"Eastern Africa","OFID","Financials",2019,2.5e+07,1
+"Eastern Africa","OFID","Financials",2020,2e+07,1
+"Eastern Africa","OFID","Financials",2023,2.5e+07,1
+"Eastern Africa","OFID","Financials",2024,3030000,1
+"Eastern Africa","OFID","Health Care",2012,8e+06,1
+"Eastern Africa","OFID","Health Care",2013,2e+07,2
+"Eastern Africa","OFID","Health Care",2014,13150000,1
+"Eastern Africa","OFID","Health Care",2016,12800000,2
+"Eastern Africa","OFID","Health Care",2018,6e+05,1
+"Eastern Africa","OFID","Health Care",2021,2e+07,1
+"Eastern Africa","OFID","Industrials",2010,3.2e+07,3
+"Eastern Africa","OFID","Industrials",2011,2.3e+07,3
+"Eastern Africa","OFID","Industrials",2012,1.5e+07,1
+"Eastern Africa","OFID","Industrials",2013,5.9e+07,6
+"Eastern Africa","OFID","Industrials",2014,2.7e+07,2
+"Eastern Africa","OFID","Industrials",2015,6.9e+07,5
+"Eastern Africa","OFID","Industrials",2016,75140000,5
+"Eastern Africa","OFID","Industrials",2017,5.9e+07,3
+"Eastern Africa","OFID","Industrials",2018,78500000,4
+"Eastern Africa","OFID","Industrials",2019,36500000,3
+"Eastern Africa","OFID","Industrials",2021,58350000,3
+"Eastern Africa","OFID","Industrials",2022,7e+07,3
+"Eastern Africa","OFID","Industrials",2023,71300000,3
+"Eastern Africa","OFID","Industrials",2024,36390000,1
+"Eastern Africa","OFID","Materials",2013,1.2e+07,1
+"Eastern Africa","OFID","Public",2011,350000,1
+"Eastern Africa","OFID","Public",2012,21250000,3
+"Eastern Africa","OFID","Public",2013,16350000,1
+"Eastern Africa","OFID","Public",2014,31220000,2
+"Eastern Africa","OFID","Public",2016,7600000,1
+"Eastern Africa","OFID","Public",2024,36390000,1
+"Eastern Africa","OFID","Utilities",2010,5.7e+07,4
+"Eastern Africa","OFID","Utilities",2011,52350000,7
+"Eastern Africa","OFID","Utilities",2012,36290000,6
+"Eastern Africa","OFID","Utilities",2013,21610000,7
+"Eastern Africa","OFID","Utilities",2014,60300000,6
+"Eastern Africa","OFID","Utilities",2015,60350000,5
+"Eastern Africa","OFID","Utilities",2016,20400000,2
+"Eastern Africa","OFID","Utilities",2017,2.1e+07,2
+"Eastern Africa","OFID","Utilities",2018,27500000,3
+"Eastern Africa","OFID","Utilities",2019,5.6e+07,2
+"Eastern Africa","OFID","Utilities",2020,8.5e+07,3
+"Eastern Africa","OFID","Utilities",2021,1.5e+07,1
+"Eastern Africa","OFID","Utilities",2022,66640000,5
+"Eastern Africa","OFID","Utilities",2023,21200000,1
+"Eastern Africa","Proparco","Communication Services",2014,19998000,1
+"Eastern Africa","Proparco","Communication Services",2021,512195.12195122,1
+"Eastern Africa","Proparco","Consumer Discretionary",2015,20165116.2790698,2
+"Eastern Africa","Proparco","Consumer Discretionary",2016,7998640,1
+"Eastern Africa","Proparco","Consumer Discretionary",2021,496638.202247191,1
+"Eastern Africa","Proparco","Consumer Discretionary",2023,10833446.2365591,1
+"Eastern Africa","Proparco","Consumer Staples",2012,22066032.9113924,1
+"Eastern Africa","Proparco","Consumer Staples",2015,14975978.2608696,1
+"Eastern Africa","Proparco","Consumer Staples",2018,6953895.34883721,2
+"Eastern Africa","Proparco","Consumer Staples",2020,28537171.3308913,2
+"Eastern Africa","Proparco","Consumer Staples",2021,12195121.9512195,1
+"Eastern Africa","Proparco","Consumer Staples",2022,32526315.7894737,1
+"Eastern Africa","Proparco","Financials",2014,50977582.4359864,3
+"Eastern Africa","Proparco","Financials",2015,42851975.12213,2
+"Eastern Africa","Proparco","Financials",2016,25517403.7453184,2
+"Eastern Africa","Proparco","Financials",2017,14947534.1176471,2
+"Eastern Africa","Proparco","Financials",2018,115546015.444596,3
+"Eastern Africa","Proparco","Financials",2019,35061500.8610254,4
+"Eastern Africa","Proparco","Financials",2020,174267268.091139,7
+"Eastern Africa","Proparco","Financials",2021,69789225.1568408,10
+"Eastern Africa","Proparco","Financials",2022,20859239982.3987,14
+"Eastern Africa","Proparco","Financials",2023,126106903.26087,2
+"Eastern Africa","Proparco","Health Care",2022,543478.260869565,2
+"Eastern Africa","Proparco","Health Care",2023,13978494.6236559,1
+"Eastern Africa","Proparco","Industrials",2014,11889004.1666667,1
+"Eastern Africa","Proparco","Industrials",2017,27777777.7777778,1
+"Eastern Africa","Proparco","Industrials",2023,543478.260869565,1
+"Eastern Africa","Proparco","Information Technology",2019,477454.022988506,1
+"Eastern Africa","Proparco","Materials",2018,14901204.6511628,1
+"Eastern Africa","Proparco","Real Estate",2012,10763544.3037975,1
+"Eastern Africa","Proparco","Real Estate",2017,11882482.2222222,1
+"Eastern Africa","Proparco","Real Estate",2023,36143397.752809,2
+"Eastern Africa","Proparco","Utilities",2014,69444444.4444444,1
+"Eastern Africa","Proparco","Utilities",2017,90084648.3601198,4
+"Eastern Africa","Proparco","Utilities",2018,57790265.5416903,2
+"Eastern Africa","Proparco","Utilities",2019,20154076.9230769,1
+"Eastern Africa","Proparco","Utilities",2021,10853658.5365854,1
+"Eastern Africa","Proparco","Utilities",2022,9627682.4742268,1
+"Eastern Africa","Proparco","Utilities",2023,10730040.5398949,2
+"Eastern Africa","USEXIM","Energy",2019,5004700000,2
+"Eastern Africa","USEXIM","Industrials",2022,2.81e+08,1
+"Middle Africa","AFDB","Communication Services",2015,41695727.5972222,1
+"Middle Africa","AFDB","Communication Services",2017,908598.214285714,2
+"Middle Africa","AFDB","Communication Services",2022,616438.356164384,1
+"Middle Africa","AFDB","Consumer Discretionary",2014,613043.076923077,1
+"Middle Africa","AFDB","Consumer Discretionary",2016,1388888.88888889,1
+"Middle Africa","AFDB","Consumer Discretionary",2020,11428571.4285714,1
+"Middle Africa","AFDB","Consumer Discretionary",2021,1239617.14285714,1
+"Middle Africa","AFDB","Consumer Staples",2010,7812500,1
+"Middle Africa","AFDB","Consumer Staples",2011,100352813.05514,7
+"Middle Africa","AFDB","Consumer Staples",2012,9440493.84079254,3
+"Middle Africa","AFDB","Consumer Staples",2013,54327498.1148106,2
+"Middle Africa","AFDB","Consumer Staples",2014,1424009.83143813,2
+"Middle Africa","AFDB","Consumer Staples",2015,8450704.22535211,2
+"Middle Africa","AFDB","Consumer Staples",2016,58408378.1933342,5
+"Middle Africa","AFDB","Consumer Staples",2017,4295944.85459227,6
+"Middle Africa","AFDB","Consumer Staples",2018,0,3
+"Middle Africa","AFDB","Consumer Staples",2019,993093.328767123,5
+"Middle Africa","AFDB","Consumer Staples",2021,48026518.7908903,2
+"Middle Africa","AFDB","Consumer Staples",2022,91479613.3648649,4
+"Middle Africa","AFDB","Consumer Staples",2023,260825810.822342,5
+"Middle Africa","AFDB","Energy",2012,2076970.76923077,1
+"Middle Africa","AFDB","Financials",2010,791625.396825397,1
+"Middle Africa","AFDB","Financials",2013,34040,1
+"Middle Africa","AFDB","Financials",2015,126377009.15493,1
+"Middle Africa","AFDB","Financials",2016,121711383.77027,1
+"Middle Africa","AFDB","Financials",2017,0,1
+"Middle Africa","AFDB","Financials",2018,78754924.692029,3
+"Middle Africa","AFDB","Financials",2019,299275380.58086,2
+"Middle Africa","AFDB","Financials",2020,328646252.04071,8
+"Middle Africa","AFDB","Financials",2021,24225352.1126761,2
+"Middle Africa","AFDB","Financials",2022,12496443.8122333,2
+"Middle Africa","AFDB","Financials",2023,657248.648648649,1
+"Middle Africa","AFDB","Financials",2024,15119215.0133333,1
+"Middle Africa","AFDB","Health Care",2012,947699.046153846,1
+"Middle Africa","AFDB","Health Care",2014,1030181.53731343,1
+"Middle Africa","AFDB","Health Care",2017,986601.944444444,1
+"Middle Africa","AFDB","Health Care",2020,109881182.90411,2
+"Middle Africa","AFDB","Industrials",2010,138086682.22308,3
+"Middle Africa","AFDB","Industrials",2011,42527522.1850085,11
+"Middle Africa","AFDB","Industrials",2012,146563030.944289,4
+"Middle Africa","AFDB","Industrials",2013,90728701.3053613,4
+"Middle Africa","AFDB","Industrials",2014,137883665.840873,8
+"Middle Africa","AFDB","Industrials",2015,0,4
+"Middle Africa","AFDB","Industrials",2016,3723481.23268377,3
+"Middle Africa","AFDB","Industrials",2017,1215148.12162162,3
+"Middle Africa","AFDB","Industrials",2018,47052648.75,5
+"Middle Africa","AFDB","Industrials",2019,382577240.218607,8
+"Middle Africa","AFDB","Industrials",2020,13293915.6193101,3
+"Middle Africa","AFDB","Industrials",2021,448446899,6
+"Middle Africa","AFDB","Industrials",2022,42467242.9726027,1
+"Middle Africa","AFDB","Industrials",2023,438762274.675633,6
+"Middle Africa","AFDB","Information Technology",2016,0,1
+"Middle Africa","AFDB","Information Technology",2021,1047720.52112676,1
+"Middle Africa","AFDB","Materials",2011,486725.15625,2
+"Middle Africa","AFDB","Materials",2014,3032720.22058824,1
+"Middle Africa","AFDB","Materials",2016,1665277.77777778,1
+"Middle Africa","AFDB","Public",2010,15173978.84375,2
+"Middle Africa","AFDB","Public",2011,48243073.5043498,7
+"Middle Africa","AFDB","Public",2012,63578834.4885781,7
+"Middle Africa","AFDB","Public",2013,44990509.9370629,7
+"Middle Africa","AFDB","Public",2014,54060836.2185993,4
+"Middle Africa","AFDB","Public",2015,23955207.8293763,3
+"Middle Africa","AFDB","Public",2016,2276661.81690141,2
+"Middle Africa","AFDB","Public",2017,16594594.5945946,2
+"Middle Africa","AFDB","Public",2018,724441.972222222,4
+"Middle Africa","AFDB","Public",2019,166860376.39726,2
+"Middle Africa","AFDB","Public",2020,684931.506849315,2
+"Middle Africa","AFDB","Public",2021,28338028.1690141,2
+"Middle Africa","AFDB","Public",2023,13468234.6666667,1
+"Middle Africa","AFDB","Utilities",2010,231236883.619907,4
+"Middle Africa","AFDB","Utilities",2011,106151153.936508,2
+"Middle Africa","AFDB","Utilities",2012,53839158.7480186,3
+"Middle Africa","AFDB","Utilities",2013,260536325.418144,8
+"Middle Africa","AFDB","Utilities",2014,1142130747.70769,1
+"Middle Africa","AFDB","Utilities",2015,0,2
+"Middle Africa","AFDB","Utilities",2016,131347559.343738,3
+"Middle Africa","AFDB","Utilities",2017,151541676.126157,4
+"Middle Africa","AFDB","Utilities",2018,148896077.60759,5
+"Middle Africa","AFDB","Utilities",2019,523229560.574962,4
+"Middle Africa","AFDB","Utilities",2020,17084942.0849421,2
+"Middle Africa","AFDB","Utilities",2021,182387930.763783,5
+"Middle Africa","AFDB","Utilities",2022,20322779.342723,2
+"Middle Africa","AFDB","Utilities",2023,162628272,2
+"Middle Africa","DFC","Financials",2022,5e+06,1
+"Middle Africa","DFC","Health Care",2017,2e+06,1
+"Middle Africa","DFC","Industrials",2019,5771250,1
+"Middle Africa","DFC","Industrials",2021,2e+06,1
+"Middle Africa","DFC","Industrials",2022,2e+06,1
+"Middle Africa","DFC","Industrials",2023,7.25e+08,1
+"Middle Africa","DFC","Public",2023,7.25e+08,1
+"Middle Africa","DFC","Utilities",2019,1e+07,1
+"Middle Africa","DFC","Utilities",2020,6e+06,1
+"Middle Africa","DFC","Utilities",2023,1e+07,1
+"Middle Africa","EIB","Communication Services",2015,21739130.4347826,1
+"Middle Africa","EIB","Energy",2011,44029850.7462687,1
+"Middle Africa","EIB","Financials",2010,25708635.464733,4
+"Middle Africa","EIB","Financials",2020,17647058.8235294,1
+"Middle Africa","EIB","Industrials",2019,13736263.7362637,1
+"Middle Africa","EIB","Industrials",2020,195274725.274725,3
+"Middle Africa","EIB","Industrials",2021,204086046.511628,2
+"Middle Africa","EIB","Information Technology",2022,36300000,2
+"Middle Africa","EIB","Utilities",2011,88235294.117647,2
+"Middle Africa","EIB","Utilities",2016,13483146.0674157,1
+"Middle Africa","EIB","Utilities",2017,178621462.594564,2
+"Middle Africa","EIB","Utilities",2020,17142857.1428571,1
+"Middle Africa","EIB","Utilities",2022,15384615.3846154,2
+"Middle Africa","FMO","Consumer Staples",2015,16500000,1
+"Middle Africa","FMO","Consumer Staples",2023,10638297.8723404,1
+"Middle Africa","FMO","Consumer Staples",2024,32608.6956521739,1
+"Middle Africa","FMO","Financials",2019,1e+07,2
+"Middle Africa","FMO","Utilities",2014,1e+06,1
+"Middle Africa","FMO","Utilities",2018,37037037.037037,1
+"Middle Africa","FMO","Utilities",2020,588235.294117647,1
+"Middle Africa","FMO","Utilities",2021,3048780.48780488,1
+"Middle Africa","IBRD","Communication Services",2012,5.8e+07,1
+"Middle Africa","IBRD","Communication Services",2019,1840179.46,1
+"Middle Africa","IBRD","Communication Services",2021,1257711.09,2
+"Middle Africa","IBRD","Consumer Discretionary",2021,2.5e+08,1
+"Middle Africa","IBRD","Consumer Discretionary",2023,6.5e+07,1
+"Middle Africa","IBRD","Consumer Staples",2022,3e+08,1
+"Middle Africa","IBRD","Consumer Staples",2024,26956788.81,1
+"Middle Africa","IBRD","Energy",2021,2.5e+08,1
+"Middle Africa","IBRD","Health Care",2016,5.6e+07,1
+"Middle Africa","IBRD","Health Care",2018,1.1e+08,1
+"Middle Africa","IBRD","Health Care",2020,2.1e+07,1
+"Middle Africa","IBRD","Health Care",2021,1.62e+08,2
+"Middle Africa","IBRD","Industrials",2010,0,1
+"Middle Africa","IBRD","Industrials",2015,6.5e+08,2
+"Middle Africa","IBRD","Industrials",2016,4.24e+08,4
+"Middle Africa","IBRD","Industrials",2017,3.2e+08,3
+"Middle Africa","IBRD","Industrials",2018,5e+07,2
+"Middle Africa","IBRD","Industrials",2019,39153130.37,1
+"Middle Africa","IBRD","Industrials",2022,262300000,2
+"Middle Africa","IBRD","Industrials",2023,503643829.84,5
+"Middle Africa","IBRD","Information Technology",2016,2.3e+07,1
+"Middle Africa","IBRD","Information Technology",2021,68500000,1
+"Middle Africa","IBRD","Information Technology",2022,1e+08,1
+"Middle Africa","IBRD","Public",2010,0,1
+"Middle Africa","IBRD","Public",2014,1.8e+07,1
+"Middle Africa","IBRD","Public",2019,2.1e+08,2
+"Middle Africa","IBRD","Public",2020,11876.04,1
+"Middle Africa","IBRD","Public",2022,2.5e+08,1
+"Middle Africa","IBRD","Public",2023,240607.68,1
+"Middle Africa","IBRD","Utilities",2015,6e+07,1
+"Middle Africa","IBRD","Utilities",2016,3.25e+08,1
+"Middle Africa","IBRD","Utilities",2017,2e+08,1
+"Middle Africa","IBRD","Utilities",2018,4.5e+08,2
+"Middle Africa","IBRD","Utilities",2019,5e+08,1
+"Middle Africa","IBRD","Utilities",2022,8e+08,2
+"Middle Africa","IDA","Communication Services",2011,29900000,2
+"Middle Africa","IDA","Communication Services",2012,0,1
+"Middle Africa","IDA","Communication Services",2015,793.74,1
+"Middle Africa","IDA","Communication Services",2020,32912.39,1
+"Middle Africa","IDA","Communication Services",2022,21029738.31,2
+"Middle Africa","IDA","Consumer Discretionary",2010,685899.55,2
+"Middle Africa","IDA","Consumer Discretionary",2012,2676472.84,1
+"Middle Africa","IDA","Consumer Discretionary",2013,98774453.59,7
+"Middle Africa","IDA","Consumer Discretionary",2014,3929058.8,2
+"Middle Africa","IDA","Consumer Discretionary",2015,200140741.59,2
+"Middle Africa","IDA","Consumer Discretionary",2016,3e+07,2
+"Middle Africa","IDA","Consumer Discretionary",2017,5e+07,1
+"Middle Africa","IDA","Consumer Discretionary",2018,155105450.25,3
+"Middle Africa","IDA","Consumer Discretionary",2019,5e+07,1
+"Middle Africa","IDA","Consumer Discretionary",2020,200018481.39,5
+"Middle Africa","IDA","Consumer Discretionary",2021,27000000.57,3
+"Middle Africa","IDA","Consumer Discretionary",2022,156944913.55,3
+"Middle Africa","IDA","Consumer Discretionary",2023,401302642.93,4
+"Middle Africa","IDA","Consumer Staples",2010,124235953.51,4
+"Middle Africa","IDA","Consumer Staples",2011,23800000,1
+"Middle Africa","IDA","Consumer Staples",2012,2.5e+07,1
+"Middle Africa","IDA","Consumer Staples",2013,8453060,1
+"Middle Africa","IDA","Consumer Staples",2014,177726280.09,8
+"Middle Africa","IDA","Consumer Staples",2015,-1368715.59,4
+"Middle Africa","IDA","Consumer Staples",2016,250075869.28,4
+"Middle Africa","IDA","Consumer Staples",2017,234009229.16,9
+"Middle Africa","IDA","Consumer Staples",2018,43576196.93,2
+"Middle Africa","IDA","Consumer Staples",2019,4.92e+08,1
+"Middle Africa","IDA","Consumer Staples",2020,120955.25,1
+"Middle Africa","IDA","Consumer Staples",2021,720001255,4
+"Middle Africa","IDA","Consumer Staples",2022,210000955.45,5
+"Middle Africa","IDA","Consumer Staples",2023,55724474.95,4
+"Middle Africa","IDA","Energy",2011,8.2e+07,1
+"Middle Africa","IDA","Energy",2017,2752910.81,1
+"Middle Africa","IDA","Energy",2018,5398361.06,2
+"Middle Africa","IDA","Energy",2019,5165285.98,2
+"Middle Africa","IDA","Energy",2020,5258006.91,2
+"Middle Africa","IDA","Energy",2021,5475961.3,2
+"Middle Africa","IDA","Energy",2022,299833347.18,3
+"Middle Africa","IDA","Energy",2023,15004786.04,2
+"Middle Africa","IDA","Energy",2024,5999999.99,1
+"Middle Africa","IDA","Financials",2014,3e+07,1
+"Middle Africa","IDA","Financials",2015,1e+07,1
+"Middle Africa","IDA","Financials",2018,2.78e+08,6
+"Middle Africa","IDA","Financials",2020,1e+08,1
+"Middle Africa","IDA","Financials",2021,300714925.76,4
+"Middle Africa","IDA","Financials",2022,6.18e+08,5
+"Middle Africa","IDA","Financials",2023,16435725.25,4
+"Middle Africa","IDA","Health Care",2010,170800000,3
+"Middle Africa","IDA","Health Care",2011,30397226,2
+"Middle Africa","IDA","Health Care",2012,96683125.34,5
+"Middle Africa","IDA","Health Care",2013,14753435.36,7
+"Middle Africa","IDA","Health Care",2014,515067392.08,11
+"Middle Africa","IDA","Health Care",2015,12156461.02,3
+"Middle Africa","IDA","Health Care",2016,1.36e+08,2
+"Middle Africa","IDA","Health Care",2017,120037902.73,2
+"Middle Africa","IDA","Health Care",2018,7.9e+07,3
+"Middle Africa","IDA","Health Care",2019,221270660.09,4
+"Middle Africa","IDA","Health Care",2020,420325164.7,15
+"Middle Africa","IDA","Health Care",2021,424877342.57,12
+"Middle Africa","IDA","Health Care",2022,373821104,6
+"Middle Africa","IDA","Health Care",2023,21134712.89,2
+"Middle Africa","IDA","Health Care",2024,2.5e+08,1
+"Middle Africa","IDA","Industrials",2010,287768264.13,4
+"Middle Africa","IDA","Industrials",2012,16171718.86,1
+"Middle Africa","IDA","Industrials",2013,400044729.62,5
+"Middle Africa","IDA","Industrials",2014,85800000,2
+"Middle Africa","IDA","Industrials",2015,123381103.74,5
+"Middle Africa","IDA","Industrials",2016,1.25e+08,2
+"Middle Africa","IDA","Industrials",2017,100936672.39,6
+"Middle Africa","IDA","Industrials",2018,115354738.23,6
+"Middle Africa","IDA","Industrials",2019,62885561.56,3
+"Middle Africa","IDA","Industrials",2020,242984595.26,9
+"Middle Africa","IDA","Industrials",2021,654259230.7,9
+"Middle Africa","IDA","Industrials",2022,771103191.03,11
+"Middle Africa","IDA","Industrials",2023,956553319.67,6
+"Middle Africa","IDA","Industrials",2024,174167214.72,3
+"Middle Africa","IDA","Information Technology",2014,92100000,1
+"Middle Africa","IDA","Information Technology",2015,4.5e+07,1
+"Middle Africa","IDA","Information Technology",2017,5e+06,1
+"Middle Africa","IDA","Information Technology",2020,36378820.26,1
+"Middle Africa","IDA","Information Technology",2021,1.2e+08,3
+"Middle Africa","IDA","Information Technology",2022,5e+08,2
+"Middle Africa","IDA","Information Technology",2023,15605503.9,2
+"Middle Africa","IDA","Materials",2010,5e+07,1
+"Middle Africa","IDA","Materials",2011,3e+07,1
+"Middle Africa","IDA","Materials",2017,28116469.12,2
+"Middle Africa","IDA","Materials",2018,2e+08,1
+"Middle Africa","IDA","Materials",2020,192393853.9,2
+"Middle Africa","IDA","Materials",2022,9322802.55,3
+"Middle Africa","IDA","Public",2010,185898679.63,8
+"Middle Africa","IDA","Public",2011,114870530.92,13
+"Middle Africa","IDA","Public",2012,21883383.11,9
+"Middle Africa","IDA","Public",2013,200580264.04,10
+"Middle Africa","IDA","Public",2014,72353044.44,10
+"Middle Africa","IDA","Public",2015,164824657.58,13
+"Middle Africa","IDA","Public",2016,85271279.78,7
+"Middle Africa","IDA","Public",2017,179053319.86,17
+"Middle Africa","IDA","Public",2018,76129486.07,5
+"Middle Africa","IDA","Public",2019,366899.4,3
+"Middle Africa","IDA","Public",2020,151322412.07,8
+"Middle Africa","IDA","Public",2022,66356325.45,7
+"Middle Africa","IDA","Public",2024,630011.16,1
+"Middle Africa","IDA","Utilities",2010,80200000,4
+"Middle Africa","IDA","Utilities",2011,176864103.61,3
+"Middle Africa","IDA","Utilities",2012,1.32e+08,1
+"Middle Africa","IDA","Utilities",2013,1.23e+08,2
+"Middle Africa","IDA","Utilities",2014,104899999.94,4
+"Middle Africa","IDA","Utilities",2015,0,1
+"Middle Africa","IDA","Utilities",2016,257858421.91,5
+"Middle Africa","IDA","Utilities",2017,182705824.85,7
+"Middle Africa","IDA","Utilities",2018,172404339.39,4
+"Middle Africa","IDA","Utilities",2019,1.65e+08,3
+"Middle Africa","IDA","Utilities",2020,220683058.8,10
+"Middle Africa","IDA","Utilities",2021,42417437.75,3
+"Middle Africa","IDA","Utilities",2022,688359592.23,3
+"Middle Africa","IDA","Utilities",2023,468000000.28,3
+"Middle Africa","IFC","Consumer Staples",2015,4270000,1
+"Middle Africa","IFC","Consumer Staples",2016,844519,1
+"Middle Africa","IFC","Consumer Staples",2023,153150000,2
+"Middle Africa","IFC","Consumer Staples",2024,1e+07,1
+"Middle Africa","IFC","Energy",2022,26740000,1
+"Middle Africa","IFC","Financials",2015,7113287,3
+"Middle Africa","IFC","Financials",2017,1564610,2
+"Middle Africa","IFC","Financials",2018,2646315,2
+"Middle Africa","IFC","Financials",2019,51004913,3
+"Middle Africa","IFC","Financials",2020,1245000,1
+"Middle Africa","IFC","Financials",2021,50750000,2
+"Middle Africa","IFC","Financials",2022,69428000,7
+"Middle Africa","IFC","Financials",2023,23433819,6
+"Middle Africa","IFC","Health Care",2015,1380000,1
+"Middle Africa","IFC","Health Care",2022,23500000,1
+"Middle Africa","IFC","Health Care",2024,4250000,1
+"Middle Africa","IFC","Industrials",2015,72180000,2
+"Middle Africa","IFC","Industrials",2020,4562709,2
+"Middle Africa","IFC","Industrials",2021,0,1
+"Middle Africa","IFC","Industrials",2022,47000,1
+"Middle Africa","IFC","Industrials",2023,40752688.172043,2
+"Middle Africa","IFC","Materials",2015,40500000,1
+"Middle Africa","IFC","Public",2017,6e+05,1
+"Middle Africa","IFC","Real Estate",2015,28800000,1
+"Middle Africa","IFC","Utilities",2017,1.2e+07,1
+"Middle Africa","IFC","Utilities",2019,620760,2
+"Middle Africa","IFC","Utilities",2020,8500000,1
+"Middle Africa","IFC","Utilities",2021,1e+06,1
+"Middle Africa","IFC","Utilities",2022,560000,3
+"Middle Africa","IFC","Utilities",2023,5e+06,1
+"Middle Africa","IFC","Utilities",2024,1868402,2
+"Middle Africa","KFW","Consumer Discretionary",2023,18681318.6813187,1
+"Middle Africa","KFW","Consumer Staples",2023,109522312.470139,5
+"Middle Africa","KFW","Financials",2023,30789010.989011,3
+"Middle Africa","KFW","Health Care",2023,68131868.1318681,5
+"Middle Africa","KFW","Industrials",2023,238161872.909699,18
+"Middle Africa","KFW","Industrials",2024,16304347.826087,1
+"Middle Africa","KFW","Public",2023,190769230.769231,14
+"Middle Africa","KFW","Public",2024,5434782.60869565,1
+"Middle Africa","KFW","Utilities",2023,212087912.087912,9
+"Middle Africa","KFW","Utilities",2024,11956521.7391304,1
+"Middle Africa","MIGA","Communication Services",2012,6500000,1
+"Middle Africa","MIGA","Communication Services",2013,94600000,1
+"Middle Africa","MIGA","Communication Services",2015,30200000,1
+"Middle Africa","MIGA","Consumer Discretionary",2016,74700000,1
+"Middle Africa","MIGA","Consumer Discretionary",2021,78900000,1
+"Middle Africa","MIGA","Consumer Staples",2011,2300000,1
+"Middle Africa","MIGA","Financials",2010,8700000,2
+"Middle Africa","MIGA","Financials",2015,40500000,1
+"Middle Africa","MIGA","Health Care",2013,7500000,1
+"Middle Africa","MIGA","Industrials",2010,1.68e+08,1
+"Middle Africa","MIGA","Industrials",2011,5600000,1
+"Middle Africa","MIGA","Industrials",2023,6.1e+07,1
+"Middle Africa","MIGA","Industrials",2024,72580645.1612903,1
+"Middle Africa","MIGA","Information Technology",2011,11100000,1
+"Middle Africa","MIGA","Materials",2013,8e+08,1
+"Middle Africa","MIGA","Materials",2015,7e+07,1
+"Middle Africa","MIGA","Utilities",2013,562700000,1
+"Middle Africa","MIGA","Utilities",2014,289700000,3
+"Middle Africa","MIGA","Utilities",2015,50400000,1
+"Middle Africa","MIGA","Utilities",2018,193529411.764706,1
+"Middle Africa","MIGA","Utilities",2019,2900000,1
+"Middle Africa","MIGA","Utilities",2020,16250000,1
+"Middle Africa","MIGA","Utilities",2021,80419047.6190476,2
+"Middle Africa","OFID","Consumer Discretionary",2013,1e+05,1
+"Middle Africa","OFID","Consumer Discretionary",2014,250000,1
+"Middle Africa","OFID","Consumer Discretionary",2015,6e+06,1
+"Middle Africa","OFID","Consumer Discretionary",2018,40000,1
+"Middle Africa","OFID","Consumer Discretionary",2022,1.1e+07,1
+"Middle Africa","OFID","Consumer Staples",2010,1200000,1
+"Middle Africa","OFID","Consumer Staples",2011,0,1
+"Middle Africa","OFID","Consumer Staples",2012,5e+06,1
+"Middle Africa","OFID","Consumer Staples",2014,1e+07,1
+"Middle Africa","OFID","Consumer Staples",2015,21710000,1
+"Middle Africa","OFID","Consumer Staples",2016,7700000,2
+"Middle Africa","OFID","Consumer Staples",2018,24970000,1
+"Middle Africa","OFID","Consumer Staples",2019,1.5e+07,1
+"Middle Africa","OFID","Consumer Staples",2020,32570000,2
+"Middle Africa","OFID","Consumer Staples",2021,96660000,5
+"Middle Africa","OFID","Consumer Staples",2024,2.5e+07,1
+"Middle Africa","OFID","Financials",2016,24970000,1
+"Middle Africa","OFID","Health Care",2010,6e+06,1
+"Middle Africa","OFID","Health Care",2012,5e+06,1
+"Middle Africa","OFID","Health Care",2013,6e+05,1
+"Middle Africa","OFID","Industrials",2010,22500000,1
+"Middle Africa","OFID","Industrials",2011,1e+07,1
+"Middle Africa","OFID","Industrials",2012,2e+07,2
+"Middle Africa","OFID","Industrials",2014,1.8e+07,1
+"Middle Africa","OFID","Public",2014,7e+06,1
+"Middle Africa","OFID","Utilities",2011,10200000,3
+"Middle Africa","OFID","Utilities",2013,2e+05,1
+"Middle Africa","OFID","Utilities",2014,3490000,2
+"Middle Africa","OFID","Utilities",2016,1.3e+07,1
+"Middle Africa","OFID","Utilities",2018,54280000,1
+"Middle Africa","OFID","Utilities",2019,3e+07,1
+"Middle Africa","Proparco","Consumer Staples",2023,434782.608695652,1
+"Middle Africa","Proparco","Financials",2016,358247.727272727,1
+"Middle Africa","Proparco","Financials",2017,3571426.19047619,1
+"Middle Africa","Proparco","Financials",2020,22572181.1176628,2
+"Middle Africa","Proparco","Financials",2021,13115476.5285277,4
+"Middle Africa","Proparco","Financials",2022,42882765.0781351,6
+"Middle Africa","Proparco","Financials",2023,10752688.172043,1
+"Middle Africa","Proparco","Financials",2024,21739130.4347826,1
+"Middle Africa","Proparco","Industrials",2016,36111111.1111111,1
+"Middle Africa","Proparco","Industrials",2018,20753086.4197531,1
+"Middle Africa","Proparco","Industrials",2020,80635280.7714124,2
+"Middle Africa","Proparco","Industrials",2021,121951.219512195,1
+"Middle Africa","Proparco","Utilities",2018,68181818.1818182,1
+"Middle Africa","Proparco","Utilities",2021,28818455.6407448,3
+"Middle Africa","Proparco","Utilities",2022,28977.2727272727,1
+"Middle Africa","Proparco","Utilities",2023,2173913.04347826,2
+"Middle Africa","USEXIM","Industrials",2022,7.4e+07,1
+"Middle Africa","USEXIM","Industrials",2023,3.63e+08,1
+"Middle Africa","USEXIM","Utilities",2023,9e+08,1
+"N/A","AFDB","Communication Services",2016,8777777.77777778,2
+"N/A","AFDB","Communication Services",2022,10436284.6379108,2
+"N/A","AFDB","Consumer Discretionary",2011,15496442.191067,2
+"N/A","AFDB","Consumer Discretionary",2014,387308.176470588,1
+"N/A","AFDB","Consumer Staples",2011,790129.075757576,1
+"N/A","AFDB","Consumer Staples",2012,61384615.3846154,1
+"N/A","AFDB","Consumer Staples",2014,14925373.1343284,1
+"N/A","AFDB","Consumer Staples",2017,41428571.4285714,1
+"N/A","AFDB","Consumer Staples",2021,188773912.464789,3
+"N/A","AFDB","Consumer Staples",2022,5556627.43584796,2
+"N/A","AFDB","Financials",2010,2084477.75384615,2
+"N/A","AFDB","Financials",2011,845064.03003663,3
+"N/A","AFDB","Financials",2013,1023767.03030303,1
+"N/A","AFDB","Financials",2014,254099911.802036,2
+"N/A","AFDB","Financials",2015,7e+06,1
+"N/A","AFDB","Financials",2016,44327311.9864865,1
+"N/A","AFDB","Financials",2017,77982122.1267606,1
+"N/A","AFDB","Financials",2018,82659547.8115942,1
+"N/A","AFDB","Financials",2019,255186199.111111,2
+"N/A","AFDB","Financials",2020,104184768.767123,2
+"N/A","AFDB","Financials",2022,105711765.239437,2
+"N/A","AFDB","Health Care",2020,0,2
+"N/A","AFDB","Health Care",2022,10563380.2816901,2
+"N/A","AFDB","Industrials",2010,10814582.0564381,3
+"N/A","AFDB","Industrials",2011,2323486.07692308,1
+"N/A","AFDB","Industrials",2012,30769230.7692308,1
+"N/A","AFDB","Industrials",2014,14705882.3529412,1
+"N/A","AFDB","Industrials",2016,3760563.38028169,1
+"N/A","AFDB","Industrials",2017,2698445.08108108,1
+"N/A","AFDB","Industrials",2018,1449275.36231884,1
+"N/A","AFDB","Industrials",2019,0,1
+"N/A","AFDB","Industrials",2020,6849315.06849315,1
+"N/A","AFDB","Industrials",2021,7042253.52112676,1
+"N/A","AFDB","Industrials",2022,6666666.66666667,1
+"N/A","AFDB","Industrials",2023,19414414.4144144,3
+"N/A","AFDB","Materials",2012,1093395.90909091,1
+"N/A","AFDB","Materials",2022,27432432.4324324,1
+"N/A","AFDB","Public",2010,1194098560.9613,6
+"N/A","AFDB","Public",2011,45016.8463942308,2
+"N/A","AFDB","Public",2013,1027076923.07692,2
+"N/A","AFDB","Public",2014,6768726.62112514,4
+"N/A","AFDB","Public",2015,7042253.52112676,1
+"N/A","AFDB","Public",2016,4208450.70422535,2
+"N/A","AFDB","Public",2018,0,1
+"N/A","AFDB","Public",2020,2004760.69863014,1
+"N/A","AFDB","Public",2022,19882629.1079812,3
+"N/A","AFDB","Utilities",2012,804804.676923077,1
+"N/A","AFDB","Utilities",2013,2989625.98554779,2
+"N/A","AFDB","Utilities",2015,0,1
+"N/A","AFDB","Utilities",2016,51520749.4003604,3
+"N/A","AFDB","Utilities",2018,20848709.2638889,1
+"N/A","AFDB","Utilities",2019,30844665.7534247,1
+"N/A","AFDB","Utilities",2020,7878525.29941292,2
+"N/A","AFDB","Utilities",2021,10542857.1428571,4
+"N/A","AFDB","Utilities",2022,1958904.10958904,1
+"N/A","AFDB","Utilities",2023,9977777.5,1
+"N/A","BOAD","Consumer Staples",2017,16059613.2845121,1
+"N/A","BOAD","Financials",2013,2599152.1058679,1
+"N/A","BOAD","Financials",2016,19795447.0471791,2
+"N/A","BOAD","Financials",2018,24409063.3098586,4
+"N/A","BOAD","Financials",2019,1397292.09645823,1
+"N/A","BOAD","Financials",2023,3782316.48488218,1
+"N/A","BOAD","Real Estate",2013,10360332.3594621,1
+"N/A","BOAD","Utilities",2013,10360332.3594621,1
+"N/A","DFC","Financials",2011,3999124,1
+"N/A","DFC","Financials",2013,5e+07,1
+"N/A","DFC","Financials",2016,8309010,2
+"N/A","DFC","Financials",2017,8e+07,2
+"N/A","DFC","Financials",2018,1.05e+08,2
+"N/A","DFC","Financials",2019,5e+07,1
+"N/A","DFC","Financials",2020,2.5e+08,1
+"N/A","DFC","Financials",2022,1.9e+08,6
+"N/A","DFC","Financials",2023,206086250,9
+"N/A","DFC","Health Care",2020,1350000,1
+"N/A","DFC","Materials",2023,2.4e+07,1
+"N/A","DFC","Utilities",2022,4e+07,2
+"N/A","EBRD","Financials",2012,25974025.974026,1
+"N/A","EIB","Communication Services",2015,1685393.25842697,1
+"N/A","EIB","Consumer Discretionary",2015,1685393.25842697,1
+"N/A","EIB","Consumer Discretionary",2023,6793478.26086957,1
+"N/A","EIB","Consumer Staples",2016,19275956.1797753,1
+"N/A","EIB","Consumer Staples",2018,30097817.9135802,1
+"N/A","EIB","Energy",2015,13483146.0674157,1
+"N/A","EIB","Financials",2010,93909430.1369863,2
+"N/A","EIB","Financials",2011,20270270.2702703,1
+"N/A","EIB","Financials",2012,25330923.6842105,1
+"N/A","EIB","Financials",2013,13333333.3333333,1
+"N/A","EIB","Financials",2015,65235332.9771162,3
+"N/A","EIB","Financials",2016,56179775.2808989,1
+"N/A","EIB","Financials",2017,189872318.912969,6
+"N/A","EIB","Financials",2018,299484816.507608,2
+"N/A","EIB","Financials",2019,51667795.5168539,1
+"N/A","EIB","Financials",2020,62605959.4694678,2
+"N/A","EIB","Financials",2021,22058823.5294118,2
+"N/A","EIB","Financials",2022,301014362.074043,3
+"N/A","EIB","Financials",2023,80654759.8093495,4
+"N/A","EIB","Financials",2024,25424694.5652174,1
+"N/A","EIB","Health Care",2015,3370786.51685393,1
+"N/A","EIB","Health Care",2017,4572072.31914894,2
+"N/A","EIB","Health Care",2020,58823529.4117647,1
+"N/A","EIB","Health Care",2023,6793478.26086957,1
+"N/A","EIB","Health Care",2024,143478260.869565,2
+"N/A","EIB","Industrials",2011,115942028.985507,2
+"N/A","EIB","Industrials",2015,11224719.1011236,3
+"N/A","EIB","Industrials",2021,882352.941176471,1
+"N/A","EIB","Utilities",2013,4150684.93150685,1
+"N/A","EIB","Utilities",2014,57600000,1
+"N/A","EIB","Utilities",2015,13622063.3299285,2
+"N/A","EIB","Utilities",2017,36211828.8352941,1
+"N/A","EIB","Utilities",2018,87209302.3255814,1
+"N/A","EIB","Utilities",2019,5617977.52808989,1
+"N/A","EIB","Utilities",2020,10456149.5238095,1
+"N/A","EIB","Utilities",2021,71428571.4285714,1
+"N/A","EIB","Utilities",2022,55159775.3157895,1
+"N/A","EIB","Utilities",2023,17204301.0752688,2
+"N/A","EIB","Utilities",2024,5e+07,1
+"N/A","FMO","Consumer Staples",2013,2e+07,1
+"N/A","FMO","Consumer Staples",2018,127506.014434643,3
+"N/A","FMO","Consumer Staples",2019,3.3e+07,3
+"N/A","FMO","Consumer Staples",2023,205246.366536689,2
+"N/A","FMO","Consumer Staples",2024,1e+08,1
+"N/A","FMO","Financials",2010,7530000,1
+"N/A","FMO","Financials",2012,20448051.9480519,3
+"N/A","FMO","Financials",2013,2e+07,1
+"N/A","FMO","Financials",2014,67051282.051282,2
+"N/A","FMO","Financials",2015,2.4e+07,1
+"N/A","FMO","Financials",2016,10989010.989011,1
+"N/A","FMO","Financials",2017,28847058.8235294,4
+"N/A","FMO","Financials",2019,22556179.7752809,5
+"N/A","FMO","Financials",2020,30595238.0952381,3
+"N/A","FMO","Financials",2021,54217227.4746419,7
+"N/A","FMO","Financials",2022,122977411.95007,5
+"N/A","FMO","Financials",2023,54361721.2816304,9
+"N/A","FMO","Financials",2024,7e+07,2
+"N/A","FMO","Industrials",2023,31914.8936170213,1
+"N/A","FMO","Information Technology",2024,43478.2608695652,1
+"N/A","FMO","Public",2019,280898.876404494,1
+"N/A","FMO","Public",2020,609756.097560976,1
+"N/A","FMO","Public",2021,561797.752808989,1
+"N/A","FMO","Utilities",2016,66666.6666666667,1
+"N/A","FMO","Utilities",2017,32833241.7817165,6
+"N/A","FMO","Utilities",2019,16931818.1818182,3
+"N/A","FMO","Utilities",2020,11764705.8823529,1
+"N/A","FMO","Utilities",2021,9638554.21686747,1
+"N/A","FMO","Utilities",2022,204081.632653061,1
+"N/A","FMO","Utilities",2023,48369565.2173913,5
+"N/A","IBRD","Industrials",2016,19900000,1
+"N/A","IDA","Consumer Staples",2016,254943.13,4
+"N/A","IDA","Health Care",2010,18096.34,1
+"N/A","IDA","Health Care",2011,28555195.55,3
+"N/A","IDA","Health Care",2012,15441225.57,2
+"N/A","IDA","Health Care",2013,878217.61,1
+"N/A","IDA","Health Care",2015,5e+07,1
+"N/A","IDA","Industrials",2016,8154185.46,5
+"N/A","IDA","Public",2012,1.5e+07,1
+"N/A","IDA","Public",2013,6.5e+07,1
+"N/A","IDA","Public",2020,2622.76,1
+"N/A","IDA","Utilities",2012,6e+07,1
+"N/A","IDA","Utilities",2019,2182570.98,3
+"N/A","IFC","Communication Services",2020,2e+07,1
+"N/A","IFC","Communication Services",2021,1.74e+08,2
+"N/A","IFC","Communication Services",2022,6e+07,1
+"N/A","IFC","Communication Services",2023,18040000,2
+"N/A","IFC","Consumer Discretionary",2021,1e+08,1
+"N/A","IFC","Consumer Discretionary",2023,1.4e+07,1
+"N/A","IFC","Consumer Staples",2014,1970000,1
+"N/A","IFC","Consumer Staples",2015,4416925,3
+"N/A","IFC","Consumer Staples",2019,2.5e+07,1
+"N/A","IFC","Consumer Staples",2020,1e+07,1
+"N/A","IFC","Consumer Staples",2021,58320000,3
+"N/A","IFC","Consumer Staples",2022,9e+07,2
+"N/A","IFC","Consumer Staples",2023,7200000,1
+"N/A","IFC","Consumer Staples",2024,1,1
+"N/A","IFC","Energy",2023,4e+07,1
+"N/A","IFC","Financials",2012,4994746,1
+"N/A","IFC","Financials",2014,15846000,2
+"N/A","IFC","Financials",2015,22100000,2
+"N/A","IFC","Financials",2016,42290000,2
+"N/A","IFC","Financials",2017,309083088,4
+"N/A","IFC","Financials",2018,3.15e+08,4
+"N/A","IFC","Financials",2019,70095000,5
+"N/A","IFC","Financials",2020,8.5e+07,2
+"N/A","IFC","Financials",2021,158415000,8
+"N/A","IFC","Financials",2022,1e+08,1
+"N/A","IFC","Financials",2023,165500000,8
+"N/A","IFC","Financials",2024,173790322.580645,2
+"N/A","IFC","Health Care",2014,1776944,2
+"N/A","IFC","Health Care",2015,6750000,1
+"N/A","IFC","Health Care",2019,16175000,2
+"N/A","IFC","Health Care",2020,750000,1
+"N/A","IFC","Health Care",2021,150000,1
+"N/A","IFC","Health Care",2022,22580000,2
+"N/A","IFC","Health Care",2023,76880000,1
+"N/A","IFC","Industrials",2014,15769872,3
+"N/A","IFC","Industrials",2015,4398776,2
+"N/A","IFC","Industrials",2016,650000,1
+"N/A","IFC","Industrials",2021,3100000,1
+"N/A","IFC","Industrials",2022,72900000,1
+"N/A","IFC","Industrials",2024,937500,1
+"N/A","IFC","Information Technology",2021,9e+07,1
+"N/A","IFC","Information Technology",2024,1e+08,1
+"N/A","IFC","Materials",2021,1e+08,1
+"N/A","IFC","Materials",2023,108530000,1
+"N/A","IFC","Public",2014,1744000,3
+"N/A","IFC","Public",2016,2516603,1
+"N/A","IFC","Public",2020,2001780,1
+"N/A","IFC","Real Estate",2015,40500000,1
+"N/A","IFC","Real Estate",2023,17500000,1
+"N/A","IFC","Utilities",2015,2.5e+07,1
+"N/A","IFC","Utilities",2016,50900000,2
+"N/A","IFC","Utilities",2021,0,1
+"N/A","IFC","Utilities",2023,139300000,3
+"N/A","KFW","Consumer Discretionary",2023,118681318.681319,5
+"N/A","KFW","Consumer Staples",2023,144230769.230769,5
+"N/A","KFW","Financials",2023,860031868.131868,32
+"N/A","KFW","Health Care",2023,13428571.4285714,1
+"N/A","KFW","Industrials",2023,27472527.4725275,1
+"N/A","KFW","Public",2023,124725274.725275,6
+"N/A","KFW","Utilities",2023,80109890.1098901,5
+"N/A","OFID","Communication Services",2013,32570000,1
+"N/A","OFID","Consumer Discretionary",2015,5e+06,1
+"N/A","OFID","Consumer Staples",2011,20000,1
+"N/A","OFID","Consumer Staples",2017,3.2e+07,3
+"N/A","OFID","Financials",2010,60400000,3
+"N/A","OFID","Financials",2011,3.5e+07,2
+"N/A","OFID","Financials",2012,96710000,3
+"N/A","OFID","Financials",2013,6e+07,1
+"N/A","OFID","Financials",2014,5e+06,1
+"N/A","OFID","Financials",2015,1.5e+07,1
+"N/A","OFID","Financials",2016,1.8e+07,1
+"N/A","OFID","Financials",2017,8e+07,2
+"N/A","OFID","Financials",2020,5e+07,1
+"N/A","OFID","Financials",2021,8e+07,1
+"N/A","OFID","Financials",2022,134540000,3
+"N/A","OFID","Financials",2023,2e+07,1
+"N/A","OFID","Materials",2017,8e+06,1
+"N/A","OFID","Utilities",2012,10000,1
+"N/A","OFID","Utilities",2018,70000,1
+"N/A","Proparco","Financials",2017,2.5e+07,1
+"N/A","Proparco","Financials",2019,35046647.1910112,1
+"N/A","Proparco","Financials",2021,53461774.7872944,2
+"Northern Africa","AFDB","Communication Services",2013,1633422.16666667,1
+"Northern Africa","AFDB","Consumer Discretionary",2011,735009.375,1
+"Northern Africa","AFDB","Consumer Discretionary",2012,176211.446153846,1
+"Northern Africa","AFDB","Consumer Discretionary",2013,1191692.30769231,1
+"Northern Africa","AFDB","Consumer Discretionary",2015,0,1
+"Northern Africa","AFDB","Consumer Discretionary",2017,0,1
+"Northern Africa","AFDB","Consumer Discretionary",2018,1000460.20833333,1
+"Northern Africa","AFDB","Consumer Discretionary",2024,128054254.026316,1
+"Northern Africa","AFDB","Consumer Staples",2011,772187.5,1
+"Northern Africa","AFDB","Consumer Staples",2012,130908259.586247,4
+"Northern Africa","AFDB","Consumer Staples",2013,28770754.1076923,2
+"Northern Africa","AFDB","Consumer Staples",2015,140568205.681925,4
+"Northern Africa","AFDB","Consumer Staples",2016,0,2
+"Northern Africa","AFDB","Consumer Staples",2017,0,1
+"Northern Africa","AFDB","Consumer Staples",2018,312480433.999206,4
+"Northern Africa","AFDB","Consumer Staples",2019,63324645.1944444,2
+"Northern Africa","AFDB","Consumer Staples",2020,144592684.517884,4
+"Northern Africa","AFDB","Consumer Staples",2021,160317856.594086,5
+"Northern Africa","AFDB","Consumer Staples",2022,463048795.670144,6
+"Northern Africa","AFDB","Consumer Staples",2023,174417867.386667,4
+"Northern Africa","AFDB","Consumer Staples",2024,89637977.8157895,1
+"Northern Africa","AFDB","Energy",2010,489048918.630769,3
+"Northern Africa","AFDB","Energy",2014,85489083.0461538,1
+"Northern Africa","AFDB","Energy",2015,0,1
+"Northern Africa","AFDB","Financials",2010,956943.75,2
+"Northern Africa","AFDB","Financials",2011,328708186.065724,4
+"Northern Africa","AFDB","Financials",2012,1136363.63636364,1
+"Northern Africa","AFDB","Financials",2013,1220135.3880597,2
+"Northern Africa","AFDB","Financials",2014,120114060.313433,1
+"Northern Africa","AFDB","Financials",2015,1255767.6056338,1
+"Northern Africa","AFDB","Financials",2016,530151178.604642,4
+"Northern Africa","AFDB","Financials",2017,520416.38028169,1
+"Northern Africa","AFDB","Financials",2018,112685972.704225,2
+"Northern Africa","AFDB","Financials",2019,581555530.527587,8
+"Northern Africa","AFDB","Financials",2020,484563789.481216,5
+"Northern Africa","AFDB","Financials",2021,143794595.810865,2
+"Northern Africa","AFDB","Financials",2022,282204318.918919,3
+"Northern Africa","AFDB","Financials",2023,242483869.6,4
+"Northern Africa","AFDB","Health Care",2013,142958328.881585,2
+"Northern Africa","AFDB","Health Care",2015,417426.76056338,1
+"Northern Africa","AFDB","Health Care",2016,253521.126760563,1
+"Northern Africa","AFDB","Health Care",2018,0,1
+"Northern Africa","AFDB","Health Care",2020,472263.944444444,1
+"Northern Africa","AFDB","Health Care",2023,265093776.933333,2
+"Northern Africa","AFDB","Industrials",2010,666099160.178467,4
+"Northern Africa","AFDB","Industrials",2011,178515803.273562,3
+"Northern Africa","AFDB","Industrials",2012,1784559.98508159,3
+"Northern Africa","AFDB","Industrials",2013,5625357.15515082,6
+"Northern Africa","AFDB","Industrials",2014,1230769.23076923,1
+"Northern Africa","AFDB","Industrials",2015,6309164.14695479,10
+"Northern Africa","AFDB","Industrials",2016,117718668.305556,2
+"Northern Africa","AFDB","Industrials",2017,209255102.055556,2
+"Northern Africa","AFDB","Industrials",2018,4638346.84722222,4
+"Northern Africa","AFDB","Industrials",2019,109290023.589041,2
+"Northern Africa","AFDB","Industrials",2020,197277634.410959,1
+"Northern Africa","AFDB","Industrials",2021,285013273.380078,4
+"Northern Africa","AFDB","Industrials",2022,100998851.315068,2
+"Northern Africa","AFDB","Industrials",2023,605635687.866667,5
+"Northern Africa","AFDB","Information Technology",2018,0,1
+"Northern Africa","AFDB","Materials",2011,295191100.809524,1
+"Northern Africa","AFDB","Materials",2017,50586460.0704225,1
+"Northern Africa","AFDB","Materials",2018,200017601.555556,1
+"Northern Africa","AFDB","Materials",2019,253506402.660198,2
+"Northern Africa","AFDB","Materials",2023,150188276.026316,1
+"Northern Africa","AFDB","Public",2010,203949009.286307,4
+"Northern Africa","AFDB","Public",2011,586676155.698413,2
+"Northern Africa","AFDB","Public",2012,633139999.729604,8
+"Northern Africa","AFDB","Public",2013,160577518.158164,15
+"Northern Africa","AFDB","Public",2014,7476761.02852705,6
+"Northern Africa","AFDB","Public",2015,318271589.87538,3
+"Northern Africa","AFDB","Public",2016,345018727.045383,4
+"Northern Africa","AFDB","Public",2017,139189626.591549,2
+"Northern Africa","AFDB","Public",2018,196140.957746479,3
+"Northern Africa","AFDB","Public",2019,0,1
+"Northern Africa","AFDB","Public",2021,498898600.242857,2
+"Northern Africa","AFDB","Public",2023,191374492.18,3
+"Northern Africa","AFDB","Utilities",2010,602122565.047302,3
+"Northern Africa","AFDB","Utilities",2011,117637161.409812,5
+"Northern Africa","AFDB","Utilities",2012,735573909.50676,7
+"Northern Africa","AFDB","Utilities",2013,315375.384615385,1
+"Northern Africa","AFDB","Utilities",2014,116696695.224972,3
+"Northern Africa","AFDB","Utilities",2015,805807046.351917,5
+"Northern Africa","AFDB","Utilities",2016,87846467.1621622,5
+"Northern Africa","AFDB","Utilities",2017,171561766.760563,8
+"Northern Africa","AFDB","Utilities",2018,84378957.375,3
+"Northern Africa","AFDB","Utilities",2019,411922027.200342,5
+"Northern Africa","AFDB","Utilities",2020,254754742.513889,1
+"Northern Africa","AFDB","Utilities",2021,244376155.758181,7
+"Northern Africa","AFDB","Utilities",2022,27334142.6689709,4
+"Northern Africa","AFDB","Utilities",2023,101895246.117018,3
+"Northern Africa","DFC","Financials",2012,2.75e+08,2
+"Northern Africa","DFC","Financials",2013,7.5e+07,2
+"Northern Africa","DFC","Financials",2015,37500000,3
+"Northern Africa","DFC","Financials",2018,12500000,1
+"Northern Africa","DFC","Financials",2019,17777000,2
+"Northern Africa","DFC","Financials",2022,56882500,4
+"Northern Africa","DFC","Industrials",2019,69030,1
+"Northern Africa","DFC","Industrials",2022,4e+06,2
+"Northern Africa","DFC","Industrials",2023,16800000,2
+"Northern Africa","DFC","Utilities",2019,83900000,1
+"Northern Africa","DFC","Utilities",2022,5e+07,1
+"Northern Africa","DFC","Utilities",2023,1.5e+07,3
+"Northern Africa","EBRD","Consumer Discretionary",2012,24590163.9344262,1
+"Northern Africa","EBRD","Consumer Discretionary",2019,98901098.9010989,3
+"Northern Africa","EBRD","Consumer Discretionary",2020,1.2e+07,1
+"Northern Africa","EBRD","Consumer Discretionary",2022,13483146.0674157,1
+"Northern Africa","EBRD","Consumer Discretionary",2024,5e+07,1
+"Northern Africa","EBRD","Consumer Staples",2012,19480519.4805195,1
+"Northern Africa","EBRD","Consumer Staples",2013,137155297.532656,1
+"Northern Africa","EBRD","Consumer Staples",2014,7e+07,2
+"Northern Africa","EBRD","Consumer Staples",2017,4.4e+07,1
+"Northern Africa","EBRD","Consumer Staples",2018,5.2e+07,1
+"Northern Africa","EBRD","Consumer Staples",2019,5675954.59236326,1
+"Northern Africa","EBRD","Consumer Staples",2020,3558718.86120996,1
+"Northern Africa","EBRD","Consumer Staples",2021,11179125.8138198,2
+"Northern Africa","EBRD","Consumer Staples",2022,179394736.842105,3
+"Northern Africa","EBRD","Consumer Staples",2023,142779552.715655,2
+"Northern Africa","EBRD","Energy",2013,1.1e+08,2
+"Northern Africa","EBRD","Energy",2014,1.28e+08,2
+"Northern Africa","EBRD","Energy",2017,2e+08,1
+"Northern Africa","EBRD","Energy",2018,3.75e+08,2
+"Northern Africa","EBRD","Energy",2019,2.8e+07,1
+"Northern Africa","EBRD","Energy",2020,2.5e+08,1
+"Northern Africa","EBRD","Financials",2012,24691358.0246914,1
+"Northern Africa","EBRD","Financials",2013,214804804.804805,5
+"Northern Africa","EBRD","Financials",2014,299024261.603375,7
+"Northern Africa","EBRD","Financials",2017,416791220.276979,7
+"Northern Africa","EBRD","Financials",2018,286351830.966511,7
+"Northern Africa","EBRD","Financials",2019,325529148.960798,9
+"Northern Africa","EBRD","Financials",2020,737108614.642703,10
+"Northern Africa","EBRD","Financials",2021,452878531.493989,15
+"Northern Africa","EBRD","Financials",2022,1.68e+08,7
+"Northern Africa","EBRD","Financials",2023,280195054.945055,6
+"Northern Africa","EBRD","Financials",2024,60805266.0575731,5
+"Northern Africa","EBRD","Health Care",2018,2.4e+07,1
+"Northern Africa","EBRD","Health Care",2020,1e+08,2
+"Northern Africa","EBRD","Health Care",2021,16707317.0731707,1
+"Northern Africa","EBRD","Health Care",2022,2.5e+07,1
+"Northern Africa","EBRD","Industrials",2013,87837837.8378378,1
+"Northern Africa","EBRD","Industrials",2014,2.03e+08,2
+"Northern Africa","EBRD","Industrials",2015,326086956.521739,1
+"Northern Africa","EBRD","Industrials",2016,318681318.681319,1
+"Northern Africa","EBRD","Industrials",2017,309523809.52381,2
+"Northern Africa","EBRD","Industrials",2018,2.5e+08,1
+"Northern Africa","EBRD","Industrials",2020,180837811.431363,3
+"Northern Africa","EBRD","Industrials",2021,40106660.03,1
+"Northern Africa","EBRD","Industrials",2022,173500000,3
+"Northern Africa","EBRD","Industrials",2023,2.2e+07,1
+"Northern Africa","EBRD","Materials",2013,4e+07,2
+"Northern Africa","EBRD","Materials",2017,1.1e+07,1
+"Northern Africa","EBRD","Materials",2018,6e+07,1
+"Northern Africa","EBRD","Materials",2022,28091846.2980319,2
+"Northern Africa","EBRD","Materials",2023,8e+07,1
+"Northern Africa","EBRD","Real Estate",2014,6e+07,1
+"Northern Africa","EBRD","Real Estate",2019,1.5e+08,1
+"Northern Africa","EBRD","Real Estate",2023,29941860.4651163,1
+"Northern Africa","EBRD","Utilities",2012,74694374.6835443,1
+"Northern Africa","EBRD","Utilities",2013,1.9e+08,1
+"Northern Africa","EBRD","Utilities",2014,174324324.324324,2
+"Northern Africa","EBRD","Utilities",2016,5e+08,1
+"Northern Africa","EBRD","Utilities",2017,650609955.611921,18
+"Northern Africa","EBRD","Utilities",2018,386641566.26506,3
+"Northern Africa","EBRD","Utilities",2019,370632917.644154,5
+"Northern Africa","EBRD","Utilities",2020,482266731.802638,4
+"Northern Africa","EBRD","Utilities",2021,59943636.3636364,3
+"Northern Africa","EBRD","Utilities",2022,1.52e+08,2
+"Northern Africa","EBRD","Utilities",2023,221052631.578947,2
+"Northern Africa","EBRD","Utilities",2024,263873913.043478,5
+"Northern Africa","EIB","Communication Services",2016,112359550.561798,1
+"Northern Africa","EIB","Consumer Discretionary",2011,35240000,2
+"Northern Africa","EIB","Consumer Discretionary",2014,110829435.349148,2
+"Northern Africa","EIB","Consumer Discretionary",2017,204948196.114709,5
+"Northern Africa","EIB","Consumer Discretionary",2019,43478260.8695652,1
+"Northern Africa","EIB","Consumer Discretionary",2020,130898876.404494,2
+"Northern Africa","EIB","Consumer Staples",2017,39772727.2727273,1
+"Northern Africa","EIB","Consumer Staples",2019,27777777.7777778,1
+"Northern Africa","EIB","Consumer Staples",2022,398211645.167822,3
+"Northern Africa","EIB","Energy",2011,71428571.4285714,1
+"Northern Africa","EIB","Energy",2014,500351246.926589,2
+"Northern Africa","EIB","Financials",2011,19130434.7826087,3
+"Northern Africa","EIB","Financials",2013,141323370.693234,6
+"Northern Africa","EIB","Financials",2014,203478437.341451,7
+"Northern Africa","EIB","Financials",2015,332137509.704852,5
+"Northern Africa","EIB","Financials",2016,956929745.134724,8
+"Northern Africa","EIB","Financials",2017,725907287.745911,7
+"Northern Africa","EIB","Financials",2018,1221482690.83079,4
+"Northern Africa","EIB","Financials",2019,568439450.686642,3
+"Northern Africa","EIB","Financials",2020,187340153.452685,2
+"Northern Africa","EIB","Financials",2021,10714285.7142857,1
+"Northern Africa","EIB","Financials",2022,100456414.473684,3
+"Northern Africa","EIB","Financials",2023,8602150.53763441,1
+"Northern Africa","EIB","Industrials",2010,975176722.012165,4
+"Northern Africa","EIB","Industrials",2011,797817460.31746,5
+"Northern Africa","EIB","Industrials",2012,632467532.467532,3
+"Northern Africa","EIB","Industrials",2013,68493150.6849315,1
+"Northern Africa","EIB","Industrials",2014,227083333.333333,3
+"Northern Africa","EIB","Industrials",2015,381070542.360865,2
+"Northern Africa","EIB","Industrials",2016,441573033.707865,4
+"Northern Africa","EIB","Industrials",2017,914634080.302457,11
+"Northern Africa","EIB","Industrials",2018,405773212.365669,8
+"Northern Africa","EIB","Industrials",2019,245555555.555556,1
+"Northern Africa","EIB","Industrials",2020,1226086956.52174,2
+"Northern Africa","EIB","Industrials",2022,698297781.984081,4
+"Northern Africa","EIB","Industrials",2023,925107501.194458,2
+"Northern Africa","EIB","Materials",2010,611425716.189207,4
+"Northern Africa","EIB","Materials",2015,11235955.0561798,1
+"Northern Africa","EIB","Public",2012,72727272.7272727,1
+"Northern Africa","EIB","Public",2013,123287671.232877,3
+"Northern Africa","EIB","Public",2014,85365853.6585366,1
+"Northern Africa","EIB","Public",2018,5609756.09756098,1
+"Northern Africa","EIB","Real Estate",2011,60810810.8108108,1
+"Northern Africa","EIB","Utilities",2010,908687815.428983,3
+"Northern Africa","EIB","Utilities",2011,513970428.35399,5
+"Northern Africa","EIB","Utilities",2012,65011961.722488,3
+"Northern Africa","EIB","Utilities",2013,355859969.5586,2
+"Northern Africa","EIB","Utilities",2014,737978199.131306,5
+"Northern Africa","EIB","Utilities",2015,267281664.964249,3
+"Northern Africa","EIB","Utilities",2016,190879295.763499,4
+"Northern Africa","EIB","Utilities",2017,467258426.966292,4
+"Northern Africa","EIB","Utilities",2018,348542949.90905,6
+"Northern Africa","EIB","Utilities",2019,123721930.243669,4
+"Northern Africa","EIB","Utilities",2020,169018476.430509,2
+"Northern Africa","EIB","Utilities",2023,47872340.4255319,1
+"Northern Africa","FMO","Consumer Discretionary",2014,2054794.52054795,1
+"Northern Africa","FMO","Consumer Staples",2013,5897435.8974359,1
+"Northern Africa","FMO","Consumer Staples",2023,25300000,1
+"Northern Africa","FMO","Consumer Staples",2024,2.6e+07,3
+"Northern Africa","FMO","Financials",2013,6e+06,1
+"Northern Africa","FMO","Financials",2016,10752688.172043,1
+"Northern Africa","FMO","Financials",2017,23938935.5742297,2
+"Northern Africa","FMO","Financials",2018,1123595.50561798,1
+"Northern Africa","FMO","Financials",2019,24033333.3333333,2
+"Northern Africa","FMO","Financials",2020,4762007.69464412,5
+"Northern Africa","FMO","Financials",2021,33258426.9662921,4
+"Northern Africa","FMO","Financials",2022,3951020.40816327,2
+"Northern Africa","FMO","Financials",2023,17927345.5377574,2
+"Northern Africa","FMO","Financials",2024,1700000,1
+"Northern Africa","FMO","Health Care",2023,15760869.5652174,1
+"Northern Africa","FMO","Industrials",2024,1439130.43478261,2
+"Northern Africa","FMO","Materials",2020,14650000,1
+"Northern Africa","FMO","Utilities",2017,113530000,9
+"Northern Africa","FMO","Utilities",2022,108500000,2
+"Northern Africa","IBRD","Consumer Discretionary",2010,6e+07,1
+"Northern Africa","IBRD","Consumer Discretionary",2011,10680778.8,2
+"Northern Africa","IBRD","Consumer Discretionary",2012,1e+08,1
+"Northern Africa","IBRD","Consumer Discretionary",2013,120130750,2
+"Northern Africa","IBRD","Consumer Discretionary",2014,111148188.78,3
+"Northern Africa","IBRD","Consumer Discretionary",2016,7e+07,1
+"Northern Africa","IBRD","Consumer Discretionary",2018,6e+08,2
+"Northern Africa","IBRD","Consumer Discretionary",2020,27499999.79,1
+"Northern Africa","IBRD","Consumer Discretionary",2023,5.5e+08,2
+"Northern Africa","IBRD","Consumer Staples",2010,133314329.15,4
+"Northern Africa","IBRD","Consumer Staples",2011,2.05e+08,1
+"Northern Africa","IBRD","Consumer Staples",2012,11047099.14,1
+"Northern Africa","IBRD","Consumer Staples",2013,203200000,1
+"Northern Africa","IBRD","Consumer Staples",2017,2e+08,1
+"Northern Africa","IBRD","Consumer Staples",2018,1.4e+08,1
+"Northern Africa","IBRD","Consumer Staples",2020,2.5e+08,1
+"Northern Africa","IBRD","Consumer Staples",2022,6.3e+08,2
+"Northern Africa","IBRD","Energy",2014,5e+08,1
+"Northern Africa","IBRD","Energy",2015,1545627.12,1
+"Northern Africa","IBRD","Energy",2018,0,1
+"Northern Africa","IBRD","Energy",2023,9126775.1,1
+"Northern Africa","IBRD","Financials",2010,1e+09,3
+"Northern Africa","IBRD","Financials",2011,1e+08,1
+"Northern Africa","IBRD","Financials",2014,6e+08,2
+"Northern Africa","IBRD","Financials",2015,5e+08,1
+"Northern Africa","IBRD","Financials",2017,400000105.42,3
+"Northern Africa","IBRD","Financials",2018,1000198953.73,2
+"Northern Africa","IBRD","Financials",2019,1251710811.02,5
+"Northern Africa","IBRD","Financials",2020,500051894.18,2
+"Northern Africa","IBRD","Financials",2021,4e+08,2
+"Northern Africa","IBRD","Financials",2022,4e+08,1
+"Northern Africa","IBRD","Financials",2023,1.2e+08,1
+"Northern Africa","IBRD","Health Care",2015,1e+08,1
+"Northern Africa","IBRD","Health Care",2018,536304062.39,2
+"Northern Africa","IBRD","Health Care",2020,6.05e+08,4
+"Northern Africa","IBRD","Health Care",2021,1e+08,1
+"Northern Africa","IBRD","Health Care",2022,5e+08,1
+"Northern Africa","IBRD","Health Care",2023,4.5e+08,1
+"Northern Africa","IBRD","Health Care",2024,8.6e+07,1
+"Northern Africa","IBRD","Industrials",2010,887482398.1,8
+"Northern Africa","IBRD","Industrials",2011,281700000,2
+"Northern Africa","IBRD","Industrials",2012,5.5e+08,2
+"Northern Africa","IBRD","Industrials",2013,6021312.78,2
+"Northern Africa","IBRD","Industrials",2014,96550000,1
+"Northern Africa","IBRD","Industrials",2015,1312795000,3
+"Northern Africa","IBRD","Industrials",2016,7e+08,2
+"Northern Africa","IBRD","Industrials",2017,590023052.82,3
+"Northern Africa","IBRD","Industrials",2018,130255791.65,2
+"Northern Africa","IBRD","Industrials",2019,1.155e+09,4
+"Northern Africa","IBRD","Industrials",2020,855466000,4
+"Northern Africa","IBRD","Industrials",2021,606147092.62,5
+"Northern Africa","IBRD","Industrials",2022,782420000.18,4
+"Northern Africa","IBRD","Industrials",2023,9.32e+08,4
+"Northern Africa","IBRD","Information Technology",2010,3662196.3,1
+"Northern Africa","IBRD","Information Technology",2011,1824077.18,1
+"Northern Africa","IBRD","Information Technology",2021,4.5e+08,1
+"Northern Africa","IBRD","Information Technology",2023,4.5e+08,1
+"Northern Africa","IBRD","Public",2010,189177752.81,4
+"Northern Africa","IBRD","Public",2011,5e+08,1
+"Northern Africa","IBRD","Public",2012,515981676.89,4
+"Northern Africa","IBRD","Public",2013,5e+08,2
+"Northern Africa","IBRD","Public",2014,3e+08,2
+"Northern Africa","IBRD","Public",2015,2e+08,1
+"Northern Africa","IBRD","Public",2016,11515874.34,1
+"Northern Africa","IBRD","Public",2017,103447090.11,2
+"Northern Africa","IBRD","Public",2018,14572003.54,3
+"Northern Africa","IBRD","Public",2022,517032036.75,2
+"Northern Africa","IBRD","Utilities",2010,1.25e+09,6
+"Northern Africa","IBRD","Utilities",2011,3.1e+08,2
+"Northern Africa","IBRD","Utilities",2012,254566192.65,4
+"Northern Africa","IBRD","Utilities",2013,625900000,2
+"Northern Africa","IBRD","Utilities",2014,197400000,3
+"Northern Africa","IBRD","Utilities",2015,604660217.26,10
+"Northern Africa","IBRD","Utilities",2016,48006708.65,4
+"Northern Africa","IBRD","Utilities",2017,193010789.45,6
+"Northern Africa","IBRD","Utilities",2018,523621562.43,5
+"Northern Africa","IBRD","Utilities",2019,153059824.92,3
+"Northern Africa","IBRD","Utilities",2020,290146286.69,5
+"Northern Africa","IBRD","Utilities",2022,5.3e+08,2
+"Northern Africa","IBRD","Utilities",2023,618400000,2
+"Northern Africa","IDA","Communication Services",2014,0,1
+"Northern Africa","IDA","Consumer Discretionary",2010,0,1
+"Northern Africa","IDA","Consumer Discretionary",2013,192917.24,2
+"Northern Africa","IDA","Consumer Discretionary",2014,0,1
+"Northern Africa","IDA","Consumer Discretionary",2016,0,1
+"Northern Africa","IDA","Consumer Discretionary",2018,0,2
+"Northern Africa","IDA","Consumer Discretionary",2019,0,1
+"Northern Africa","IDA","Consumer Discretionary",2023,0,1
+"Northern Africa","IDA","Consumer Staples",2010,0,3
+"Northern Africa","IDA","Consumer Staples",2011,0,1
+"Northern Africa","IDA","Consumer Staples",2013,0,1
+"Northern Africa","IDA","Consumer Staples",2015,0,1
+"Northern Africa","IDA","Consumer Staples",2017,0,2
+"Northern Africa","IDA","Consumer Staples",2020,0,1
+"Northern Africa","IDA","Consumer Staples",2022,0,3
+"Northern Africa","IDA","Energy",2013,0,1
+"Northern Africa","IDA","Financials",2010,0,3
+"Northern Africa","IDA","Financials",2011,0,1
+"Northern Africa","IDA","Financials",2012,0,1
+"Northern Africa","IDA","Financials",2014,0,2
+"Northern Africa","IDA","Financials",2017,0,2
+"Northern Africa","IDA","Financials",2018,0,1
+"Northern Africa","IDA","Financials",2019,0,1
+"Northern Africa","IDA","Financials",2020,0,2
+"Northern Africa","IDA","Financials",2021,1431627518.74,3
+"Northern Africa","IDA","Financials",2022,0,1
+"Northern Africa","IDA","Financials",2023,787281.17,3
+"Northern Africa","IDA","Health Care",2015,0,1
+"Northern Africa","IDA","Health Care",2018,0,1
+"Northern Africa","IDA","Health Care",2020,0,2
+"Northern Africa","IDA","Health Care",2021,1e+08,1
+"Northern Africa","IDA","Health Care",2022,0,1
+"Northern Africa","IDA","Health Care",2023,0,1
+"Northern Africa","IDA","Industrials",2010,0,3
+"Northern Africa","IDA","Industrials",2011,0,1
+"Northern Africa","IDA","Industrials",2013,0,1
+"Northern Africa","IDA","Industrials",2015,0,3
+"Northern Africa","IDA","Industrials",2016,0,2
+"Northern Africa","IDA","Industrials",2017,0,2
+"Northern Africa","IDA","Industrials",2019,0,2
+"Northern Africa","IDA","Industrials",2020,0,1
+"Northern Africa","IDA","Industrials",2021,2.1e+08,3
+"Northern Africa","IDA","Industrials",2022,0,1
+"Northern Africa","IDA","Information Technology",2019,0,1
+"Northern Africa","IDA","Information Technology",2020,2e+08,1
+"Northern Africa","IDA","Public",2010,0,2
+"Northern Africa","IDA","Public",2011,0,1
+"Northern Africa","IDA","Public",2012,0,4
+"Northern Africa","IDA","Public",2013,0,3
+"Northern Africa","IDA","Public",2014,0,2
+"Northern Africa","IDA","Public",2015,0,2
+"Northern Africa","IDA","Public",2017,0,1
+"Northern Africa","IDA","Public",2020,0,1
+"Northern Africa","IDA","Public",2021,0,4
+"Northern Africa","IDA","Real Estate",2015,0,1
+"Northern Africa","IDA","Utilities",2010,0,5
+"Northern Africa","IDA","Utilities",2011,0,1
+"Northern Africa","IDA","Utilities",2014,0,3
+"Northern Africa","IDA","Utilities",2015,0,3
+"Northern Africa","IDA","Utilities",2016,0,1
+"Northern Africa","IDA","Utilities",2017,0,1
+"Northern Africa","IDA","Utilities",2018,0,1
+"Northern Africa","IDA","Utilities",2019,0,1
+"Northern Africa","IDA","Utilities",2020,0,1
+"Northern Africa","IDA","Utilities",2022,0,1
+"Northern Africa","IDA","Utilities",2023,0,2
+"Northern Africa","IFC","Consumer Discretionary",2015,20500000,1
+"Northern Africa","IFC","Consumer Discretionary",2018,15710000,1
+"Northern Africa","IFC","Consumer Discretionary",2021,35480000,2
+"Northern Africa","IFC","Consumer Discretionary",2022,1318147,2
+"Northern Africa","IFC","Consumer Discretionary",2024,500485,1
+"Northern Africa","IFC","Consumer Staples",2015,1.6e+07,1
+"Northern Africa","IFC","Consumer Staples",2017,1.72e+08,2
+"Northern Africa","IFC","Consumer Staples",2019,4.2e+07,2
+"Northern Africa","IFC","Consumer Staples",2020,34200000,3
+"Northern Africa","IFC","Consumer Staples",2021,923970,1
+"Northern Africa","IFC","Consumer Staples",2023,9.5e+07,2
+"Northern Africa","IFC","Consumer Staples",2024,56884980,2
+"Northern Africa","IFC","Energy",2015,7.5e+07,1
+"Northern Africa","IFC","Energy",2017,7.5e+07,1
+"Northern Africa","IFC","Energy",2022,9e+07,1
+"Northern Africa","IFC","Energy",2023,0,1
+"Northern Africa","IFC","Financials",2014,3e+05,1
+"Northern Africa","IFC","Financials",2015,108080000,4
+"Northern Africa","IFC","Financials",2016,136700000,5
+"Northern Africa","IFC","Financials",2017,266072131,10
+"Northern Africa","IFC","Financials",2018,77120000,3
+"Northern Africa","IFC","Financials",2019,50933088,3
+"Northern Africa","IFC","Financials",2020,252740000,6
+"Northern Africa","IFC","Financials",2021,185737846,14
+"Northern Africa","IFC","Financials",2022,562433738,10
+"Northern Africa","IFC","Financials",2023,659562004.015656,11
+"Northern Africa","IFC","Financials",2024,101160000,3
+"Northern Africa","IFC","Health Care",2018,1e+06,1
+"Northern Africa","IFC","Health Care",2020,3.5e+07,1
+"Northern Africa","IFC","Health Care",2021,5e+07,2
+"Northern Africa","IFC","Industrials",2015,97035385,2
+"Northern Africa","IFC","Industrials",2016,1e+07,1
+"Northern Africa","IFC","Industrials",2017,1.5e+07,1
+"Northern Africa","IFC","Industrials",2019,99331472,4
+"Northern Africa","IFC","Industrials",2020,27118475,3
+"Northern Africa","IFC","Industrials",2021,1085000,1
+"Northern Africa","IFC","Industrials",2022,1669975,4
+"Northern Africa","IFC","Industrials",2023,5.1e+08,3
+"Northern Africa","IFC","Information Technology",2016,6e+07,2
+"Northern Africa","IFC","Materials",2015,58300000,2
+"Northern Africa","IFC","Materials",2018,57150000,1
+"Northern Africa","IFC","Materials",2019,3e+07,1
+"Northern Africa","IFC","Materials",2023,25,1
+"Northern Africa","IFC","Materials",2024,1950000,1
+"Northern Africa","IFC","Public",2013,450000,1
+"Northern Africa","IFC","Public",2017,517601,1
+"Northern Africa","IFC","Public",2020,925000,1
+"Northern Africa","IFC","Public",2021,3e+06,1
+"Northern Africa","IFC","Public",2023,9e+05,2
+"Northern Africa","IFC","Public",2024,41035585,3
+"Northern Africa","IFC","Real Estate",2020,8.5e+07,1
+"Northern Africa","IFC","Utilities",2015,2300000,1
+"Northern Africa","IFC","Utilities",2016,5500000,6
+"Northern Africa","IFC","Utilities",2017,6500000,7
+"Northern Africa","IFC","Utilities",2018,4e+06,1
+"Northern Africa","IFC","Utilities",2019,1700001,1
+"Northern Africa","IFC","Utilities",2020,1943524,1
+"Northern Africa","IFC","Utilities",2021,0,1
+"Northern Africa","IFC","Utilities",2022,181700000,4
+"Northern Africa","IFC","Utilities",2023,213616881.72043,2
+"Northern Africa","IFC","Utilities",2024,1e+08,1
+"Northern Africa","KFW","Consumer Discretionary",2023,198045054.945055,10
+"Northern Africa","KFW","Consumer Staples",2023,424227877.385772,10
+"Northern Africa","KFW","Financials",2023,1414353846.15385,14
+"Northern Africa","KFW","Financials",2024,70652173.9130435,1
+"Northern Africa","KFW","Health Care",2023,65934065.9340659,7
+"Northern Africa","KFW","Industrials",2023,739712374.58194,25
+"Northern Africa","KFW","Industrials",2024,246739130.434783,2
+"Northern Africa","KFW","Public",2023,431505494.505495,8
+"Northern Africa","KFW","Utilities",2023,2242528570.32967,33
+"Northern Africa","KFW","Utilities",2024,120652173.913043,4
+"Northern Africa","MIGA","Consumer Discretionary",2011,10840540.5405405,2
+"Northern Africa","MIGA","Consumer Discretionary",2021,678571428.571429,1
+"Northern Africa","MIGA","Consumer Discretionary",2024,308400000,1
+"Northern Africa","MIGA","Consumer Staples",2012,16200000,3
+"Northern Africa","MIGA","Energy",2012,1.5e+08,1
+"Northern Africa","MIGA","Energy",2014,23400000,1
+"Northern Africa","MIGA","Financials",2011,5135135.13513513,1
+"Northern Africa","MIGA","Financials",2023,192850000,1
+"Northern Africa","MIGA","Industrials",2011,217700000,1
+"Northern Africa","MIGA","Industrials",2012,3500000,1
+"Northern Africa","MIGA","Industrials",2023,2.8e+08,1
+"Northern Africa","MIGA","Materials",2015,10200000,1
+"Northern Africa","MIGA","Materials",2018,16200000,1
+"Northern Africa","MIGA","Utilities",2017,181970000,11
+"Northern Africa","MIGA","Utilities",2019,174350000,2
+"Northern Africa","MIGA","Utilities",2020,24800000,1
+"Northern Africa","MIGA","Utilities",2024,94682795.6989247,2
+"Northern Africa","OFID","Consumer Discretionary",2010,350000,1
+"Northern Africa","OFID","Consumer Discretionary",2015,2e+05,1
+"Northern Africa","OFID","Consumer Discretionary",2016,70000,1
+"Northern Africa","OFID","Consumer Discretionary",2017,3e+05,3
+"Northern Africa","OFID","Consumer Discretionary",2018,50000,1
+"Northern Africa","OFID","Consumer Staples",2010,15060000,2
+"Northern Africa","OFID","Consumer Staples",2012,6.5e+07,2
+"Northern Africa","OFID","Consumer Staples",2014,50000,1
+"Northern Africa","OFID","Consumer Staples",2017,53200000,1
+"Northern Africa","OFID","Consumer Staples",2020,5e+07,2
+"Northern Africa","OFID","Energy",2014,2e+07,1
+"Northern Africa","OFID","Energy",2020,3.8e+07,1
+"Northern Africa","OFID","Energy",2021,34300000,2
+"Northern Africa","OFID","Financials",2010,1.25e+08,3
+"Northern Africa","OFID","Financials",2012,5e+07,1
+"Northern Africa","OFID","Financials",2013,1e+07,1
+"Northern Africa","OFID","Financials",2014,1.22e+08,3
+"Northern Africa","OFID","Financials",2015,4e+07,1
+"Northern Africa","OFID","Financials",2016,5e+07,1
+"Northern Africa","OFID","Financials",2017,1.5e+08,4
+"Northern Africa","OFID","Financials",2018,5e+07,1
+"Northern Africa","OFID","Financials",2019,2e+08,7
+"Northern Africa","OFID","Financials",2021,2.5e+07,1
+"Northern Africa","OFID","Financials",2022,2e+07,1
+"Northern Africa","OFID","Financials",2023,1e+07,1
+"Northern Africa","OFID","Health Care",2010,7e+05,1
+"Northern Africa","OFID","Health Care",2012,3e+05,1
+"Northern Africa","OFID","Health Care",2014,1e+05,1
+"Northern Africa","OFID","Health Care",2015,1e+05,1
+"Northern Africa","OFID","Health Care",2019,4.2e+07,3
+"Northern Africa","OFID","Industrials",2018,14050000,2
+"Northern Africa","OFID","Industrials",2019,9.5e+07,1
+"Northern Africa","OFID","Materials",2016,2.4e+07,1
+"Northern Africa","OFID","Materials",2020,2e+07,1
+"Northern Africa","OFID","Public",2010,50000,1
+"Northern Africa","OFID","Public",2013,4e+05,1
+"Northern Africa","OFID","Public",2014,5e+05,1
+"Northern Africa","OFID","Public",2020,3e+05,1
+"Northern Africa","OFID","Utilities",2010,7e+07,2
+"Northern Africa","OFID","Utilities",2011,3e+07,1
+"Northern Africa","OFID","Utilities",2012,82570000,2
+"Northern Africa","OFID","Utilities",2013,1.3e+08,2
+"Northern Africa","OFID","Utilities",2014,55500000,3
+"Northern Africa","OFID","Utilities",2015,7e+07,1
+"Northern Africa","OFID","Utilities",2016,250000,2
+"Northern Africa","OFID","Utilities",2017,50000,1
+"Northern Africa","OFID","Utilities",2018,1e+05,1
+"Northern Africa","OFID","Utilities",2020,3e+07,1
+"Northern Africa","OFID","Utilities",2023,5e+05,1
+"Northern Africa","Proparco","Consumer Discretionary",2015,15559764.0449438,1
+"Northern Africa","Proparco","Consumer Discretionary",2020,19588331.5217391,1
+"Northern Africa","Proparco","Consumer Discretionary",2021,7471910.11235955,2
+"Northern Africa","Proparco","Consumer Discretionary",2022,1079545.45454545,1
+"Northern Africa","Proparco","Financials",2011,14328571.4285714,2
+"Northern Africa","Proparco","Financials",2014,41095890.4109589,1
+"Northern Africa","Proparco","Financials",2015,56790630.0595956,5
+"Northern Africa","Proparco","Financials",2016,9619333.300669,4
+"Northern Africa","Proparco","Financials",2017,45935947.7124183,3
+"Northern Africa","Proparco","Financials",2018,9338794.92600423,4
+"Northern Africa","Proparco","Financials",2019,3e+07,2
+"Northern Africa","Proparco","Financials",2020,29836995.0389794,2
+"Northern Africa","Proparco","Financials",2021,6805413.68743616,2
+"Northern Africa","Proparco","Financials",2023,32414925.321487,4
+"Northern Africa","Proparco","Health Care",2018,46951219.5121951,2
+"Northern Africa","Proparco","Health Care",2020,12111111.1111111,2
+"Northern Africa","Proparco","Health Care",2023,31264107.3080481,3
+"Northern Africa","Proparco","Industrials",2017,23694117.6470588,2
+"Northern Africa","Proparco","Industrials",2023,49652136.2637363,1
+"Northern Africa","Proparco","Utilities",2017,136834022.352941,5
+"Northern Africa","USEXIM","Health Care",2018,1.8e+09,1
+"Southern Africa","AFDB","Communication Services",2013,11538461.5384615,1
+"Southern Africa","AFDB","Communication Services",2014,1227692.30769231,1
+"Southern Africa","AFDB","Consumer Discretionary",2010,923076.923076923,1
+"Southern Africa","AFDB","Consumer Discretionary",2016,837409.722222222,2
+"Southern Africa","AFDB","Consumer Discretionary",2017,0,1
+"Southern Africa","AFDB","Consumer Staples",2011,923076.923076923,1
+"Southern Africa","AFDB","Consumer Staples",2013,983864.621212121,1
+"Southern Africa","AFDB","Consumer Staples",2016,2066291.58333333,3
+"Southern Africa","AFDB","Consumer Staples",2017,0,1
+"Southern Africa","AFDB","Consumer Staples",2019,993093.328767123,2
+"Southern Africa","AFDB","Consumer Staples",2020,1643835.61643836,1
+"Southern Africa","AFDB","Consumer Staples",2021,146025400.511212,3
+"Southern Africa","AFDB","Consumer Staples",2022,162275136.377658,2
+"Southern Africa","AFDB","Financials",2010,204601426.644796,2
+"Southern Africa","AFDB","Financials",2011,335245391.15625,2
+"Southern Africa","AFDB","Financials",2012,64728951.4923077,2
+"Southern Africa","AFDB","Financials",2015,0,1
+"Southern Africa","AFDB","Financials",2016,302490.540540541,1
+"Southern Africa","AFDB","Financials",2017,0,1
+"Southern Africa","AFDB","Financials",2019,0,1
+"Southern Africa","AFDB","Financials",2020,497697936.491002,4
+"Southern Africa","AFDB","Financials",2022,210740564.290014,2
+"Southern Africa","AFDB","Financials",2023,90099696.9078947,1
+"Southern Africa","AFDB","Industrials",2010,189546114.132353,2
+"Southern Africa","AFDB","Industrials",2013,189353222.242424,2
+"Southern Africa","AFDB","Industrials",2014,54756237.2461538,1
+"Southern Africa","AFDB","Industrials",2016,192204239.957746,1
+"Southern Africa","AFDB","Industrials",2017,177964686.71831,3
+"Southern Africa","AFDB","Industrials",2018,368388838.333333,4
+"Southern Africa","AFDB","Industrials",2020,244278409.263889,3
+"Southern Africa","AFDB","Industrials",2021,50163413.5915493,1
+"Southern Africa","AFDB","Industrials",2023,201710902.4399,3
+"Southern Africa","AFDB","Industrials",2024,100794766.733333,1
+"Southern Africa","AFDB","Materials",2010,404482.323529412,1
+"Southern Africa","AFDB","Public",2010,1846590.90909091,2
+"Southern Africa","AFDB","Public",2011,3407164.74063571,5
+"Southern Africa","AFDB","Public",2012,754769.230769231,1
+"Southern Africa","AFDB","Public",2013,4e+06,1
+"Southern Africa","AFDB","Public",2015,1243001.38888889,1
+"Southern Africa","AFDB","Public",2017,0,1
+"Southern Africa","AFDB","Public",2021,4285714.28571429,1
+"Southern Africa","AFDB","Public",2022,3171029.50915415,3
+"Southern Africa","AFDB","Utilities",2011,10935287.4241071,2
+"Southern Africa","AFDB","Utilities",2013,14018648.5692308,1
+"Southern Africa","AFDB","Utilities",2014,87518817.6553053,5
+"Southern Africa","AFDB","Utilities",2015,339978943.134194,5
+"Southern Africa","AFDB","Utilities",2016,20937868.1385135,2
+"Southern Africa","AFDB","Utilities",2018,70786387.5277778,4
+"Southern Africa","AFDB","Utilities",2019,72815762.5479452,1
+"Southern Africa","AFDB","Utilities",2020,103508987.180556,1
+"Southern Africa","AFDB","Utilities",2021,70819197.2816901,2
+"Southern Africa","AFDB","Utilities",2022,15073290.3462318,3
+"Southern Africa","DFC","Consumer Discretionary",2015,6e+06,1
+"Southern Africa","DFC","Consumer Discretionary",2023,7300000,1
+"Southern Africa","DFC","Consumer Staples",2020,3.6e+07,1
+"Southern Africa","DFC","Energy",2019,4e+07,1
+"Southern Africa","DFC","Energy",2023,5.35e+08,1
+"Southern Africa","DFC","Financials",2011,183896,1
+"Southern Africa","DFC","Financials",2012,2641370,1
+"Southern Africa","DFC","Financials",2015,2.95e+08,2
+"Southern Africa","DFC","Financials",2016,99589373,1
+"Southern Africa","DFC","Financials",2018,4408855,1
+"Southern Africa","DFC","Financials",2021,1.5e+08,1
+"Southern Africa","DFC","Financials",2023,8e+06,1
+"Southern Africa","DFC","Health Care",2021,118764845.6,1
+"Southern Africa","DFC","Industrials",2022,2e+06,1
+"Southern Africa","DFC","Materials",2017,43500000,4
+"Southern Africa","DFC","Materials",2018,3e+07,1
+"Southern Africa","DFC","Materials",2024,5e+07,1
+"Southern Africa","DFC","Real Estate",2019,2e+07,1
+"Southern Africa","DFC","Utilities",2013,2.5e+08,1
+"Southern Africa","DFC","Utilities",2016,1.5e+08,1
+"Southern Africa","EIB","Consumer Staples",2015,13643241.6263736,3
+"Southern Africa","EIB","Consumer Staples",2017,55555555.5555556,1
+"Southern Africa","EIB","Financials",2013,205479452.054795,1
+"Southern Africa","EIB","Financials",2015,256840410.553167,5
+"Southern Africa","EIB","Financials",2017,55555555.5555556,1
+"Southern Africa","EIB","Financials",2018,82352941.1764706,1
+"Southern Africa","EIB","Financials",2019,112359550.561798,1
+"Southern Africa","EIB","Health Care",2022,15789473.6842105,1
+"Southern Africa","EIB","Public",2012,65789473.6842105,1
+"Southern Africa","EIB","Utilities",2010,372729128.39355,4
+"Southern Africa","EIB","Utilities",2011,142857142.857143,2
+"Southern Africa","EIB","Utilities",2012,65789473.6842105,1
+"Southern Africa","EIB","Utilities",2013,150684931.506849,1
+"Southern Africa","EIB","Utilities",2014,237874861.162532,2
+"Southern Africa","EIB","Utilities",2017,43333333.3333333,1
+"Southern Africa","EIB","Utilities",2018,138214285.714286,2
+"Southern Africa","EIB","Utilities",2022,1e+08,1
+"Southern Africa","EIB","Utilities",2023,212765957.446809,1
+"Southern Africa","FMO","Consumer Discretionary",2013,4224025.97402597,2
+"Southern Africa","FMO","Consumer Staples",2015,8704735.37604457,2
+"Southern Africa","FMO","Consumer Staples",2018,11627906.9767442,1
+"Southern Africa","FMO","Consumer Staples",2020,1764705.88235294,1
+"Southern Africa","FMO","Consumer Staples",2022,7123898.56006877,2
+"Southern Africa","FMO","Consumer Staples",2023,2e+07,1
+"Southern Africa","FMO","Consumer Staples",2024,10752.688172043,1
+"Southern Africa","FMO","Energy",2018,3e+07,1
+"Southern Africa","FMO","Financials",2013,16103309.9297894,2
+"Southern Africa","FMO","Financials",2014,1e+07,1
+"Southern Africa","FMO","Financials",2015,36298899.3929338,3
+"Southern Africa","FMO","Financials",2016,10107443.8202247,3
+"Southern Africa","FMO","Financials",2017,44092869.0280444,5
+"Southern Africa","FMO","Financials",2018,71500000,3
+"Southern Africa","FMO","Financials",2019,55555.5555555556,1
+"Southern Africa","FMO","Financials",2020,158598336.304219,6
+"Southern Africa","FMO","Financials",2021,3293807.64163373,1
+"Southern Africa","FMO","Financials",2022,113211.600429646,3
+"Southern Africa","FMO","Financials",2024,5e+07,1
+"Southern Africa","FMO","Industrials",2020,2473958.33333333,1
+"Southern Africa","FMO","Industrials",2022,20019607.8431373,2
+"Southern Africa","FMO","Industrials",2023,1e+06,1
+"Southern Africa","FMO","Information Technology",2018,2500000,1
+"Southern Africa","FMO","Information Technology",2019,5e+05,1
+"Southern Africa","FMO","Utilities",2012,64953259.6523687,2
+"Southern Africa","FMO","Utilities",2013,30643513.7895812,3
+"Southern Africa","FMO","Utilities",2014,209990036.231884,1
+"Southern Africa","FMO","Utilities",2016,2.2e+07,1
+"Southern Africa","FMO","Utilities",2018,1030324.90974729,1
+"Southern Africa","FMO","Utilities",2019,53808038.8080388,2
+"Southern Africa","FMO","Utilities",2023,2e+08,2
+"Southern Africa","IBRD","Consumer Discretionary",2022,27350000,1
+"Southern Africa","IBRD","Consumer Discretionary",2023,2e+07,1
+"Southern Africa","IBRD","Financials",2017,9.3e+07,1
+"Southern Africa","IBRD","Financials",2021,66124638.88,1
+"Southern Africa","IBRD","Financials",2022,15932745.41,1
+"Southern Africa","IBRD","Financials",2023,0,3
+"Southern Africa","IBRD","Health Care",2011,2e+07,1
+"Southern Africa","IBRD","Health Care",2020,26767267.84,3
+"Southern Africa","IBRD","Health Care",2021,5e+06,1
+"Southern Africa","IBRD","Health Care",2022,1.23e+09,2
+"Southern Africa","IBRD","Industrials",2021,2.5e+08,1
+"Southern Africa","IBRD","Industrials",2022,7.5e+07,1
+"Southern Africa","IBRD","Industrials",2023,22700000,1
+"Southern Africa","IBRD","Industrials",2024,18950881.09,1
+"Southern Africa","IBRD","Public",2011,26900000,1
+"Southern Africa","IBRD","Public",2017,5e+07,2
+"Southern Africa","IBRD","Public",2020,412973.88,1
+"Southern Africa","IBRD","Utilities",2010,3.75e+09,1
+"Southern Africa","IBRD","Utilities",2015,70335048.58,1
+"Southern Africa","IBRD","Utilities",2016,17838748.35,1
+"Southern Africa","IBRD","Utilities",2017,145500000,1
+"Southern Africa","IBRD","Utilities",2019,8.5e+07,2
+"Southern Africa","IBRD","Utilities",2020,3.2e+08,1
+"Southern Africa","IBRD","Utilities",2021,270389218.96,1
+"Southern Africa","IBRD","Utilities",2022,439500000,1
+"Southern Africa","IBRD","Utilities",2023,1e+09,1
+"Southern Africa","IBRD","Utilities",2024,1e+08,1
+"Southern Africa","IDA","Consumer Discretionary",2016,2.5e+07,1
+"Southern Africa","IDA","Consumer Discretionary",2022,0,1
+"Southern Africa","IDA","Consumer Staples",2011,1e+07,1
+"Southern Africa","IDA","Consumer Staples",2017,1e+07,1
+"Southern Africa","IDA","Consumer Staples",2020,2729980.51,1
+"Southern Africa","IDA","Consumer Staples",2021,237325.01,1
+"Southern Africa","IDA","Financials",2015,0,1
+"Southern Africa","IDA","Financials",2017,0,1
+"Southern Africa","IDA","Financials",2019,5e+07,1
+"Southern Africa","IDA","Financials",2022,4.5e+07,1
+"Southern Africa","IDA","Health Care",2010,537973.54,1
+"Southern Africa","IDA","Health Care",2011,0,1
+"Southern Africa","IDA","Health Care",2013,1.2e+07,1
+"Southern Africa","IDA","Health Care",2017,543019.09,1
+"Southern Africa","IDA","Health Care",2020,7668104.31,4
+"Southern Africa","IDA","Health Care",2021,4.4e+07,2
+"Southern Africa","IDA","Health Care",2022,0,1
+"Southern Africa","IDA","Industrials",2010,1.5e+07,1
+"Southern Africa","IDA","Industrials",2014,2e+07,1
+"Southern Africa","IDA","Industrials",2015,27778.51,3
+"Southern Africa","IDA","Industrials",2016,3e+07,2
+"Southern Africa","IDA","Industrials",2017,31700000,2
+"Southern Africa","IDA","Industrials",2021,0,1
+"Southern Africa","IDA","Industrials",2022,26502164.31,2
+"Southern Africa","IDA","Industrials",2023,0,1
+"Southern Africa","IDA","Public",2010,2.5e+07,1
+"Southern Africa","IDA","Public",2011,1.8e+07,1
+"Southern Africa","IDA","Public",2013,33318258.93,4
+"Southern Africa","IDA","Public",2014,5500000,1
+"Southern Africa","IDA","Public",2016,2e+07,1
+"Southern Africa","IDA","Public",2020,258956.69,1
+"Southern Africa","IDA","Public",2022,320213.57,2
+"Southern Africa","IDA","Public",2023,235904.91,1
+"Southern Africa","IDA","Public",2024,1.2e+07,1
+"Southern Africa","IDA","Utilities",2010,0,1
+"Southern Africa","IDA","Utilities",2011,1.3e+07,1
+"Southern Africa","IDA","Utilities",2012,11952.13,1
+"Southern Africa","IDA","Utilities",2014,15440000,1
+"Southern Africa","IDA","Utilities",2017,0,1
+"Southern Africa","IDA","Utilities",2018,29.26,1
+"Southern Africa","IDA","Utilities",2019,801156791.03,8
+"Southern Africa","IDA","Utilities",2020,4e+07,1
+"Southern Africa","IDA","Utilities",2022,0,1
+"Southern Africa","IDA","Utilities",2023,0,1
+"Southern Africa","IFC","Communication Services",2021,1e+08,1
+"Southern Africa","IFC","Communication Services",2023,24657534.2465753,1
+"Southern Africa","IFC","Consumer Discretionary",2015,7e+07,1
+"Southern Africa","IFC","Consumer Discretionary",2016,20930000,1
+"Southern Africa","IFC","Consumer Discretionary",2017,1.72e+08,2
+"Southern Africa","IFC","Consumer Discretionary",2018,55590000,1
+"Southern Africa","IFC","Consumer Discretionary",2021,0,1
+"Southern Africa","IFC","Consumer Discretionary",2022,5e+05,1
+"Southern Africa","IFC","Consumer Discretionary",2023,950000,1
+"Southern Africa","IFC","Consumer Staples",2015,129140000,2
+"Southern Africa","IFC","Consumer Staples",2017,3.5e+07,1
+"Southern Africa","IFC","Consumer Staples",2018,11580000,1
+"Southern Africa","IFC","Consumer Staples",2019,10931200,2
+"Southern Africa","IFC","Consumer Staples",2021,3510000,1
+"Southern Africa","IFC","Consumer Staples",2022,6980000,1
+"Southern Africa","IFC","Consumer Staples",2023,1e+08,1
+"Southern Africa","IFC","Energy",2019,2e+06,1
+"Southern Africa","IFC","Financials",2014,2.5e+07,1
+"Southern Africa","IFC","Financials",2015,83090000,2
+"Southern Africa","IFC","Financials",2016,5.5e+07,2
+"Southern Africa","IFC","Financials",2017,4.61e+08,4
+"Southern Africa","IFC","Financials",2018,47145864,2
+"Southern Africa","IFC","Financials",2019,28839529.0858726,3
+"Southern Africa","IFC","Financials",2020,679505000,7
+"Southern Africa","IFC","Financials",2021,521860912,8
+"Southern Africa","IFC","Financials",2022,558120000,7
+"Southern Africa","IFC","Financials",2023,1466678500,7
+"Southern Africa","IFC","Financials",2024,346076062,7
+"Southern Africa","IFC","Health Care",2016,3e+07,1
+"Southern Africa","IFC","Health Care",2021,244560000,3
+"Southern Africa","IFC","Health Care",2022,1.9e+07,1
+"Southern Africa","IFC","Industrials",2016,1055000,1
+"Southern Africa","IFC","Industrials",2017,50348023,2
+"Southern Africa","IFC","Industrials",2018,3000001,1
+"Southern Africa","IFC","Industrials",2020,5.5e+07,1
+"Southern Africa","IFC","Industrials",2021,2688597,1
+"Southern Africa","IFC","Industrials",2023,20000,1
+"Southern Africa","IFC","Information Technology",2021,1e+07,1
+"Southern Africa","IFC","Public",2018,967852,1
+"Southern Africa","IFC","Real Estate",2020,70220000,2
+"Southern Africa","IFC","Real Estate",2022,20450000,1
+"Southern Africa","IFC","Real Estate",2023,161930000,2
+"Southern Africa","IFC","Real Estate",2024,220000,1
+"Southern Africa","IFC","Utilities",2015,53985000,2
+"Southern Africa","IFC","Utilities",2017,280235,1
+"Southern Africa","IFC","Utilities",2019,6074477,2
+"Southern Africa","IFC","Utilities",2020,1350000,1
+"Southern Africa","IFC","Utilities",2021,810000,2
+"Southern Africa","IFC","Utilities",2022,450000,1
+"Southern Africa","IFC","Utilities",2023,25735000,3
+"Southern Africa","IFC","Utilities",2024,3e+08,1
+"Southern Africa","KFW","Consumer Discretionary",2023,38412377.0965876,5
+"Southern Africa","KFW","Financials",2023,68985905.3989489,4
+"Southern Africa","KFW","Financials",2024,22826086.9565217,1
+"Southern Africa","KFW","Health Care",2023,108964719.491035,7
+"Southern Africa","KFW","Industrials",2023,726355422.838032,25
+"Southern Africa","KFW","Industrials",2024,5434782.60869565,1
+"Southern Africa","KFW","Public",2023,191758241.758242,4
+"Southern Africa","KFW","Real Estate",2023,49115384.6153846,2
+"Southern Africa","KFW","Utilities",2023,1224076755.85284,15
+"Southern Africa","KFW","Utilities",2024,55978260.8695652,1
+"Southern Africa","MIGA","Consumer Discretionary",2022,1.8e+07,1
+"Southern Africa","MIGA","Consumer Staples",2010,5e+06,1
+"Southern Africa","MIGA","Consumer Staples",2011,1e+07,1
+"Southern Africa","MIGA","Consumer Staples",2014,8600000,1
+"Southern Africa","MIGA","Consumer Staples",2016,20680000,1
+"Southern Africa","MIGA","Financials",2012,25400000,3
+"Southern Africa","MIGA","Financials",2016,829100000,2
+"Southern Africa","MIGA","Financials",2019,5e+07,1
+"Southern Africa","MIGA","Utilities",2015,783200000,1
+"Southern Africa","MIGA","Utilities",2017,6.8e+08,2
+"Southern Africa","MIGA","Utilities",2018,155760000,2
+"Southern Africa","MIGA","Utilities",2019,298517000,8
+"Southern Africa","MIGA","Utilities",2022,18900000,1
+"Southern Africa","NDB","Financials",2016,196452.933151432,1
+"Southern Africa","NDB","Health Care",2020,1e+09,1
+"Southern Africa","NDB","Industrials",2018,561797752.808989,2
+"Southern Africa","NDB","Industrials",2019,958796169.630643,2
+"Southern Africa","NDB","Industrials",2020,1e+09,1
+"Southern Africa","NDB","Industrials",2021,1e+09,1
+"Southern Africa","NDB","Industrials",2022,1011847.55043228,1
+"Southern Africa","NDB","Industrials",2024,984042553.191489,1
+"Southern Africa","NDB","Utilities",2018,3e+08,1
+"Southern Africa","NDB","Utilities",2019,716054789.013482,3
+"Southern Africa","NDB","Utilities",2023,1e+09,1
+"Southern Africa","OFID","Consumer Discretionary",2013,80000,1
+"Southern Africa","OFID","Consumer Staples",2014,1.2e+07,1
+"Southern Africa","OFID","Consumer Staples",2023,2e+07,1
+"Southern Africa","OFID","Consumer Staples",2024,2e+07,1
+"Southern Africa","OFID","Financials",2012,31480000,2
+"Southern Africa","OFID","Financials",2022,2e+07,1
+"Southern Africa","OFID","Health Care",2016,9500000,1
+"Southern Africa","OFID","Industrials",2010,8400000,1
+"Southern Africa","OFID","Industrials",2014,1.5e+07,1
+"Southern Africa","OFID","Industrials",2021,1.19e+08,2
+"Southern Africa","OFID","Utilities",2010,14160000,1
+"Southern Africa","OFID","Utilities",2011,9e+06,1
+"Southern Africa","OFID","Utilities",2012,3e+06,1
+"Southern Africa","OFID","Utilities",2013,50000,1
+"Southern Africa","OFID","Utilities",2017,1.4e+07,1
+"Southern Africa","OFID","Utilities",2019,30050000,2
+"Southern Africa","Proparco","Consumer Discretionary",2021,476190.476190476,1
+"Southern Africa","Proparco","Financials",2016,40776603.4090909,2
+"Southern Africa","Proparco","Financials",2018,60201914.4858504,3
+"Southern Africa","Proparco","Financials",2019,49924114.4444444,1
+"Southern Africa","Proparco","Financials",2020,9906639.13043478,1
+"Southern Africa","Proparco","Financials",2021,95680820.6757992,8
+"Southern Africa","Proparco","Financials",2022,21276595.7446809,2
+"Southern Africa","Proparco","Health Care",2021,181395348.837209,1
+"Southern Africa","Proparco","Industrials",2017,29411764.7058824,1
+"Southern Africa","Proparco","Real Estate",2022,27272727.2727273,1
+"Southern Africa","Proparco","Real Estate",2023,16304347.826087,1
+"Southern Africa","Proparco","Utilities",2018,45679012.345679,1
+"Western Africa","AFDB","Communication Services",2011,22580645.1612903,1
+"Western Africa","AFDB","Communication Services",2022,5305090.34210526,1
+"Western Africa","AFDB","Consumer Discretionary",2010,59205221.1538462,3
+"Western Africa","AFDB","Consumer Discretionary",2011,297459.375,1
+"Western Africa","AFDB","Consumer Discretionary",2012,103886020.846154,1
+"Western Africa","AFDB","Consumer Discretionary",2013,5200000,1
+"Western Africa","AFDB","Consumer Discretionary",2014,2941176.47058824,1
+"Western Africa","AFDB","Consumer Discretionary",2016,40256504.6455721,2
+"Western Africa","AFDB","Consumer Discretionary",2017,39673212.75,3
+"Western Africa","AFDB","Consumer Discretionary",2020,6628571.42857143,1
+"Western Africa","AFDB","Consumer Staples",2010,45556892.1177156,2
+"Western Africa","AFDB","Consumer Staples",2011,12485508.265625,1
+"Western Africa","AFDB","Consumer Staples",2012,125973149.389744,6
+"Western Africa","AFDB","Consumer Staples",2013,360010839.631566,6
+"Western Africa","AFDB","Consumer Staples",2014,312884045.867103,9
+"Western Africa","AFDB","Consumer Staples",2015,109802913.91608,5
+"Western Africa","AFDB","Consumer Staples",2016,508058775.569138,18
+"Western Africa","AFDB","Consumer Staples",2017,4081113.37295003,7
+"Western Africa","AFDB","Consumer Staples",2018,64001628.2756092,14
+"Western Africa","AFDB","Consumer Staples",2019,462470644.73885,18
+"Western Africa","AFDB","Consumer Staples",2020,57756723.8631791,3
+"Western Africa","AFDB","Consumer Staples",2021,288579945.835243,10
+"Western Africa","AFDB","Consumer Staples",2022,788321085.033753,21
+"Western Africa","AFDB","Consumer Staples",2023,173356473.85009,5
+"Western Africa","AFDB","Energy",2013,115895133.446154,1
+"Western Africa","AFDB","Energy",2015,5568608.375,1
+"Western Africa","AFDB","Financials",2010,92738765.6430203,3
+"Western Africa","AFDB","Financials",2011,8077760.43145161,2
+"Western Africa","AFDB","Financials",2012,36490020.6769231,1
+"Western Africa","AFDB","Financials",2013,100624462.89213,3
+"Western Africa","AFDB","Financials",2014,864118596.580381,9
+"Western Africa","AFDB","Financials",2015,29264332.2676056,4
+"Western Africa","AFDB","Financials",2016,740937794.628188,11
+"Western Africa","AFDB","Financials",2017,61235460.240806,5
+"Western Africa","AFDB","Financials",2018,76522960.9444444,3
+"Western Africa","AFDB","Financials",2019,219688450.858067,12
+"Western Africa","AFDB","Financials",2020,955133026.329523,20
+"Western Africa","AFDB","Financials",2021,456063845.749094,9
+"Western Africa","AFDB","Financials",2022,508131864.410721,6
+"Western Africa","AFDB","Financials",2023,1121948798.52956,15
+"Western Africa","AFDB","Financials",2024,27070999.1066667,1
+"Western Africa","AFDB","Health Care",2012,752142.107692308,1
+"Western Africa","AFDB","Health Care",2014,115590275.643628,10
+"Western Africa","AFDB","Health Care",2015,661971.830985915,1
+"Western Africa","AFDB","Health Care",2016,2071175.56631455,2
+"Western Africa","AFDB","Health Care",2017,0,1
+"Western Africa","AFDB","Health Care",2020,8862918.2769953,5
+"Western Africa","AFDB","Health Care",2021,1845340.54480506,2
+"Western Africa","AFDB","Industrials",2010,372306958.242736,7
+"Western Africa","AFDB","Industrials",2011,169147505.9612,4
+"Western Africa","AFDB","Industrials",2012,322192536.301865,6
+"Western Africa","AFDB","Industrials",2013,724439909.195328,10
+"Western Africa","AFDB","Industrials",2014,83988019.1801175,7
+"Western Africa","AFDB","Industrials",2015,271999471.408451,10
+"Western Africa","AFDB","Industrials",2016,271850410.913889,9
+"Western Africa","AFDB","Industrials",2017,151793959.28169,8
+"Western Africa","AFDB","Industrials",2018,71860272.7475967,17
+"Western Africa","AFDB","Industrials",2019,172614001.221461,9
+"Western Africa","AFDB","Industrials",2020,3632479.8243368,5
+"Western Africa","AFDB","Industrials",2021,608022194.99839,8
+"Western Africa","AFDB","Industrials",2022,628715775.060491,14
+"Western Africa","AFDB","Industrials",2023,356385551.875059,10
+"Western Africa","AFDB","Industrials",2024,50153190.8933333,2
+"Western Africa","AFDB","Information Technology",2013,39019162.7424242,1
+"Western Africa","AFDB","Information Technology",2015,0,1
+"Western Africa","AFDB","Information Technology",2022,15589198.7746479,1
+"Western Africa","AFDB","Information Technology",2024,218032.373333333,1
+"Western Africa","AFDB","Materials",2013,1846153.84615385,1
+"Western Africa","AFDB","Materials",2017,10456126.5633803,1
+"Western Africa","AFDB","Materials",2018,317904571.357143,4
+"Western Africa","AFDB","Materials",2019,20925510.2083333,1
+"Western Africa","AFDB","Materials",2020,20563110.5068493,3
+"Western Africa","AFDB","Materials",2022,100442448.986667,1
+"Western Africa","AFDB","Materials",2023,299469238.573333,4
+"Western Africa","AFDB","Public",2010,65008524.2212466,7
+"Western Africa","AFDB","Public",2011,616092707.00584,20
+"Western Africa","AFDB","Public",2012,170421452.854666,13
+"Western Africa","AFDB","Public",2013,195207966.709387,17
+"Western Africa","AFDB","Public",2014,209316145.877382,15
+"Western Africa","AFDB","Public",2015,7312869.00723787,4
+"Western Africa","AFDB","Public",2016,0,1
+"Western Africa","AFDB","Public",2017,13422535.2112676,3
+"Western Africa","AFDB","Public",2018,215277.777777778,4
+"Western Africa","AFDB","Public",2019,20833333.3333333,3
+"Western Africa","AFDB","Public",2021,14911206.3686467,4
+"Western Africa","AFDB","Public",2022,73327463.3947368,1
+"Western Africa","AFDB","Public",2023,242136716.222632,6
+"Western Africa","AFDB","Real Estate",2010,450284.848484849,1
+"Western Africa","AFDB","Real Estate",2022,10563380.2816901,1
+"Western Africa","AFDB","Real Estate",2023,5e+06,2
+"Western Africa","AFDB","Utilities",2010,250335147.194005,14
+"Western Africa","AFDB","Utilities",2011,247153618.703621,5
+"Western Africa","AFDB","Utilities",2012,173384030.362849,8
+"Western Africa","AFDB","Utilities",2013,386622378.600953,19
+"Western Africa","AFDB","Utilities",2014,322631667.446875,7
+"Western Africa","AFDB","Utilities",2015,28169014.084507,5
+"Western Africa","AFDB","Utilities",2016,107905894.77957,8
+"Western Africa","AFDB","Utilities",2017,77694344.7101256,13
+"Western Africa","AFDB","Utilities",2018,57712746.7916667,8
+"Western Africa","AFDB","Utilities",2019,397382228.589612,13
+"Western Africa","AFDB","Utilities",2020,161425494.007929,4
+"Western Africa","AFDB","Utilities",2021,180882728.181891,3
+"Western Africa","AFDB","Utilities",2022,438994674.507493,15
+"Western Africa","AFDB","Utilities",2023,411197635.523604,5
+"Western Africa","BOAD","Communication Services",2015,17079127.5981623,1
+"Western Africa","BOAD","Communication Services",2021,36053575.6133615,1
+"Western Africa","BOAD","Communication Services",2022,41113412.1086612,1
+"Western Africa","BOAD","Consumer Discretionary",2012,11880952.8524188,1
+"Western Africa","BOAD","Consumer Discretionary",2013,18161694.2862604,3
+"Western Africa","BOAD","Consumer Discretionary",2014,66580704.1845751,2
+"Western Africa","BOAD","Consumer Discretionary",2015,71054953.9120875,3
+"Western Africa","BOAD","Consumer Discretionary",2016,74100956.7799406,4
+"Western Africa","BOAD","Consumer Discretionary",2017,75075338.0948082,5
+"Western Africa","BOAD","Consumer Discretionary",2018,34988789.1105507,3
+"Western Africa","BOAD","Consumer Discretionary",2019,86708296.5948486,4
+"Western Africa","BOAD","Consumer Discretionary",2020,35626431.4191195,2
+"Western Africa","BOAD","Consumer Discretionary",2021,11184639.7613944,1
+"Western Africa","BOAD","Consumer Discretionary",2022,131797406.821313,4
+"Western Africa","BOAD","Consumer Discretionary",2023,72405136.7321437,4
+"Western Africa","BOAD","Consumer Staples",2012,75034946.2362413,5
+"Western Africa","BOAD","Consumer Staples",2013,136575151.242279,6
+"Western Africa","BOAD","Consumer Staples",2014,11574212.8935532,3
+"Western Africa","BOAD","Consumer Staples",2015,4995004.995005,1
+"Western Africa","BOAD","Consumer Staples",2016,10722533.817222,2
+"Western Africa","BOAD","Consumer Staples",2017,57300943.8342333,3
+"Western Africa","BOAD","Consumer Staples",2018,107756088.269512,4
+"Western Africa","BOAD","Consumer Staples",2019,6825705.60731716,1
+"Western Africa","BOAD","Consumer Staples",2020,42185224.2527883,3
+"Western Africa","BOAD","Consumer Staples",2021,81847413.9789273,4
+"Western Africa","BOAD","Consumer Staples",2022,102896427.165101,4
+"Western Africa","BOAD","Consumer Staples",2023,326776437.742849,14
+"Western Africa","BOAD","Energy",2013,20720664.7189242,1
+"Western Africa","BOAD","Energy",2016,24744308.8089739,1
+"Western Africa","BOAD","Energy",2020,62024564.7136147,3
+"Western Africa","BOAD","Energy",2022,45681569.0096236,1
+"Western Africa","BOAD","Energy",2023,14717184.7660785,1
+"Western Africa","BOAD","Financials",2012,75225761.6666596,5
+"Western Africa","BOAD","Financials",2013,66774925.9270744,9
+"Western Africa","BOAD","Financials",2014,19754470.6486004,1
+"Western Africa","BOAD","Financials",2015,40217506.5289273,4
+"Western Africa","BOAD","Financials",2016,85831408.7759815,6
+"Western Africa","BOAD","Financials",2017,189788177.3115,14
+"Western Africa","BOAD","Financials",2018,149290063.241445,9
+"Western Africa","BOAD","Financials",2019,232120927.255446,13
+"Western Africa","BOAD","Financials",2020,459092089.887067,11
+"Western Africa","BOAD","Financials",2021,80107640.0156697,5
+"Western Africa","BOAD","Financials",2022,79483896.841123,5
+"Western Africa","BOAD","Financials",2023,133052437.093123,5
+"Western Africa","BOAD","Health Care",2012,7103714.22772478,1
+"Western Africa","BOAD","Health Care",2013,5180166.17973105,1
+"Western Africa","BOAD","Health Care",2015,4162504.16250416,1
+"Western Africa","BOAD","Health Care",2023,32779362.1136133,1
+"Western Africa","BOAD","Industrials",2012,275555348.688984,11
+"Western Africa","BOAD","Industrials",2013,582384417.375598,17
+"Western Africa","BOAD","Industrials",2014,417565677.939356,14
+"Western Africa","BOAD","Industrials",2015,159939393.310291,10
+"Western Africa","BOAD","Industrials",2016,222038931.045859,10
+"Western Africa","BOAD","Industrials",2017,210078175.426443,9
+"Western Africa","BOAD","Industrials",2018,324599586.17996,10
+"Western Africa","BOAD","Industrials",2019,373124243.805681,23
+"Western Africa","BOAD","Industrials",2020,566104740.406873,17
+"Western Africa","BOAD","Industrials",2021,397956937.093526,12
+"Western Africa","BOAD","Industrials",2022,205653068.182691,7
+"Western Africa","BOAD","Industrials",2023,698897469.679458,19
+"Western Africa","BOAD","Materials",2012,7524603.47319855,1
+"Western Africa","BOAD","Materials",2013,50331179.1588653,1
+"Western Africa","BOAD","Materials",2014,4775450.03425866,1
+"Western Africa","BOAD","Materials",2015,6660006.66000666,1
+"Western Africa","BOAD","Materials",2020,4206368.07549516,1
+"Western Africa","BOAD","Materials",2023,16352427.517865,1
+"Western Africa","BOAD","Public",2014,29510228.6772081,2
+"Western Africa","BOAD","Public",2015,25618691.3972434,1
+"Western Africa","BOAD","Public",2016,137743319.036622,5
+"Western Africa","BOAD","Public",2017,17084087.8805481,1
+"Western Africa","BOAD","Public",2019,33843913.6592084,2
+"Western Africa","BOAD","Public",2020,42412418.3560947,1
+"Western Africa","BOAD","Public",2021,47189859.2599497,2
+"Western Africa","BOAD","Public",2022,62956642.9411327,3
+"Western Africa","BOAD","Public",2023,31140394.0079326,1
+"Western Africa","BOAD","Real Estate",2013,14504465.3032469,1
+"Western Africa","BOAD","Real Estate",2017,24771927.4267947,2
+"Western Africa","BOAD","Real Estate",2018,35403869.642952,1
+"Western Africa","BOAD","Real Estate",2019,33843913.6592084,2
+"Western Africa","BOAD","Real Estate",2021,17648200.7659319,1
+"Western Africa","BOAD","Real Estate",2022,16002816.4957032,1
+"Western Africa","BOAD","Real Estate",2023,26981505.4044773,2
+"Western Africa","BOAD","Utilities",2012,153917112.009344,5
+"Western Africa","BOAD","Utilities",2013,125046757.987626,8
+"Western Africa","BOAD","Utilities",2014,127931907.846391,7
+"Western Africa","BOAD","Utilities",2015,86674439.802482,5
+"Western Africa","BOAD","Utilities",2016,286601781.590234,15
+"Western Africa","BOAD","Utilities",2017,137410883.110968,7
+"Western Africa","BOAD","Utilities",2018,93970847.8360984,4
+"Western Africa","BOAD","Utilities",2019,106645200.674775,4
+"Western Africa","BOAD","Utilities",2020,127237255.068284,4
+"Western Africa","BOAD","Utilities",2021,121051067.051173,6
+"Western Africa","BOAD","Utilities",2022,154573250.594323,6
+"Western Africa","BOAD","Utilities",2023,191959149.537864,6
+"Western Africa","DFC","Consumer Discretionary",2011,3960000,1
+"Western Africa","DFC","Consumer Discretionary",2019,6.4e+07,1
+"Western Africa","DFC","Consumer Staples",2021,9999000,1
+"Western Africa","DFC","Consumer Staples",2023,946000,1
+"Western Africa","DFC","Consumer Staples",2024,5500000,1
+"Western Africa","DFC","Financials",2013,387891,1
+"Western Africa","DFC","Financials",2014,2209886,1
+"Western Africa","DFC","Financials",2015,7853921,1
+"Western Africa","DFC","Financials",2016,12365602,7
+"Western Africa","DFC","Financials",2017,21783273,3
+"Western Africa","DFC","Financials",2018,304032986,4
+"Western Africa","DFC","Financials",2019,89036833,8
+"Western Africa","DFC","Financials",2021,3.3e+07,3
+"Western Africa","DFC","Financials",2022,289748100,4
+"Western Africa","DFC","Financials",2023,44500000,6
+"Western Africa","DFC","Financials",2024,2.5e+08,1
+"Western Africa","DFC","Health Care",2011,246067200,1
+"Western Africa","DFC","Health Care",2018,7500000,1
+"Western Africa","DFC","Health Care",2021,11100000,3
+"Western Africa","DFC","Industrials",2019,27878303,2
+"Western Africa","DFC","Industrials",2022,1.6e+07,5
+"Western Africa","DFC","Industrials",2023,160500000,2
+"Western Africa","DFC","Materials",2016,1.5e+08,1
+"Western Africa","DFC","Materials",2023,2.4e+07,1
+"Western Africa","DFC","Materials",2024,7.5e+07,1
+"Western Africa","DFC","Utilities",2015,3.65e+08,3
+"Western Africa","DFC","Utilities",2016,368125124,7
+"Western Africa","DFC","Utilities",2017,99585000,3
+"Western Africa","DFC","Utilities",2018,58814629,3
+"Western Africa","DFC","Utilities",2021,218180000,3
+"Western Africa","DFC","Utilities",2022,59630000,2
+"Western Africa","DFC","Utilities",2023,1.3e+08,4
+"Western Africa","EIB","Communication Services",2010,9389248.71794872,1
+"Western Africa","EIB","Communication Services",2013,20833333.3333333,1
+"Western Africa","EIB","Communication Services",2018,25523255.8139535,2
+"Western Africa","EIB","Communication Services",2022,1e+08,1
+"Western Africa","EIB","Communication Services",2023,7.5e+07,2
+"Western Africa","EIB","Consumer Discretionary",2019,12494505.4945055,1
+"Western Africa","EIB","Consumer Discretionary",2023,7526881.72043011,1
+"Western Africa","EIB","Consumer Staples",2016,17252747.2527473,2
+"Western Africa","EIB","Consumer Staples",2023,31914893.6170213,1
+"Western Africa","EIB","Consumer Staples",2024,107526881.72043,1
+"Western Africa","EIB","Financials",2010,114776349.889904,6
+"Western Africa","EIB","Financials",2011,100536361.94825,4
+"Western Africa","EIB","Financials",2012,61728395.0617284,1
+"Western Africa","EIB","Financials",2013,184919213.206884,5
+"Western Africa","EIB","Financials",2014,485141020.355558,4
+"Western Africa","EIB","Financials",2015,72705204.9817788,6
+"Western Africa","EIB","Financials",2016,26217297.5946276,2
+"Western Africa","EIB","Financials",2017,8052599.58333333,1
+"Western Africa","EIB","Financials",2018,143646119.451503,2
+"Western Africa","EIB","Financials",2019,12494505.4945055,1
+"Western Africa","EIB","Financials",2020,118770654.329147,3
+"Western Africa","EIB","Financials",2022,33527623.6382979,2
+"Western Africa","EIB","Financials",2023,307764572.722128,5
+"Western Africa","EIB","Financials",2024,32608695.6521739,1
+"Western Africa","EIB","Health Care",2020,77380952.3809524,3
+"Western Africa","EIB","Health Care",2022,14132653.0612245,1
+"Western Africa","EIB","Health Care",2023,14157706.09319,2
+"Western Africa","EIB","Industrials",2013,70129725,1
+"Western Africa","EIB","Industrials",2014,165884591.13924,2
+"Western Africa","EIB","Industrials",2016,23913043.4782609,1
+"Western Africa","EIB","Industrials",2017,153641456.582633,2
+"Western Africa","EIB","Industrials",2018,99110807.1135431,2
+"Western Africa","EIB","Industrials",2020,58823529.4117647,1
+"Western Africa","EIB","Industrials",2022,68342095.4581833,3
+"Western Africa","EIB","Industrials",2023,155913978.494624,2
+"Western Africa","EIB","Industrials",2024,122580645.16129,1
+"Western Africa","EIB","Materials",2018,132550050.9,1
+"Western Africa","EIB","Utilities",2010,82191780.8219178,2
+"Western Africa","EIB","Utilities",2011,63013698.630137,2
+"Western Africa","EIB","Utilities",2012,64935064.9350649,1
+"Western Africa","EIB","Utilities",2013,113698630.136986,2
+"Western Africa","EIB","Utilities",2014,416455696.202532,3
+"Western Africa","EIB","Utilities",2015,357356280.193237,4
+"Western Africa","EIB","Utilities",2016,181982382.725406,4
+"Western Africa","EIB","Utilities",2017,465187645.841858,8
+"Western Africa","EIB","Utilities",2018,57471264.3678161,1
+"Western Africa","EIB","Utilities",2019,194799080.618982,6
+"Western Africa","EIB","Utilities",2020,462211552.913848,6
+"Western Africa","EIB","Utilities",2023,417272935.25509,6
+"Western Africa","EIB","Utilities",2024,217391304.347826,1
+"Western Africa","FMO","Consumer Staples",2013,10129870.1298701,2
+"Western Africa","FMO","Consumer Staples",2014,1.4e+07,1
+"Western Africa","FMO","Consumer Staples",2017,397622.027534418,2
+"Western Africa","FMO","Consumer Staples",2018,50229885.0574713,2
+"Western Africa","FMO","Consumer Staples",2019,22175577.231757,3
+"Western Africa","FMO","Consumer Staples",2020,22072590.0116144,4
+"Western Africa","FMO","Consumer Staples",2021,3e+06,1
+"Western Africa","FMO","Consumer Staples",2022,17549203.3739456,5
+"Western Africa","FMO","Consumer Staples",2023,1404839.84101005,3
+"Western Africa","FMO","Consumer Staples",2024,2e+07,2
+"Western Africa","FMO","Financials",2012,1119890.4995956,1
+"Western Africa","FMO","Financials",2013,36849315.0684932,2
+"Western Africa","FMO","Financials",2014,153904947.154947,11
+"Western Africa","FMO","Financials",2015,70185395.2499114,4
+"Western Africa","FMO","Financials",2016,35188888.8888889,3
+"Western Africa","FMO","Financials",2017,97500000,4
+"Western Africa","FMO","Financials",2018,66500000,5
+"Western Africa","FMO","Financials",2019,118068084.089823,10
+"Western Africa","FMO","Financials",2020,134866098.238728,9
+"Western Africa","FMO","Financials",2021,84002377.5410759,6
+"Western Africa","FMO","Financials",2022,190000,1
+"Western Africa","FMO","Financials",2023,75109412.3268036,5
+"Western Africa","FMO","Financials",2024,12060000,3
+"Western Africa","FMO","Health Care",2017,8080000,1
+"Western Africa","FMO","Health Care",2018,11764.7058823529,1
+"Western Africa","FMO","Industrials",2012,27500000,3
+"Western Africa","FMO","Industrials",2015,10989010.989011,1
+"Western Africa","FMO","Industrials",2016,3.9e+07,1
+"Western Africa","FMO","Industrials",2020,411255.411255411,2
+"Western Africa","FMO","Materials",2013,3e+07,1
+"Western Africa","FMO","Materials",2015,12500000,1
+"Western Africa","FMO","Materials",2017,38850000,2
+"Western Africa","FMO","Materials",2018,8e+07,2
+"Western Africa","FMO","Materials",2023,7.5e+07,1
+"Western Africa","FMO","Real Estate",2014,5.1e+07,2
+"Western Africa","FMO","Real Estate",2015,3.4e+07,4
+"Western Africa","FMO","Utilities",2012,4e+07,1
+"Western Africa","FMO","Utilities",2014,164735555.555556,6
+"Western Africa","FMO","Utilities",2015,850000,1
+"Western Africa","FMO","Utilities",2016,227272.727272727,1
+"Western Africa","FMO","Utilities",2017,43623768.7597278,4
+"Western Africa","FMO","Utilities",2018,211455.6416882,2
+"Western Africa","FMO","Utilities",2019,75411985.0187266,3
+"Western Africa","FMO","Utilities",2020,53678357.3587538,8
+"Western Africa","FMO","Utilities",2021,9121298.17444219,5
+"Western Africa","FMO","Utilities",2022,13078728.0701754,4
+"Western Africa","FMO","Utilities",2023,21664054.1179251,6
+"Western Africa","FMO","Utilities",2024,34946236.5591398,2
+"Western Africa","IBRD","Consumer Staples",2018,2e+08,1
+"Western Africa","IBRD","Energy",2015,2e+08,1
+"Western Africa","IBRD","Energy",2018,2e+08,1
+"Western Africa","IBRD","Health Care",2024,4.5e+08,1
+"Western Africa","IBRD","Industrials",2019,5e+06,1
+"Western Africa","IBRD","Information Technology",2010,1196800,1
+"Western Africa","IBRD","Public",2023,7.5e+08,1
+"Western Africa","IBRD","Utilities",2012,53500000,1
+"Western Africa","IBRD","Utilities",2014,3.95e+08,1
+"Western Africa","IBRD","Utilities",2018,49209.19,1
+"Western Africa","IBRD","Utilities",2019,0,1
+"Western Africa","IBRD","Utilities",2020,10346499,5
+"Western Africa","IBRD","Utilities",2021,514171072,5
+"Western Africa","IBRD","Utilities",2022,7513978,3
+"Western Africa","IBRD","Utilities",2023,454367322,3
+"Western Africa","IDA","Communication Services",2010,22493516,1
+"Western Africa","IDA","Communication Services",2012,3.5e+07,1
+"Western Africa","IDA","Communication Services",2013,2.12e+08,1
+"Western Africa","IDA","Communication Services",2016,163805.72,1
+"Western Africa","IDA","Communication Services",2017,3.5e+07,1
+"Western Africa","IDA","Communication Services",2018,824867.47,1
+"Western Africa","IDA","Communication Services",2020,1e+08,1
+"Western Africa","IDA","Communication Services",2022,200000007.41,2
+"Western Africa","IDA","Consumer Discretionary",2010,6840511.42,4
+"Western Africa","IDA","Consumer Discretionary",2011,189568607.2,7
+"Western Africa","IDA","Consumer Discretionary",2012,222618.64,3
+"Western Africa","IDA","Consumer Discretionary",2013,315484126.48,12
+"Western Africa","IDA","Consumer Discretionary",2014,279457029.94,12
+"Western Africa","IDA","Consumer Discretionary",2015,158277799.69,4
+"Western Africa","IDA","Consumer Discretionary",2016,100882665.19,2
+"Western Africa","IDA","Consumer Discretionary",2017,669995170.87,4
+"Western Africa","IDA","Consumer Discretionary",2018,312731215.57,11
+"Western Africa","IDA","Consumer Discretionary",2019,351287589.18,7
+"Western Africa","IDA","Consumer Discretionary",2020,1111881796.91,11
+"Western Africa","IDA","Consumer Discretionary",2021,497532528.2,7
+"Western Africa","IDA","Consumer Discretionary",2022,744752585.66,9
+"Western Africa","IDA","Consumer Discretionary",2023,544617634.43,7
+"Western Africa","IDA","Consumer Discretionary",2024,80450000,1
+"Western Africa","IDA","Consumer Staples",2010,107786515.92,7
+"Western Africa","IDA","Consumer Staples",2011,290300000,8
+"Western Africa","IDA","Consumer Staples",2012,282349467,9
+"Western Africa","IDA","Consumer Staples",2013,694046271.21,14
+"Western Africa","IDA","Consumer Staples",2014,143912957.12,11
+"Western Africa","IDA","Consumer Staples",2015,4576450.81,4
+"Western Africa","IDA","Consumer Staples",2016,100918331.49,10
+"Western Africa","IDA","Consumer Staples",2017,1.25e+08,3
+"Western Africa","IDA","Consumer Staples",2018,682411982.27,14
+"Western Africa","IDA","Consumer Staples",2019,339735117.35,11
+"Western Africa","IDA","Consumer Staples",2020,1191293586.86,19
+"Western Africa","IDA","Consumer Staples",2021,841218139.38,11
+"Western Africa","IDA","Consumer Staples",2022,709338261.13,8
+"Western Africa","IDA","Consumer Staples",2023,626719699.49,7
+"Western Africa","IDA","Consumer Staples",2024,2.18e+08,2
+"Western Africa","IDA","Energy",2010,3.8e+07,1
+"Western Africa","IDA","Energy",2013,6e+07,1
+"Western Africa","IDA","Energy",2014,1.31e+08,2
+"Western Africa","IDA","Energy",2015,500003213.25,2
+"Western Africa","IDA","Energy",2017,2.9e+07,1
+"Western Africa","IDA","Energy",2018,151049716.85,4
+"Western Africa","IDA","Energy",2021,6e+07,1
+"Western Africa","IDA","Financials",2010,103200000,3
+"Western Africa","IDA","Financials",2011,169549898.38,5
+"Western Africa","IDA","Financials",2012,24170268.88,4
+"Western Africa","IDA","Financials",2013,3e+08,1
+"Western Africa","IDA","Financials",2014,38895.92,2
+"Western Africa","IDA","Financials",2015,150061645.1,2
+"Western Africa","IDA","Financials",2017,52318146.46,2
+"Western Africa","IDA","Financials",2018,161483405.4,5
+"Western Africa","IDA","Financials",2019,543216512.67,7
+"Western Africa","IDA","Financials",2020,1582452001.16,10
+"Western Africa","IDA","Financials",2021,3e+08,6
+"Western Africa","IDA","Financials",2022,296316488.21,4
+"Western Africa","IDA","Financials",2023,40299817.96,3
+"Western Africa","IDA","Financials",2024,3.48e+08,3
+"Western Africa","IDA","Health Care",2010,45805496.01,7
+"Western Africa","IDA","Health Care",2011,180379065.8,9
+"Western Africa","IDA","Health Care",2012,381836912.62,8
+"Western Africa","IDA","Health Care",2013,45930133.55,9
+"Western Africa","IDA","Health Care",2014,163848583.75,10
+"Western Africa","IDA","Health Care",2015,858161574.3,8
+"Western Africa","IDA","Health Care",2016,295057972.91,5
+"Western Africa","IDA","Health Care",2017,55706230.6,4
+"Western Africa","IDA","Health Care",2018,592455110.24,11
+"Western Africa","IDA","Health Care",2019,390270297.58,6
+"Western Africa","IDA","Health Care",2020,2516291417.37,29
+"Western Africa","IDA","Health Care",2021,1836452001.22,33
+"Western Africa","IDA","Health Care",2022,926025413.28,23
+"Western Africa","IDA","Health Care",2023,234540736.06,14
+"Western Africa","IDA","Health Care",2024,74487623.45,2
+"Western Africa","IDA","Industrials",2010,567603507.74,16
+"Western Africa","IDA","Industrials",2011,396141813.1,11
+"Western Africa","IDA","Industrials",2012,1340121243.98,11
+"Western Africa","IDA","Industrials",2013,673209150.78,15
+"Western Africa","IDA","Industrials",2014,201014110.57,6
+"Western Africa","IDA","Industrials",2015,234332211.34,9
+"Western Africa","IDA","Industrials",2016,468197305.58,13
+"Western Africa","IDA","Industrials",2017,1180000876.32,20
+"Western Africa","IDA","Industrials",2018,696337198.09,20
+"Western Africa","IDA","Industrials",2019,1393683638.11,22
+"Western Africa","IDA","Industrials",2020,542866104.99,13
+"Western Africa","IDA","Industrials",2021,1666930228,17
+"Western Africa","IDA","Industrials",2022,1616333428.97,18
+"Western Africa","IDA","Industrials",2023,2200034431.02,18
+"Western Africa","IDA","Industrials",2024,37908224.96,2
+"Western Africa","IDA","Information Technology",2019,5e+07,1
+"Western Africa","IDA","Information Technology",2020,1.15e+08,1
+"Western Africa","IDA","Information Technology",2021,4.1e+07,2
+"Western Africa","IDA","Information Technology",2022,5e+07,1
+"Western Africa","IDA","Information Technology",2024,1.5e+08,1
+"Western Africa","IDA","Materials",2011,3.7e+07,2
+"Western Africa","IDA","Materials",2012,2e+07,1
+"Western Africa","IDA","Materials",2013,303330.85,1
+"Western Africa","IDA","Materials",2014,1225685.92,3
+"Western Africa","IDA","Materials",2017,150127080.2,2
+"Western Africa","IDA","Materials",2019,100230622.45,3
+"Western Africa","IDA","Materials",2020,54899897.4,2
+"Western Africa","IDA","Materials",2021,215090877.98,3
+"Western Africa","IDA","Materials",2022,30000000.78,1
+"Western Africa","IDA","Materials",2023,44707805,2
+"Western Africa","IDA","Public",2010,471221448.3,23
+"Western Africa","IDA","Public",2011,1245921677.44,29
+"Western Africa","IDA","Public",2012,665002242.12,23
+"Western Africa","IDA","Public",2013,717118954.9,35
+"Western Africa","IDA","Public",2014,1039400510.53,48
+"Western Africa","IDA","Public",2015,806322499.99,15
+"Western Africa","IDA","Public",2016,664101031.15,10
+"Western Africa","IDA","Public",2017,778997998.39,18
+"Western Africa","IDA","Public",2018,1374674701.93,28
+"Western Africa","IDA","Public",2019,131066529.28,6
+"Western Africa","IDA","Public",2020,496145215.4,13
+"Western Africa","IDA","Public",2021,258474796.44,16
+"Western Africa","IDA","Public",2022,307791922.06,9
+"Western Africa","IDA","Public",2023,304560787.88,13
+"Western Africa","IDA","Public",2024,667.61,1
+"Western Africa","IDA","Utilities",2010,324104190.63,13
+"Western Africa","IDA","Utilities",2011,147995961.7,11
+"Western Africa","IDA","Utilities",2012,615744109.99,11
+"Western Africa","IDA","Utilities",2013,474105574.82,22
+"Western Africa","IDA","Utilities",2014,1278016948.37,14
+"Western Africa","IDA","Utilities",2015,493114832.97,10
+"Western Africa","IDA","Utilities",2016,495418215.94,19
+"Western Africa","IDA","Utilities",2017,662554840.81,16
+"Western Africa","IDA","Utilities",2018,2173005484.74,15
+"Western Africa","IDA","Utilities",2019,795597608.95,16
+"Western Africa","IDA","Utilities",2020,1796927932.67,14
+"Western Africa","IDA","Utilities",2021,2540013266.76,15
+"Western Africa","IDA","Utilities",2022,953256753.05,11
+"Western Africa","IDA","Utilities",2023,1399745285.93,19
+"Western Africa","IFC","Communication Services",2014,5e+07,1
+"Western Africa","IFC","Communication Services",2021,59510000,1
+"Western Africa","IFC","Communication Services",2022,0,1
+"Western Africa","IFC","Communication Services",2023,0,1
+"Western Africa","IFC","Communication Services",2024,81870000,1
+"Western Africa","IFC","Consumer Discretionary",2017,1.9e+07,2
+"Western Africa","IFC","Consumer Discretionary",2019,4900000,2
+"Western Africa","IFC","Consumer Discretionary",2020,51724832,3
+"Western Africa","IFC","Consumer Discretionary",2021,6e+05,1
+"Western Africa","IFC","Consumer Discretionary",2022,5500000,2
+"Western Africa","IFC","Consumer Discretionary",2023,228250000,7
+"Western Africa","IFC","Consumer Staples",2012,30400000,1
+"Western Africa","IFC","Consumer Staples",2014,6660000,2
+"Western Africa","IFC","Consumer Staples",2015,12360000,3
+"Western Africa","IFC","Consumer Staples",2016,4500000,1
+"Western Africa","IFC","Consumer Staples",2017,9732880,6
+"Western Africa","IFC","Consumer Staples",2018,81298158,6
+"Western Africa","IFC","Consumer Staples",2019,27789888,6
+"Western Africa","IFC","Consumer Staples",2020,5e+07,1
+"Western Africa","IFC","Consumer Staples",2021,3962079,5
+"Western Africa","IFC","Consumer Staples",2022,5521417,7
+"Western Africa","IFC","Consumer Staples",2023,76079156.8592698,8
+"Western Africa","IFC","Consumer Staples",2024,6987391,2
+"Western Africa","IFC","Energy",2014,7.5e+07,1
+"Western Africa","IFC","Energy",2015,2.52e+08,3
+"Western Africa","IFC","Energy",2017,202102,1
+"Western Africa","IFC","Energy",2019,7658733,3
+"Western Africa","IFC","Energy",2021,1.2e+08,1
+"Western Africa","IFC","Energy",2022,8990000,1
+"Western Africa","IFC","Financials",2014,1871171,5
+"Western Africa","IFC","Financials",2015,235600000,9
+"Western Africa","IFC","Financials",2016,51242525,7
+"Western Africa","IFC","Financials",2017,77702526.5665955,12
+"Western Africa","IFC","Financials",2018,106028044,12
+"Western Africa","IFC","Financials",2019,710482876,10
+"Western Africa","IFC","Financials",2020,1214352561,15
+"Western Africa","IFC","Financials",2021,1345230996,12
+"Western Africa","IFC","Financials",2022,2165799349,18
+"Western Africa","IFC","Financials",2023,831578654,25
+"Western Africa","IFC","Financials",2024,118554212.344086,19
+"Western Africa","IFC","Health Care",2017,3552200,1
+"Western Africa","IFC","Health Care",2019,2500000,1
+"Western Africa","IFC","Health Care",2020,5200000,1
+"Western Africa","IFC","Health Care",2022,5730000,2
+"Western Africa","IFC","Health Care",2023,115200000,3
+"Western Africa","IFC","Health Care",2024,1510001,2
+"Western Africa","IFC","Industrials",2014,38045335,2
+"Western Africa","IFC","Industrials",2015,2.5e+08,1
+"Western Africa","IFC","Industrials",2016,0,1
+"Western Africa","IFC","Industrials",2017,800150,2
+"Western Africa","IFC","Industrials",2018,2870575,3
+"Western Africa","IFC","Industrials",2019,119749999,3
+"Western Africa","IFC","Industrials",2020,10503624,6
+"Western Africa","IFC","Industrials",2021,13185511,5
+"Western Africa","IFC","Industrials",2022,161225000,6
+"Western Africa","IFC","Industrials",2023,7854856,2
+"Western Africa","IFC","Industrials",2024,22905371.344086,3
+"Western Africa","IFC","Information Technology",2021,1e+07,1
+"Western Africa","IFC","Materials",2012,1.5e+08,1
+"Western Africa","IFC","Materials",2015,26900000,2
+"Western Africa","IFC","Materials",2016,16730000,1
+"Western Africa","IFC","Materials",2017,157763001,3
+"Western Africa","IFC","Materials",2019,125999072,3
+"Western Africa","IFC","Materials",2020,3.6e+07,2
+"Western Africa","IFC","Materials",2021,107030000,1
+"Western Africa","IFC","Materials",2024,5e+07,1
+"Western Africa","IFC","N/A",2014,375000,1
+"Western Africa","IFC","Public",2015,1110837,1
+"Western Africa","IFC","Public",2023,1589467,3
+"Western Africa","IFC","Public",2024,1138578,1
+"Western Africa","IFC","Real Estate",2013,1e+07,1
+"Western Africa","IFC","Real Estate",2015,26300000,1
+"Western Africa","IFC","Real Estate",2021,60000,1
+"Western Africa","IFC","Real Estate",2024,89782608.6956522,2
+"Western Africa","IFC","Utilities",2013,0,1
+"Western Africa","IFC","Utilities",2016,11480000,3
+"Western Africa","IFC","Utilities",2017,5879887,3
+"Western Africa","IFC","Utilities",2018,689248,1
+"Western Africa","IFC","Utilities",2019,12359315,5
+"Western Africa","IFC","Utilities",2020,1485463,2
+"Western Africa","IFC","Utilities",2022,6e+07,2
+"Western Africa","IFC","Utilities",2023,7e+07,1
+"Western Africa","IFC","Utilities",2024,2500000,1
+"Western Africa","KFW","Consumer Discretionary",2023,158552317.247969,11
+"Western Africa","KFW","Consumer Discretionary",2024,38478260.8695652,2
+"Western Africa","KFW","Consumer Staples",2023,554137362.637362,36
+"Western Africa","KFW","Consumer Staples",2024,21739130.4347826,1
+"Western Africa","KFW","Financials",2023,543629574.773053,20
+"Western Africa","KFW","Financials",2024,31287985.0397382,2
+"Western Africa","KFW","Health Care",2023,504215794.50298,30
+"Western Africa","KFW","Industrials",2023,224968657.429527,18
+"Western Africa","KFW","Industrials",2024,46891304.3478261,1
+"Western Africa","KFW","Public",2023,443971428.571429,28
+"Western Africa","KFW","Public",2024,16304347.826087,1
+"Western Africa","KFW","Utilities",2023,1180162541.80602,43
+"Western Africa","KFW","Utilities",2024,154228260.869565,5
+"Western Africa","MIGA","Communication Services",2018,97200000,1
+"Western Africa","MIGA","Communication Services",2023,474903225.806452,2
+"Western Africa","MIGA","Consumer Discretionary",2011,12200000,1
+"Western Africa","MIGA","Consumer Discretionary",2012,9e+05,1
+"Western Africa","MIGA","Consumer Discretionary",2013,7400000,1
+"Western Africa","MIGA","Consumer Discretionary",2015,2500000,1
+"Western Africa","MIGA","Consumer Discretionary",2021,105400000,2
+"Western Africa","MIGA","Consumer Discretionary",2023,56670000,2
+"Western Africa","MIGA","Consumer Staples",2019,3.6e+07,1
+"Western Africa","MIGA","Energy",2010,228600000,2
+"Western Africa","MIGA","Energy",2012,597100000,2
+"Western Africa","MIGA","Energy",2015,2e+08,1
+"Western Africa","MIGA","Energy",2016,217100000,1
+"Western Africa","MIGA","Energy",2019,74600000,1
+"Western Africa","MIGA","Financials",2010,1e+06,1
+"Western Africa","MIGA","Financials",2011,1e+08,1
+"Western Africa","MIGA","Financials",2015,580200000,2
+"Western Africa","MIGA","Financials",2019,84540000,1
+"Western Africa","MIGA","Financials",2021,78900000,1
+"Western Africa","MIGA","Financials",2023,102150537.634409,1
+"Western Africa","MIGA","Financials",2024,1142051619.99291,3
+"Western Africa","MIGA","Industrials",2010,100800000,2
+"Western Africa","MIGA","Industrials",2011,107100000,3
+"Western Africa","MIGA","Industrials",2012,330400000,3
+"Western Africa","MIGA","Industrials",2014,4800000,1
+"Western Africa","MIGA","Industrials",2018,88636363.6363636,1
+"Western Africa","MIGA","Industrials",2021,2e+08,1
+"Western Africa","MIGA","Industrials",2023,571868131.868132,2
+"Western Africa","MIGA","Information Technology",2011,7100000,1
+"Western Africa","MIGA","Materials",2015,12830000,1
+"Western Africa","MIGA","Materials",2017,199410000,2
+"Western Africa","MIGA","Materials",2018,3e+08,1
+"Western Africa","MIGA","Utilities",2010,358500000,3
+"Western Africa","MIGA","Utilities",2012,125300000,2
+"Western Africa","MIGA","Utilities",2014,4.92e+08,1
+"Western Africa","MIGA","Utilities",2016,6e+07,1
+"Western Africa","MIGA","Utilities",2017,408800000,3
+"Western Africa","MIGA","Utilities",2018,19318181.8181818,1
+"Western Africa","MIGA","Utilities",2019,232600000,2
+"Western Africa","MIGA","Utilities",2020,30803370.7865169,5
+"Western Africa","MIGA","Utilities",2021,22131060.8286806,3
+"Western Africa","MIGA","Utilities",2022,16290000,1
+"Western Africa","MIGA","Utilities",2023,55434782.6086956,1
+"Western Africa","OFID","Consumer Discretionary",2010,5060000,2
+"Western Africa","OFID","Consumer Discretionary",2011,450000,2
+"Western Africa","OFID","Consumer Discretionary",2012,1.3e+07,1
+"Western Africa","OFID","Consumer Discretionary",2013,15490000,3
+"Western Africa","OFID","Consumer Discretionary",2014,50000,1
+"Western Africa","OFID","Consumer Discretionary",2015,25500000,2
+"Western Africa","OFID","Consumer Discretionary",2016,10000,1
+"Western Africa","OFID","Consumer Discretionary",2017,16800000,1
+"Western Africa","OFID","Consumer Discretionary",2019,2e+07,1
+"Western Africa","OFID","Consumer Discretionary",2023,25500000,1
+"Western Africa","OFID","Consumer Staples",2010,68510000,5
+"Western Africa","OFID","Consumer Staples",2011,35420000,4
+"Western Africa","OFID","Consumer Staples",2012,7500000,1
+"Western Africa","OFID","Consumer Staples",2013,6e+06,1
+"Western Africa","OFID","Consumer Staples",2014,37140000,2
+"Western Africa","OFID","Consumer Staples",2015,6.3e+07,4
+"Western Africa","OFID","Consumer Staples",2016,8.5e+07,5
+"Western Africa","OFID","Consumer Staples",2017,3.8e+07,1
+"Western Africa","OFID","Consumer Staples",2018,132100000,7
+"Western Africa","OFID","Consumer Staples",2019,5.5e+07,4
+"Western Africa","OFID","Consumer Staples",2020,1.08e+08,4
+"Western Africa","OFID","Consumer Staples",2021,165400000,5
+"Western Africa","OFID","Consumer Staples",2022,79240000,5
+"Western Africa","OFID","Consumer Staples",2023,27830000,1
+"Western Africa","OFID","Consumer Staples",2024,1.5e+07,1
+"Western Africa","OFID","Energy",2010,7e+06,1
+"Western Africa","OFID","Energy",2012,9130000,1
+"Western Africa","OFID","Energy",2014,2.8e+07,2
+"Western Africa","OFID","Energy",2020,98860000,2
+"Western Africa","OFID","Energy",2023,54780000,1
+"Western Africa","OFID","Financials",2012,10880000,1
+"Western Africa","OFID","Financials",2013,2.3e+07,3
+"Western Africa","OFID","Financials",2014,5e+06,1
+"Western Africa","OFID","Financials",2015,1.3e+07,1
+"Western Africa","OFID","Financials",2016,14110000,1
+"Western Africa","OFID","Financials",2017,9.1e+07,4
+"Western Africa","OFID","Financials",2018,66290000,2
+"Western Africa","OFID","Financials",2019,43430000,1
+"Western Africa","OFID","Financials",2021,28230000,1
+"Western Africa","OFID","Financials",2022,88860000,3
+"Western Africa","OFID","Financials",2023,49670000,2
+"Western Africa","OFID","Health Care",2010,24700000,3
+"Western Africa","OFID","Health Care",2012,6e+06,1
+"Western Africa","OFID","Health Care",2016,250000,1
+"Western Africa","OFID","Health Care",2017,2e+05,1
+"Western Africa","OFID","Health Care",2020,1.5e+07,1
+"Western Africa","OFID","Industrials",2010,31830000,3
+"Western Africa","OFID","Industrials",2011,41710000,3
+"Western Africa","OFID","Industrials",2012,1e+07,1
+"Western Africa","OFID","Industrials",2013,6.3e+07,6
+"Western Africa","OFID","Industrials",2014,4e+07,4
+"Western Africa","OFID","Industrials",2015,5e+07,3
+"Western Africa","OFID","Industrials",2016,30400000,2
+"Western Africa","OFID","Industrials",2018,77830000,5
+"Western Africa","OFID","Industrials",2019,110100000,4
+"Western Africa","OFID","Industrials",2020,4e+07,2
+"Western Africa","OFID","Industrials",2021,6e+07,2
+"Western Africa","OFID","Industrials",2022,67860000,1
+"Western Africa","OFID","Industrials",2023,41300000,1
+"Western Africa","OFID","Industrials",2024,2e+05,1
+"Western Africa","OFID","Public",2011,10500000,1
+"Western Africa","OFID","Public",2013,4e+05,1
+"Western Africa","OFID","Public",2022,7.6e+07,1
+"Western Africa","OFID","Real Estate",2014,15100000,2
+"Western Africa","OFID","Utilities",2010,2.6e+07,2
+"Western Africa","OFID","Utilities",2011,6400000,3
+"Western Africa","OFID","Utilities",2012,80930000,5
+"Western Africa","OFID","Utilities",2013,26350000,4
+"Western Africa","OFID","Utilities",2014,36200000,6
+"Western Africa","OFID","Utilities",2015,5e+05,1
+"Western Africa","OFID","Utilities",2016,42440000,3
+"Western Africa","OFID","Utilities",2017,18200000,2
+"Western Africa","OFID","Utilities",2018,27700000,3
+"Western Africa","OFID","Utilities",2019,70570000,2
+"Western Africa","OFID","Utilities",2020,2e+07,1
+"Western Africa","OFID","Utilities",2021,43430000,1
+"Western Africa","OFID","Utilities",2022,6.5e+07,2
+"Western Africa","OFID","Utilities",2024,230000,1
+"Western Africa","Proparco","Communication Services",2023,1.5e+07,1
+"Western Africa","Proparco","Consumer Staples",2011,10666666.6666667,1
+"Western Africa","Proparco","Consumer Staples",2013,2e+07,1
+"Western Africa","Proparco","Consumer Staples",2018,103751724.137931,2
+"Western Africa","Proparco","Consumer Staples",2019,16853932.5842697,1
+"Western Africa","Proparco","Consumer Staples",2021,290697.674418605,1
+"Western Africa","Proparco","Consumer Staples",2023,2410870.09253397,5
+"Western Africa","Proparco","Financials",2013,48993958.1081081,1
+"Western Africa","Proparco","Financials",2014,78990012.3120615,3
+"Western Africa","Proparco","Financials",2015,88283285.2895896,4
+"Western Africa","Proparco","Financials",2016,16666666.6666667,1
+"Western Africa","Proparco","Financials",2017,39433300.9890404,4
+"Western Africa","Proparco","Financials",2018,30478072.9685363,2
+"Western Africa","Proparco","Financials",2019,140467157.060542,6
+"Western Africa","Proparco","Financials",2020,127825723.002351,13
+"Western Africa","Proparco","Financials",2021,204756510.599486,20
+"Western Africa","Proparco","Financials",2022,256804577.854865,23
+"Western Africa","Proparco","Financials",2023,83105985.3648213,9
+"Western Africa","Proparco","Health Care",2018,56818.1818181818,1
+"Western Africa","Proparco","Industrials",2011,38961038.961039,1
+"Western Africa","Proparco","Industrials",2012,19736842.1052632,1
+"Western Africa","Proparco","Industrials",2014,23333333.3333333,1
+"Western Africa","Proparco","Industrials",2016,13829787.2340426,1
+"Western Africa","Proparco","Industrials",2017,22471910.1123595,1
+"Western Africa","Proparco","Industrials",2023,79574703.9002188,5
+"Western Africa","Proparco","Information Technology",2022,471910.112359551,1
+"Western Africa","Proparco","Information Technology",2023,210526.315789474,1
+"Western Africa","Proparco","Materials",2016,17549062.5,1
+"Western Africa","Proparco","Materials",2018,35496956.4705882,1
+"Western Africa","Proparco","Materials",2019,2.5e+07,1
+"Western Africa","Proparco","Materials",2020,32803083.3600856,2
+"Western Africa","Proparco","Materials",2021,39244186.0465116,2
+"Western Africa","Proparco","Real Estate",2018,17613636.3636364,1
+"Western Africa","Proparco","Utilities",2012,108541129.910141,2
+"Western Africa","Proparco","Utilities",2014,35056090,1
+"Western Africa","Proparco","Utilities",2016,59018557.759042,2
+"Western Africa","Proparco","Utilities",2019,51092134.8314607,5
+"Western Africa","Proparco","Utilities",2020,19941204.8192771,6
+"Western Africa","Proparco","Utilities",2021,181963581.46208,4
+"Western Africa","Proparco","Utilities",2023,15638297.8723404,2
+"Western Africa","USEXIM","Utilities",2020,3.34e+08,2
