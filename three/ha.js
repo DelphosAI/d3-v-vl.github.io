@@ -11,8 +11,23 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+import GUI from 'lil-gui'
 
+// Debug
+const gui = new GUI({
+    title: 'Map GUI'
+})
 
+window.addEventListener('keypress', ev => {
+    if (ev.key === "h") {
+        if (gui._hidden) {
+            gui.show()
+        }
+        else {
+            gui.hide()
+        }
+    }
+})
 
 
 window.THREE = THREE;
@@ -21,183 +36,99 @@ window.THREE = THREE;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color("#131313");
 
-const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
-const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.shadowMap.enabled = true;
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
 
-new OrbitControls(camera, renderer.domElement);
+// Floor
+const floor = new THREE.Mesh(
+    new THREE.PlaneGeometry(20, 20),
+    new THREE.MeshStandardMaterial({ color: '#a9c388' })
+)
+floor.rotation.x = - Math.PI * 0.5
+floor.position.y = 0
+scene.add(floor)
 
-camera.position.z = 3
+gui.add(floor.position, 'y').min(-3).max(3).step(0.01).name('floor elevation')
+gui.add(floor.position, 'z').min(-3).max(3).step(0.01).name('floor side')
+gui.add(floor.position, 'x').min(-3).max(3).step(0.01).name('floor x')
+gui.add(floor.rotation, 'x').min(-3).max(3).step(0.01).name('floor rotation')
 
-
-const labelRenderer = new CSS2DRenderer();
-labelRenderer.setSize(window.innerWidth, window.innerHeight);
-labelRenderer.domElement.style.position = 'absolute';
-labelRenderer.domElement.style.top = '0px';
-document.body.appendChild(labelRenderer.domElement);
-
-const controls = new OrbitControls(camera, labelRenderer.domElement);
-controls.minDistance = 5;
-controls.maxDistance = 100;
-
-// create a plane group
-const planeGroup = new THREE.Group();
-
-scene.add(planeGroup);
-
-// create bar group
-const barGroup = new THREE.Group();
-scene.add(barGroup);
-
-// draw a plane to plot the data points
-const planeGeometry = new THREE.PlaneGeometry(3, 3);
-const planeMaterial = new THREE.MeshBasicMaterial({ color: "#D8E2DC", side: THREE.DoubleSide });
-const plane = new THREE.Mesh(planeGeometry, planeMaterial);
-// plane.rotation.x = -1.2;
-plane.rotation.x = -Math.PI / 2; // Rotate plane to be horizontal
-plane.position.y = -0.2;
-// planeGroup.add(plane);
-
-// add axes helper
-const axesHelper = new THREE.AxesHelper( 5 );
-// scene.add( axesHelper );
-
-// draw test box
-const geometry = new THREE.BoxGeometry(0.1, 2, 0.1);
-
-const material = new THREE.MeshBasicMaterial({ color: "#9D8189", wireframe: false });
-const cube = new THREE.Mesh(geometry, material);
-cube.position.y = -0.1;
-cube.position.x = -1.2;
-cube.position.z = 1;
-// barGroup.add(cube);
-
-// create geo group
-const geoGroup = new THREE.Group();
-geoGroup.scale.set(5, 5, 3);
-geoGroup.position.y = 2;
-geoGroup.position.z = 1;
-geoGroup.position.x = -1;
-geoGroup.rotation.x = 1;
-scene.add(geoGroup);
-
-
-// Convert latitude and longitude to plane coordinates
-const latLonToVector3 = (lat, lon) => {
-    const x = (lon + 180) * (3 / 360) - 1.5; // Normalize longitude to plane width
-    const y = -(lat - 90) * (3 / 180) -1;  // Normalize latitude to plane height
-    return new THREE.Vector3(x, 0, y);
-};
-
-const createCountryBorders = (coordinates) => {
-    const shapeVertices = coordinates[0].map(([lon, lat]) =>
-        latLonToVector3(lat, lon)
-    );
-
-    return new THREE.BufferGeometry().setFromPoints(shapeVertices);
-};
-
-const createBordersLineString = (coordinates) => {
-    const shapeVertices = coordinates.map(([lon, lat]) =>
-        latLonToVector3(lat, lon)
-    );
-
-    return new THREE.BufferGeometry().setFromPoints(shapeVertices);
-
-}
-
-fetch("./assets/africa.geojson")
-    .then((response) => response.json())
-    .then((data) => {
-        data.features.flatMap((feature) => {
-            const { type, coordinates } = feature.geometry;
-            const countryName = feature.properties.name;
-
-            let color = "#ac1e44"; // Default color
-           if (countryName === "Eastern Africa") {
-                color = "#ef4444";
-           }
-           else if (countryName === "Northern Africa") {
-                color = "#f59e0b";
-           }
-              else if (countryName === "Southern Africa") {
-                color = "#10b981";
-           }
-                else if (countryName === "Western Africa") {
-                color = "#3b82f6";
-           }
-                else if (countryName === "Central Africa") {
-                color = "#00acc1";
-           }
-
-            if (type === "Polygon") {
-                const geometry = createCountryBorders(coordinates);
-                const material = new THREE.LineBasicMaterial({ color });
-                const line = new THREE.Line(geometry, material);
-
-                geoGroup.add(line);
-            } else if (type === "MultiPolygon") {
-                coordinates.forEach((polygon) => {
-                    const geometry = createCountryBorders(polygon);
-                    const material = new THREE.LineBasicMaterial({ color });
-                    const line = new THREE.Line(geometry, material);
-                    geoGroup.add(line);
-                });
-            }
-            else if (type === "LineString") {
-                const geometry = createBordersLineString(coordinates);
-                const material = new THREE.LineBasicMaterial({ color });
-                const line = new THREE.Line(geometry, material);
-
-                // add country name
-                const earthDiv = document.createElement('div');
-                earthDiv.className = 'label';
-                earthDiv.textContent = countryName;
-                //earthDiv.style.marginTop = '-1em';
-                const earthLabel = new CSS2DObject(earthDiv);
-
-                if (countryName === "Northern Africa") {
-                    earthLabel.position.set(0.04, 0, 0.02);
-                }
-                else if (countryName === "Eastern Africa") {
-                    earthLabel.position.set(0.32, 0, 0.45);
-                }
-                else if (countryName === "Southern Africa") {
-                    earthLabel.position.set(0.19, 0, 0.92);
-                }
-                else if (countryName === "Western Africa") {
-                    earthLabel.position.set(0.01, 0, 0.26);
-                }
-                else if (countryName === "Central Africa") {
-                    earthLabel.position.set(0.17, 0, 0.5);
-                }
-                line.add(earthLabel);
-                earthLabel.layers.set(0);
-
-                geoGroup.add(line);
-
-
-            }
-            else {
-                console.warn("Unsupported geometry type:", type);
-            }
-
-
-        });
-    });
-
-
-// Set camera position and render the scene
-camera.position.set(0, 3, 5);
-camera.lookAt(new THREE.Vector3(0, 0, 0));
 
 const data = 'assets/africa_data_summarized.csv';
 let processedData = [];
 const regionSelect = document.getElementById('region');
 const lenderSelect = document.getElementById('lender');
 const sectorSelect = document.getElementById('sector');
+
+
+
+
+/**
+ * Lights
+ */
+// Ambient light
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.12)
+gui.add(ambientLight, 'intensity').min(0).max(1).step(0.001).name("ambient intensity")
+scene.add(ambientLight)
+
+// Directional light
+const moonLight = new THREE.DirectionalLight(0xffffff, 0.12)
+moonLight.position.set(4, 5, - 2)
+gui.add(moonLight, 'intensity').min(0).max(1).step(0.001)
+gui.add(moonLight.position, 'x').min(- 5).max(5).step(0.001)
+gui.add(moonLight.position, 'y').min(- 5).max(5).step(0.001)
+gui.add(moonLight.position, 'z').min(- 5).max(5).step(0.001)
+scene.add(moonLight)
+
+
+/**
+ * Sizes
+ */
+const sizes = {
+    width: window.innerWidth,
+    height: window.innerHeight
+}
+
+window.addEventListener('resize', () =>
+{
+    // Update sizes
+    sizes.width = window.innerWidth
+    sizes.height = window.innerHeight
+
+    // Update camera
+    camera.aspect = sizes.width / sizes.height
+    camera.updateProjectionMatrix()
+
+    // Update renderer
+    renderer.setSize(sizes.width, sizes.height)
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+})
+
+/**
+ * Renderer
+ */
+const renderer = new THREE.WebGLRenderer({
+    antialias: true
+})
+
+/**
+ * Camera
+ */
+// Base camera
+const camera = new THREE.PerspectiveCamera(100, sizes.width / sizes.height, 0.1, 1000)
+camera.position.x = 4
+camera.position.y = 2
+camera.position.z = 0.2
+scene.add(camera)
+
+// Controls
+const controls = new OrbitControls(camera, renderer.domElement)
+controls.enableDamping = true
+
+
+renderer.setSize(sizes.width, sizes.height)
+document.body.appendChild(renderer.domElement);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+renderer.setClearColor('#262837')
+
 
 // Parse the CSV data
 Papa.parse(data, {
@@ -221,6 +152,10 @@ Papa.parse(data, {
     }
 });
 
+let selectedRegion = null;
+let selectedLender = null;
+let selectedSector = null;
+
 function getOptions(region, option = "lender") {
     const options = new Set();
     processedData.forEach(d => {
@@ -237,6 +172,7 @@ regionSelect.addEventListener('change', (e) => {
     lenderSelect.parentElement.classList.add('disabled');
     sectorSelect.parentElement.classList.add('disabled');
     const region = e.target.value;
+    selectedRegion = region;
     const lenders = getOptions(region, 'lender');
     lenders.forEach(lender => {
         const option = document.createElement('option');
@@ -254,104 +190,116 @@ regionSelect.addEventListener('change', (e) => {
         sectorSelect.appendChild(option);
     });
     sectorSelect.parentElement.classList.remove('disabled');
-
-    createChart(e.target.value);
-
 });
 
+lenderSelect.addEventListener('change', (e) => {
+    selectedLender = e.target.value;
+    createChart();
+});
 
+// Chart geometry
+const chartGeometry = new THREE.BoxGeometry(0.4, 1, 1);
+const chartMaterial = new THREE.MeshStandardMaterial({ color: "#ff0000" });
 
-const randomColor = () => Math.floor(Math.random() * 16777215).toString(16);
+const disposeArray = [];
 
-function createChart(selectedAfrica) {
+function disposeArrayElements() {
+    disposeArray.forEach((i) => {
+        const object = scene.getObjectByProperty( 'uuid', i );
+        if (object) {
+            object.geometry.dispose();
+            object.material.dispose();
+            scene.remove(object);
+        }
+    });
+    renderer.renderLists.dispose();
+}
+
+function createChart() {
+    disposeArrayElements();
 
     if (processedData.length === 0) {
         return;
     }
 
-    if (!selectedAfrica) {
+    if (!selectedRegion) {
         alert('Please select a region');
         return;
     }
-    let filteredData = processedData.filter(d => d.region === selectedAfrica);
+    if (!selectedLender) {
+        alert('Please select a lender');
+        return;
+    }
+    let filteredData = processedData.filter(d => d.region === selectedRegion && d.lender === selectedLender);
+    console.log({filteredData});
 
-
-    // processedData.filter(d => d.region === selectedAfrica).forEach((d, i) => {
-    //     const amount = parseFloat(d.total_amount_usd);
-    //     const transactions = parseInt(d.number_transactions);
-    //     const x = (i % 5) * 5; // x-position based on index
-    //     const y = amount / 10000000; // y-position based on total amount
-    //     const z = Math.floor(i / 5) * 5; // z-position based on index
-    //
-    //     const geometry = new THREE.BoxGeometry(1, y, 1);
-    //     const material = new THREE.MeshBasicMaterial({ color: "#" + randomColor() });
-    //     const cube = new THREE.Mesh(geometry, material);
-    //     cube.position.set(x, y / 2, z);
-    //     scene.add(cube);
-    // });
-
-    // // Step 4: Animate the camera to fly over the data points
-
-
-    // cube geometry
-    const cubeGeometries = filteredData.map((d, i) => {
-        const amount = parseFloat(d.total_amount_usd);
-        const transactions = parseInt(d.number_transactions);
-
-
-        return new THREE.BoxGeometry(1, transactions, 1);
-
+    // group by year
+    const groupedData = [];
+    filteredData.forEach(d => {
+        const year = d.year;
+        const entity = {
+            amount: parseFloat(d.total_amount_usd),
+            transactions: parseInt(d.number_transactions)
+        };
+        if (!groupedData[year]) {
+            groupedData[year] = entity;
+        }
+        else {
+            groupedData[year].amount += entity.amount;
+            groupedData[year].transactions += entity.transactions;
+        }
     });
 
-    const material =  new THREE.MeshStandardMaterial({
-        map: new THREE.TextureLoader().load('https://threejsfundamentals.org/threejs/lessons/resources/images/compressed-but-large-wood-texture.jpg')
-    });
-    material.color.convertSRGBToLinear();
+    // console.log({groupedData});
 
-    cubeGeometries.forEach((geometry, i) => {
-        const x = (i % 5) * 5; // x-position based on index
-        // const y = amount / 10000000; // y-position based on total amount
-        const z = Math.floor(i / 5) * 5; // z-position based on index
-        const cube = new THREE.Mesh(geometry, material);
-        cube.position.set(x, geometry.parameters.height / 2, z);
-        planeGroup.add(cube);
-    });
-   // camera.position.set(0, 20, 30);
+    const maxAmount = Math.max(...Object.values(groupedData).map(d => d.amount));
+    const gap = 1;
+    const indexes = [...Array(Object.keys(groupedData).length).keys()];
+    console.log({indexes});
+    let x = -9;
+    for (let year in groupedData) {
+        const entity = groupedData[year];
+        // const x = parseInt(year) * 5;
+        // const y = entity.amount / 10000000;
+        // const z = 0;
+        // const angle = Math.random() * Math.PI * 2;
+        // const radius = 2 + Math.random() * 3;
+        // const x = Math.sin(angle) * radius;
+        // const z = 2;
+
+        const z = 2;
+        console.log({x, z});
+
+        const y = (entity.amount / maxAmount) * 10;
+        const cube = new THREE.Mesh(chartGeometry, chartMaterial);
+        disposeArray.push(cube.uuid);
+      cube.position.set(x, 0.3, z);
+      x += 1;
+        cube.scale.y = y;
+        scene.add(cube);
+    }
 
 }
 
-// ambient light
-const ambientLight = new THREE.HemisphereLight(0xddeeff, 0x202020, 3);
-scene.add(ambientLight);
-
-const mainLight = new THREE.DirectionalLight(0xffffff, 3.0);
-mainLight.position.set(10, 10, 10);
-scene.add(mainLight);
 
 
-//
-let t = 0;
-const animate = function () {
-    requestAnimationFrame(animate);
+/**
+ * Animate
+ */
+const clock = new THREE.Clock()
 
-    // Flyover effect
-    t += 0.01;
-    //camera.position.x = 20 * Math.sin(t);
-    //camera.position.z = 20 * Math.cos(t);
-   // camera.lookAt(new THREE.Vector3(10, 0, 10));
+const tick = () =>
+{
+    const elapsedTime = clock.getElapsedTime()
 
-    renderer.render(scene, camera);
-    labelRenderer.render(scene, camera);
+    // Update controls
+    controls.update()
 
-};
+    // Render
+    renderer.render(scene, camera)
 
-animate();
-
-function handleWindowResize () {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    labelRenderer.setSize(window.innerWidth, window.innerHeight);
-
+    // Call tick again on the next frame
+    window.requestAnimationFrame(tick)
 }
-window.addEventListener('resize', handleWindowResize, false);
+
+tick()
